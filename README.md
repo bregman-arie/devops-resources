@@ -1,6 +1,13 @@
 # devops-notebook
 
 
+## Kubernetes
+
+Name | Description
+:------|:------:
+[OperatiorHub.io](https://www.operatorhub.io) | Kubernetes native applications
+
+
 ## Code challanges and practice sites
 
 Name | Description
@@ -12,3 +19,6 @@ Name | Description
 Name | Description
 :------|:------:
 [DevOpsnipp](https://www.devopsnipp.com/) | Sharing DevOps Snippets
+
+
+
