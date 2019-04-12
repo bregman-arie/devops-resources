@@ -11,14 +11,17 @@ Name | Description
 ## MongoDB
 Name | Description
 :------|:------:
-[Guru99 MongoDB Tutorial](https://www.guru99.com/what-is-mongodb.html) | MongoDB tutorial
+[Guru99 MongoDB Tutorial](https://www.guru99.com/what-is-mongodb.html) | MongoDB Tutorial
+[Tutorialspoint Tutorial](https://www.tutorialspoint.com/mongodb) | MongoDB Tutorial
 
 
-## Code challanges and practice sites
+## Code challenges and practice sites
 
-Name | Description
+Name | Description | Topics
 :------|:------:
+:------|:------|:--------:|:--------:
 [Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
+[LeetCode](https://leetcode.com) | Practice programming online
 
 ## DevOps Snippets
 
