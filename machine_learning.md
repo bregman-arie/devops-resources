@@ -4,11 +4,15 @@
 
 - [ ] **Basic Terms**
   - [ ] Sample
-  - [ ] Attrbiute
+  - [ ] Attribute
 
 - [ ] **Data Mining**
   - [ ] Association Rules
     - [ ] Apriori
+      - [ ] Support
+      - [ ] Confidence
+      - [ ] Conviction
+      - [ ] Lift
     - [ ] Eclat
     - [ ] FP-growth
 
