@@ -1,6 +1,11 @@
 # devops-notebook
 
 
+## General
+Name | Description
+:------|:------:
+[DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
+
 ## Kubernetes
 
 Name | Description
