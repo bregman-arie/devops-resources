@@ -41,3 +41,6 @@ Name | Description
 Name | Description
 :------|:------:
 [Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
+
+## Machine Learning
+Go [here](machine_learning.md)
