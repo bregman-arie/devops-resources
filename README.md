@@ -24,8 +24,7 @@ Name | Description
 ## Code challenges and practice sites
 
 Name | Description | Topics
-:------|:------:
-:------|:------|:--------:|:--------:
+:------|:--------|:--------:
 [Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
 [LeetCode](https://leetcode.com) | Practice programming online
 
@@ -35,7 +34,6 @@ Name | Description
 :------|:------:
 [DevOpsnipp](https://www.devopsnipp.com/) | Sharing DevOps Snippets
 
-
 ## Utils
 
 Name | Description
@@ -44,4 +42,3 @@ Name | Description
 
 ## Machine Learning
 Go [here](machine_learning.md)
-

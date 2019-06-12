@@ -29,13 +29,3 @@ Name | Description
 Name | Description
 :------|:------:
 [PracticalAI](https://github.com/GokuMohandas/practicalAI) | A practical approach to learning and using machine learning.
-
-## Questions you should know to answer
-
-* What distinguishes a machine learning algorithm from a non-machine learning algorithm?
-
-The ability to adapt its behaviours to a new input with human intervention.
-
-* What is the outcome of a machine learning algorithm?
-
-The outcome is known as machine learning model. This a function which output certain results when given the input.
