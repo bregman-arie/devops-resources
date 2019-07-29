@@ -6,6 +6,13 @@ Name | Description
 :------|:------:
 [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
 
+
+## Interview Questions
+Go [here](interview_questions.md)
+
+## Python
+Go [here](python.md)
+
 ## Kubernetes
 
 Name | Description
@@ -42,3 +49,4 @@ Name | Description
 
 ## Machine Learning
 Go [here](machine_learning.md)
+
