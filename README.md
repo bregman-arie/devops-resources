@@ -5,13 +5,24 @@
 Name | Description
 :------|:------:
 [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
+[Periodic table of DevOps tools](https://xebialabs.com/periodic-table-of-devops-tools) | Table of DevOps tools per category
+[DevOps tool chest](https://xebialabs.com/the-ultimate-devops-tool-chest/#tool-chest-type) | List of DevOps tools
 
 
 ## Interview Questions
 Go [here](interview_questions.md)
 
+
 ## Python
 Go [here](python.md)
+
+
+## Sites with DevOps articles
+
+Name | Description
+:------|:------:
+[opensource.com](https://opensource.com) | open source related articles including DevOps
+
 
 ## Kubernetes
 
@@ -49,4 +60,3 @@ Name | Description
 
 ## Machine Learning
 Go [here](machine_learning.md)
-
