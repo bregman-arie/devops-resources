@@ -17,6 +17,10 @@ Go [here](interview_questions.md)
 Go [here](python.md)
 
 
+## Linux
+Go [here](linux.md)
+
+
 ## Sites with DevOps articles
 
 Name | Description
