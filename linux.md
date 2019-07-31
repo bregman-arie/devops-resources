@@ -14,14 +14,46 @@ Check your Linux educational progress with the following list:
     - [ ] What will happen when running 'cd -'?
   - [ ] touch
   - [ ] rm
+      - [ ] how to remove a directory?
 
-- [ ] File system hierarchy
+- [ ] **File system hierarchy**
   - [ ] What is '/'?
   - [ ] What is stored in '/bin'?
   - [ ] What '/home' is usually used for?
   - [ ] What can you find in '/var'?
 
-- [ ] I/O redirection
+- [ ] **I/O redirection**
+
+- [ ] **Network**
+    - [ ] netstat
+
+- [ ] **Users**
+    - [ ] commands
+        - [ ] useradd
+        - [ ] usermod
+        - [ ] who
+    - [ ] how to add a new user?
+    - [ ] should you be using your user or root?
+
+- [ ] **Monitoring and performence commands**
+    - [ ] top
+    - [ ] stat
+
+- [ ] **Processes**
+    - [ ] Running in ackground (&)
+
+- [ ] **Archives**
+    - [ ] what is it good for
+    - [ ] tar
+    - [ ] zip
+    - [ ] commands
+        - [ ] create an archive
+        - [ ] list archive's content
+        - [ ] remove an archive
+
+- [ ] **Storage, Filesystem**
+    - [ ] inode
+    - [ ] 
 
 ## Books
 
@@ -48,4 +80,21 @@ soft link is a shortcut to another file, using a different inode.
 
 soft links can be created between different file systems while
 hard link can be created only within the same file system.
+```
+
+* How to run a process in background and why to do that in the first place?
+```
+You can achieve that by specifying & at end of the command.
+As to Why? since some commands/processes can take a lot of time to finish
+execution or run forever
+```
+
+* What signal is used when you run 'kill <process id>'?
+```
+The default signal is SIGTERM (15). This signal kills
+process gracefully which means it allows it to save current
+state configuration.
+followup questions:
+what is SIGKILL?
+what other signals there are?
 ```
