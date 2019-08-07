@@ -4,6 +4,34 @@ Name | Description
 :------|:------:
 [Docker Compose](https://docs.docker.com/compose/overview) | Multi-container applications
 
+## Docker - Checklist
+
+- [ ] **Images**
+  - [ ] tag
+  - [ ] `docker images` command
+
+- [ ] **Running containers**
+  - [ ] `docker run` command
+  - [ ] `-ti` arguments for interactive terminal
+
+- [ ] **List containers**
+  - [ ] `docker ps` command
+  - [ ] `-a` argument for stopped
+  - [ ] `-l` argument for last stopped
+
+## Docker - Cheat sheet
+
+* Run container with bash shell
+
+```
+docker run -ti ubuntu:latest bash
+```
+
+## Docker - Interview Questions
+
+* What happens when you run `docker run hello-world`?
+* How do you run a container?
+
 ## Nomad - Resources
 
 Name | Description
