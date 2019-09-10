@@ -21,7 +21,7 @@ Go [here](python.md)
 Go [here](linux.md)
 
 ## Containers (Docker) 
-Go [here](containers.md)
+Go [here](linux.md)
 
 ## Sites with DevOps articles
 
@@ -64,5 +64,13 @@ Name | Description
 :------|:------:
 [Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
 
+
 ## Machine Learning
 Go [here](machine_learning.md)
+
+
+## OpenStack
+
+Name | Description
+:------|:------:
+[OpenStack Operator Tools](https://github.com/openstack/osops-tools-contrib) | Tools and scripts for neutron, nova, etc.

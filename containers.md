@@ -27,6 +27,12 @@ Name | Description
 docker run -ti ubuntu:latest bash
 ```
 
+* Check how many containers are running
+
+```
+docker info
+```
+
 ## Docker - Interview Questions
 
 * What happens when you run `docker run hello-world`?
