@@ -19,6 +19,10 @@ Name | Description
   - [ ] `-a` argument for stopped
   - [ ] `-l` argument for last stopped
 
+- [ ] **Commit changes**
+  - [ ] `docker commit` command
+  - [ ] `docker tag` command
+
 ## Docker - Cheat sheet
 
 * Run container with bash shell
@@ -37,6 +41,8 @@ docker info
 
 * What happens when you run `docker run hello-world`?
 * How do you run a container?
+* What do you see when you run `docker ps`?
+* What `docker commit` does? when will you use it?
 
 ## Nomad - Resources
 
