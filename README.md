@@ -47,10 +47,6 @@ Name | Description
 
 ## Code challenges and practice sites
 
-Name | Description | Topics
-:------|:--------|:--------:
-[Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
-[LeetCode](https://leetcode.com) | Practice programming online
 
 ## DevOps Snippets
 

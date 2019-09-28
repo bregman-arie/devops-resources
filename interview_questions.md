@@ -1,3 +1,17 @@
+# Practice Sites
+
+Name | Description
+:------|:------:
+[Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
+[LeetCode](https://leetcode.com) | Practice programming online
+[Kevin Naughton Jr Channel](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g/videos) | Channel with interview questions from different companies 
+
+# Other projects
+
+Author | Name | Description
+:------|:------|:------:
+kdn251 | [Interviews](https://github.com/kdn251/interviews) | |
+
 # Interview Questions
 
 ## General
