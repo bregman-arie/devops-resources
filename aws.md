@@ -15,6 +15,14 @@
     - [ ] **Infrastructure as a service (IAAS)** - You are managning the server. It can virtual or physical. The provider (e.g. Amazon) will have no access to your server. EC2 is an example of IAAS.
     - [ ] **Platform As a service (PAAS)** - Someone else manages the underlying hardware and OS. You focus on the application side. Heroku and Google app engine are examples of PAAS.
     - [ ] **Software As A service (SAAS)** - You only worry about the software. As opoosed to PAAS, you don't have to worry about the installation and the setup of the application. You just have to use the software itself.
+  - [ ] 3 types of cloud computing deployments
+    - [ ] **Public Cloud** - AWS, Azure & GCP
+    - [ ] **Hybrid** - Mixture of public and private.
+    - [ ] **Private Cloud / On Premise** - You manage it in your datacenter. OpenStack for example.
+- [ ] **Global Infrastructure**
+    - [ ] **Availibity Zone** is one or more data centers, each with redundant power, networking and connectivity, housed in separate facilities.
+    - [ ] **Region** is a geographical/physical area. Region consists of two or more availability zones
+    - [ ] **Edge locations** are endpoints for AWS which are use for caching content.
 - [ ] **S3**
   - [ ] .
   - [ ] 
