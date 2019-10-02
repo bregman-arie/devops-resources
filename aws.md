@@ -23,15 +23,26 @@
     - [ ] **Public Cloud** - AWS, Azure & GCP
     - [ ] **Hybrid** - Mixture of public and private.
     - [ ] **Private Cloud / On Premise** - You manage it in your datacenter. OpenStack for example.
-
 - [ ] **Global Infrastructure**
     - [ ] **Availibity Zone** is one or more data centers, each with redundant power, networking and connectivity, housed in separate facilities.
     - [ ] **Region** is a geographical/physical area. Region consists of two or more availability zones
     - [ ] **Edge locations** are endpoints for AWS which are use for caching content.
 
-- [ ] **S3**
-  - [ ] .
-  - [ ] 
+- [ ] **IAM**
+  
+  - [ ] IAM (Identity Access Management) is global. You do not need to specify region when dealing with IAM related resources
+  
+  - [ ] There are 3 ways to access the AWS platform
+  
+    - [ ] Console
+    - [ ] Programmatically(CLI)
+    - [ ] Software Developers Kit (SDK)
+  
+  - [ ] Root account is the email address you to set up the AWS account and it has full permissions
+  
+  - [ ] Root account should not be given to anyone, instead the root account should create users
+  
+    
 
 
 ## Questions
