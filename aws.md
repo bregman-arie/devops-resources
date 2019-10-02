@@ -23,26 +23,41 @@
     - [ ] **Public Cloud** - AWS, Azure & GCP
     - [ ] **Hybrid** - Mixture of public and private.
     - [ ] **Private Cloud / On Premise** - You manage it in your datacenter. OpenStack for example.
+  
 - [ ] **Global Infrastructure**
-    - [ ] **Availibity Zone** is one or more data centers, each with redundant power, networking and connectivity, housed in separate facilities.
+    
+    - [ ] **Availability Zone** is one or more data centres, each with redundant power, networking and connectivity, housed in separate facilities.
     - [ ] **Region** is a geographical/physical area. Region consists of two or more availability zones
-    - [ ] **Edge locations** are endpoints for AWS which are use for caching content.
-
+- [ ] **Edge locations** are endpoints for AWS which are use for caching content.
+    
 - [ ] **IAM**
   
   - [ ] IAM (Identity Access Management) is global. You do not need to specify region when dealing with IAM related resources
-  
   - [ ] There are 3 ways to access the AWS platform
   
     - [ ] Console
     - [ ] Programmatically(CLI)
     - [ ] Software Developers Kit (SDK)
-  
   - [ ] Root account is the email address you to set up the AWS account and it has full permissions
-  
   - [ ] Root account should not be given to anyone, instead the root account should create users
   
-    
+- [ ] **S3**
+
+  - [ ] Simple Storage Service
+  - [ ] S3 is a secure, highly scalable object storage
+  - [ ] S3 is object-based storage. The data itself is spread across multiple locations.
+  - [ ] Files can be from 0 Bytes to 5 TB. There is unlimited storage.
+  - [ ] Files are stored in buckets
+  - [ ] Bucket name must be globally unique
+  - [ ] HTTP 200 code is returned when a file is uploaded successfully to S3
+  - [ ] Objects consist of:
+      - [ ] **Key** - name of the object
+      - [ ] **Value** - the data itself
+      - [ ] **Version ID** - used for versioning
+      - [ ] **Metadata** - data about the data
+  - [ ] Data consistency
+  
+  
 
 
 ## Questions
