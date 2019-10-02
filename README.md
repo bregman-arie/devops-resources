@@ -9,6 +9,13 @@ Name | Description
 [DevOps tool chest](https://xebialabs.com/the-ultimate-devops-tool-chest/#tool-chest-type) | List of DevOps tools
 
 
+## Practice and learning sites
+Name | Description
+:------|:------:
+[KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
+[QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
+[vim-adventures](https://vim-adventures.com) | Learning VIM while playing a game
+
 ## Interview Questions
 Go [here](interview_questions.md)
 
