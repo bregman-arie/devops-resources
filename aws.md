@@ -78,7 +78,28 @@
       - [ ] S3 Intelligent Tiering -  ML based, designed to optimized costs by automatically moving to most cost-effective access tier
       - [ ] S3 Glacier - secure, durable and low-cost storage for data archiving
       - [ ] S3 Glacier Deep Archive - most lost cost storage class where a retrieval time of 12 hours is fine
+  - [ ] Hosting a website
+      - [ ] You can host static websites on s3
+      - [ ] You cannot host dynamic websites on s3
+      - [ ] s3 scales automatically to meet your website demands
   
+- [ ] **EC2**
+
+    - [ ] EC2 is Amazon Elastic Compute Cloud
+        - [ ] Virtual servers in the cloud
+    - [ ] Pricing models
+        - [ ] On Demand - pay a fixed rate by the hour/second with no commitment
+            - [ ] Good for:
+                - [ ] users that want low cost and flexibility
+                - [ ] applications with short terms, spiky or unpredictable workloads that cannot be interrupted
+                - [ ] application being developed or tested for the first time
+        - [ ] Reserved - you get capacity reservation
+            - [ ] Contract terms: 1 year or 3 years. The longer, the cheaper
+        - [ ] Spot - Enables you to bid whatever price you want for instances
+            - [ ] when spot price hit your bid, you'll get the instance
+            - [ ] when spot price is below your bid price, you'll lose the instance
+        - [ ] Dedicated Hosts - physical EC2 server dedicated for your use
+
 - [ ] **CloudFront**
 
     - [ ] What is CloudFront? a content delivery network (CDN) is a system of distributed servers that deliver web content to users based on the geographic location of:
