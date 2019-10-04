@@ -15,9 +15,9 @@
     - [ ] Go global in minutes - Easily deploy your application in multiple regions around the world which results in better experience (like lower latency) for users of your app
 
   - [ ] 3 Types of cloud computing
-    - [ ] Infrastructure as a service (IAAS) - You are managning the server. It can virtual or physical. The provider (e.g. Amazon) will have no access to your server. EC2 is an example of IAAS.
+    - [ ] Infrastructure as a service (IAAS) - You are managing the server. It can virtual or physical. The provider (e.g. Amazon) will have no access to your server. EC2 is an example of IAAS.
     - [ ] Platform As a service (PAAS) - Someone else manages the underlying hardware and OS. You focus on the application side. Heroku and Google app engine are examples of PAAS.
-    - [ ] Software As A service (SAAS) - You only worry about the software. As opoosed to PAAS, you don't have to worry about the installation and the setup of the application. You just have to use the software itself.
+    - [ ] Software As A service (SAAS) - You only worry about the software. As opposed to PAAS, you don't have to worry about the installation and the setup of the application. You just have to use the software itself.
 
   - [ ] 3 types of cloud computing deployments
     - [ ] Public Cloud - AWS, Azure & GCP
@@ -79,7 +79,30 @@
       - [ ] S3 Glacier - secure, durable and low-cost storage for data archiving
       - [ ] S3 Glacier Deep Archive - most lost cost storage class where a retrieval time of 12 hours is fine
   
-  
+- [ ] **CloudFront**
+
+    - [ ] What is CloudFront? a content delivery network (CDN) is a system of distributed servers that deliver web content to users based on the geographic location of:
+        - [ ] the user
+        - [ ] the origin of the web content
+        - [ ] the content delivery server
+    - [ ] Terminology
+        - [ ] Edge location - the location where the content is cached
+            - [ ] These location allow both read and write
+        - [ ] Origin - The origin of the files which CDN will distribute (can be EC2 instance, S3 bucket, Elastic LB, ...)
+        - [ ] Distribution - This name given the CDN (which consists of Edge locations)
+    - [ ] How it works:
+        - [ ] Users will try to query a file which happens to be on another geographic location.
+        - [ ] Since it's not available in the edge location, they will get it from the origin location
+        - [ ] The file which wasn't available in the edge location will now be stored at the edge location
+        - [ ] Any future users will get it from the edge location in their area instead of going to the origin
+    - [ ] Delivery Methods
+        - [ ] Web Distribution - typically used for websites
+        - [ ] RTMP - used for media streaming
+    - [ ] Cache
+        - [ ] objects are cached for the life of TTL in seconds
+        - [ ] it's possible to clear cached objects but it's not free
+
+    
 
 
 ## Questions
