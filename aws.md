@@ -95,10 +95,31 @@
                 - [ ] application being developed or tested for the first time
         - [ ] Reserved - you get capacity reservation
             - [ ] Contract terms: 1 year or 3 years. The longer, the cheaper
+            - [ ] Good for:
+                - [ ] Predictable usage
+                - [ ] Apps that required reserved capacity
+                - [ ] Users who able to make upfront payments
+            - [ ] Pricing
+                - [ ] Standard reserved instances - The more you pay and longer, the greater is the discount
+                - [ ] Convertible Reserved Instances - These offer up to 54% off on demand capability to change the attributes of the RI 
+                - [ ] Scheduled Reserved Instances - Available to launch within the time windows you reserve
         - [ ] Spot - Enables you to bid whatever price you want for instances
             - [ ] when spot price hit your bid, you'll get the instance
             - [ ] when spot price is below your bid price, you'll lose the instance
+            - [ ] Good for:
+                - [ ] Apps which have flexible start and end time
+                - [ ] Apps that are only feasible at very low compute prices
+                - [ ] Users with urgent computing needs for large amount of additional capacity
         - [ ] Dedicated Hosts - physical EC2 server dedicated for your use
+            - [ ] Good for:
+                - [ ] Regulatory requirements which may not support multi-tenant virtualization
+                - [ ] Licenses which don't support multi-tenants or cloud deployments
+            - [ ] Pricing
+                - [ ] Can be purchased on on-demand (hourly)
+                - [ ] Can be purchased as a reservation for up to 70% off the on-demand price
+        - [ ] EBS
+            - [ ] Allows you to create storage volumes and attach them to Amazon EC2 instances
+            - [ ] Volumes are placed in a specific AZ where they are automatically replicated for HA
 
 - [ ] **CloudFront**
 
