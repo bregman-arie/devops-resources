@@ -119,7 +119,15 @@
                 - [ ] Can be purchased as a reservation for up to 70% off the on-demand price
         - [ ] EBS
             - [ ] Allows you to create storage volumes and attach them to Amazon EC2 instances
+            - [ ] Think of it as virtual disk in the cloud
             - [ ] Volumes are placed in a specific AZ where they are automatically replicated for HA
+            - [ ] SSD
+                - [ ] General purpose SSD (GP2) - balanced price and performance
+                - [ ] Provisioned IOPS SSD (IO1) - highest-performance SSD volume for mission-critical low-latency or high-throughput workloads
+            - [ ] Magnetic
+                - [ ] Throughput Optimized HDD (ST1) - low cost HDD volume designed for frequently accessed, intensive workloads
+                - [ ] Cold HDD (SC1) - Lowest cost HDD volume for less frequent access
+                - [ ] Magnetic - deprecated
 
 - [ ] **CloudFront**
 
