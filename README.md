@@ -23,6 +23,17 @@ Go [here](interview_questions.md)
 ## Python
 Go [here](python.md)
 
+## Bash best practices
+
+Go [here](bash/best_practices.md)
+
+## Bash resources
+
+Name | Content Type
+:------ |:--------:
+[Bash Wiki Hackers](http://wiki.bash-hackers.org/start) | "hold documentation of any kind about GNU Bash"
+[Bash Reference Manual](https://tiswww.case.edu/php/chet/bash/bashref.html) | everything there is to know about bash
+[Hacker Rank Linux Shell](https://www.hackerrank.com/domains/shell) | Bash Challenges
 
 ## Linux
 Go [here](linux.md)
