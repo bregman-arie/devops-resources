@@ -92,20 +92,6 @@ PEP8 is a list of coding conventions and style guidelines for Python
 
 * I would like to build a multi-container application which consists of Flask and Redit. How would you do it?
 
-## Interview Questions - Nomad
-
-* What is a nomad cluster? What gossip protocol used for?
-
-## Machine Learning
-
-* What distinguishes a machine learning algorithm from a non-machine learning algorithm?
-
-The ability to adapt its behaviours to a new input with human intervention.
-
-* What is the outcome of a machine learning algorithm?
-
-The outcome is known as machine learning model. This a function which output certain results when given the input.
-
 ## Bash
 
 * What is "$?""
@@ -126,39 +112,3 @@ The outcome is known as machine learning model. This a function which output cer
 * What are kernel parameters? How do you change them?
 * Soft link vs. hard link?
 * What is the error in the file <error1>?
-
-
-OpenStack
-=========
-1. What projects did you use with OpenStack?
-2. How OpenStack services communicate between themselves?
-3. What is the flat network? vlan network? what are vxlan and gre?
-4. You want to bring up an instance with external connectivity, how do you do it?
-5. What are you using to check which openstack version used?
-
-Git
-===
-
-1. You have 3 commits and you want to merge them together, how would you do it?
-2. You want to move fourth commit to the top. how would you do it? 
-3. Branching model
-
-MongoDB
-=======
-1. What is a document? What is a collection?
-2. What is an aggregator?
-
-DevOps
-======
-
-1. What is the purpose of DevOps? How do you explain someone what is your role?
-2. What did you use for automation?
-3. What did you use for monitoring?
-4. What did you use for configuration management?
-
-DNS
-==========
-1. What is A record?
-2. What is the equivalent IPv6 record of A record?
-3. What transportation DNS is using?
-4. What is MX record?

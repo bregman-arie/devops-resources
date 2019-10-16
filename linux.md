@@ -70,31 +70,8 @@ Presenter | Video | Length | Level
 Joseph Delgadillo | [The Complete Linux Course: Beginner to Power User!](https://www.youtube.com/watch?v=wBp0Rb-ZJak&t=6578s) | 07:23:52 | Beginner |
 
 
-## Interview Questions
+## Tweak OS
 
-* What is the different between a soft link and hard link?
+Fedora disable alert sound
 
-```
-hard link is the same file, using the same inode.
-soft link is a shortcut to another file, using a different inode.
-
-soft links can be created between different file systems while
-hard link can be created only within the same file system.
-```
-
-* How to run a process in background and why to do that in the first place?
-```
-You can achieve that by specifying & at end of the command.
-As to Why? since some commands/processes can take a lot of time to finish
-execution or run forever
-```
-
-* What signal is used when you run 'kill <process id>'?
-```
-The default signal is SIGTERM (15). This signal kills
-process gracefully which means it allows it to save current
-state configuration.
-followup questions:
-what is SIGKILL?
-what other signals there are?
-```
+`dconf write /org/gnome/desktop/sound/event-sounds "false"`

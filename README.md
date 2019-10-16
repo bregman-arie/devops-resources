@@ -16,9 +16,6 @@ Name | Description
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
 [vim-adventures](https://vim-adventures.com) | Learning VIM while playing a game
 
-## Interview Questions
-Go [here](interview_questions.md)
-
 
 ## Python
 Go [here](python.md)
