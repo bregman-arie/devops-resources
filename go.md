@@ -20,3 +20,19 @@ go build <package path>
 go install github.com/bregman-arie/myApp
 bin/myApp
 ```
+
+* var definition
+
+```
+var i int = 42
+OR
+i := 42
+```
+
+* Define several variables
+
+```
+var (
+     name string = "hello"
+     num int = 42
+```

@@ -43,7 +43,7 @@
 
 - [ ] Decorators
 
-- [ ] Context Managers
+ [ ] Context Managers
 
 - [ ] Buffering Protocol
 
@@ -76,3 +76,10 @@ Name | Description
 [Flask](http://flask.pocoo.org)  | Web microframework based on Werkzeug, Jinja 2
 [Django](https://www.djangoproject.com)  | Web framework with batteries included
 [Mypy](http://mypy-lang.org) | Static type checker
+
+## Cheat Sheet
+
+* Read YAML
+```
+with open(r'/file/path') as file:
+```

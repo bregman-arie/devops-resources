@@ -53,7 +53,6 @@ Check your Linux educational progress with the following list:
 
 - [ ] **Storage, Filesystem**
     - [ ] inode
-    - [ ] 
 
 ## Books
 
