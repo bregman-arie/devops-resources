@@ -25,7 +25,7 @@
     <td align="center"><a href="#coding"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a></td>
     <td align="center"><a href="python.md"><img src="images/python.png" width="80px;" height="75px;" alt="Python"/><br /><b>Python</b></a></td>
     <td align="center"><a href="#go"><img src="images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a></td>
-    <td align="center"><a href="#shell-scripting"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
+    <td align="center"><a href="bash.md"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
     <td align="center"><a href="#kubernetes"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
     <td align="center"><a href="#prometheus"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
     <td align="center"><a href="#mongo"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
@@ -33,10 +33,10 @@
   </tr>
   <tr>
     <td align="center"><a href="#cloud"><img src="images/cloud.png" width="110px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
-    <td align="center"><a href="#aws"><img src="images/aws.png" width="110px;" height="75px;" alt="AWS"/><br /><b>AWS</b></a></td>
+    <td align="center"><a href="aws.md"><img src="images/aws.png" width="110px;" height="75px;" alt="AWS"/><br /><b>AWS</b></a></td>
     <td align="center"><a href="#azure"><img src="images/azure.png" width="80px;" height="75px;" alt="azure"/><br /><b>Azure</b></a></td>
     <td align="center"><a href="#gcp"><img src="images/gcp.png" width="75px;" height="75px;" alt="gcp"/><br /><b>Google Cloud Platform</b></a></td>
-    <td align="center"><a href="#openstack"><img src="images/openstack.png" width="75px;" height="75px;" alt="openstack"/><br /><b>OpenStack</b></a></td>
+    <td align="center"><a href="openstack.md"><img src="images/openstack.png" width="75px;" height="75px;" alt="openstack"/><br /><b>OpenStack</b></a></td>
     <td align="center"><a href="#security"><img src="images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>Security</b></a></td>
     <td align="center"><a href="#puppet"><img src="images/puppet.png" width="75px;" height="75px;" alt="puppet"/><br /><b>Puppet</b></a></td>
     <td align="center"><a href="#openshift"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
@@ -78,30 +78,11 @@ Name | Description
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
 [vim-adventures](https://vim-adventures.com) | Learning VIM while playing a game
 
-## Bash best practices
-
-Go [here](bash/best_practices.md)
-
-## Bash resources
-
-Name | Content Type
-:------ |:--------:
-[Bash Wiki Hackers](http://wiki.bash-hackers.org/start) | "hold documentation of any kind about GNU Bash"
-[Bash Reference Manual](https://tiswww.case.edu/php/chet/bash/bashref.html) | everything there is to know about bash
-[Hacker Rank Linux Shell](https://www.hackerrank.com/domains/shell) | Bash Challenges
-
-## Linux
-Go [here](linux.md)
-
-## Containers (Docker) 
-Go [here](linux.md)
-
 ## Sites with DevOps articles
 
 Name | Description
 :------|:------:
 [opensource.com](https://opensource.com) | open source related articles including DevOps
-
 
 ## Kubernetes
 
@@ -136,10 +117,3 @@ Name | Description
 
 ## Machine Learning
 Go [here](machine_learning.md)
-
-
-## OpenStack
-
-Name | Description
-:------|:------:
-[OpenStack Operator Tools](https://github.com/openstack/osops-tools-contrib) | Tools and scripts for neutron, nova, etc.
