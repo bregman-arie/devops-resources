@@ -1,4 +1,4 @@
-# devops-notebook
+# DevOps Notebook
 
 :information_source: &nbsp;This repository is about gathering any useful resources and information regarding DevOps
 
@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <td align="center"><a href="#coding"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a></td>
-    <td align="center"><a href="#python"><img src="images/python.png" width="80px;" height="75px;" alt="Python"/><br /><b>Python</b></a></td>
+    <td align="center"><a href="python.md"><img src="images/python.png" width="80px;" height="75px;" alt="Python"/><br /><b>Python</b></a></td>
     <td align="center"><a href="#go"><img src="images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a></td>
     <td align="center"><a href="#shell-scripting"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
     <td align="center"><a href="#kubernetes"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
@@ -55,7 +55,8 @@
 Name | Description
 :------|:------:
 [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
-[What is DevOps?]() | DevOps skills roadmap. What to to learn at each step.
+[What is DevOps? - Amazon](https://aws.amazon.com/devops/what-is-devops) | Amazon's "What is DevOps?" page
+[DevOps Best Practices](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) | What is DevOps + list of resources
 
 ### Tooling
 
@@ -68,7 +69,7 @@ Name | Description
 
 Name | Comments
 :------|:------:
-[]() | Table of DevOps tools per category
+[Google SRE books](https://landing.google.com/sre/books) |
 
 ## Practice and learning sites
 Name | Description
@@ -76,10 +77,6 @@ Name | Description
 [KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
 [vim-adventures](https://vim-adventures.com) | Learning VIM while playing a game
-
-
-## Python
-Go [here](python.md)
 
 ## Bash best practices
 
