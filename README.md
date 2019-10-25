@@ -77,6 +77,7 @@ Name | Description
 [KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
 [vim-adventures](https://vim-adventures.com) | Learning VIM while playing a game
+[CheatSheets](https://cheatsheet.dennyzhang.com) |
 
 ## Sites with DevOps articles
 

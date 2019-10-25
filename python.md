@@ -47,6 +47,13 @@
 
 - [ ] Buffering Protocol
 
+
+## Resources
+
+Name | Description
+:------|:------:
+[pippython](https://pippython.com) | I don't know what it is exactly but it's great
+
 ## Modules
 
 Name | Description

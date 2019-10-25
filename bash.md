@@ -108,3 +108,14 @@ POSIX standardization.
 x=`date` -> No!
 x=$(date) -> Yes :D
 ```
+
+## Cheat Sheet
+
+* check if file exists
+
+```
+FILE=/some/file
+if [ -f "$FILE" ]; then
+    echo "$FILE exist"
+fi
+```
