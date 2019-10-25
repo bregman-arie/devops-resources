@@ -85,8 +85,8 @@
   
 - [ ] **EC2**
 
-    - [ ] EC2 is Amazon Elastic Compute Cloud
-        - [ ] Virtual servers in the cloud
+    - [ ] EC2 is Amazon Elastic Compute Cloud. A compute based service
+        - [ ] Allow you to create virtual servers in the cloud
     - [ ] Pricing models
         - [ ] On Demand - pay a fixed rate by the hour/second with no commitment
             - [ ] Good for:
@@ -128,6 +128,8 @@
                 - [ ] Throughput Optimized HDD (ST1) - low cost HDD volume designed for frequently accessed, intensive workloads
                 - [ ] Cold HDD (SC1) - Lowest cost HDD volume for less frequent access
                 - [ ] Magnetic - deprecated
+        - [ ] Security Group
+            - [ ] A set of firewall rules that control the traffic to your instance
 
 - [ ] **CloudFront**
 
@@ -151,6 +153,16 @@
     - [ ] Cache
         - [ ] objects are cached for the life of TTL in seconds
         - [ ] it's possible to clear cached objects but it's not free
+
+- [ ] **CLI**
+
+    - [ ] `aws configure` to set up the CLI
+        - [ ] It's stored in `~/.aws`
+        - [ ] Note: roles are more secure than using access key id's and secret access keys. Roles can be applied to EC2 instances at any time and they are universal (no need to specify region)
+    - [ ] Usage: `aws <service> <args>`
+    - [ ] Examples
+        - [ ] `aws ec2 ls`
+        - [ ] `aws s3 ls`
 
     
 
