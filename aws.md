@@ -34,7 +34,6 @@
   
   - [ ] IAM (Identity Access Management) is global. You do not need to specify region when dealing with IAM related resources
   - [ ] There are 3 ways to access the AWS platform
-  
     - [ ] Console
     - [ ] Programmatically(CLI)
     - [ ] Software Developers Kit (SDK)
