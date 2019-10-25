@@ -163,6 +163,26 @@
         - [ ] `aws ec2 ls`
         - [ ] `aws s3 ls`
 
+- [ ] Load Balancer
+
+    - [ ] EC2 -> Load Balancer in the left side panel -> Create load balancer
+    - [ ] Types of load balancers
+        - [ ] Application Load Balancer - for layer 7 (HTTP, HTTPS) traffic
+        - [ ] Network Load Balancer - for ultra-high performances or static IP addresses)
+        - [ ] Classic Load Balancer - when your app is running in the EC2-Classic network. Good for low costs and test environments
+
+- [ ] Databases
+
+    - [ ] Relational DB - Consists of tables when each table has several rows and each row includes several fields/columns
+        - [ ] Relational DB on AWS are called **RDS**. There are several DBs of this type:
+            - [ ] SQL server, Oracle, MySQL Server, PostgreSQL, Aurora and MariaDB
+        - [ ] RDS has two key features
+            - [ ] Multi availability zone. This is good for Disaster Recovery
+            - [ ] Read Replicas which are copies of your database. This is great for performance as you read from this copies.
+                - [ ] You can 5 copies of your database
+                - [ ] When your primary DB will fail it doesn't mean you will be able to write to one of the copies
+    - [ ] Non Relational DB - Consists of 
+
     
 
 
