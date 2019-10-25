@@ -2,7 +2,7 @@
 
 ## Resources
 
-Name | Content Type
+Name | Description
 :------ |:--------:
 [Bash Wiki Hackers](http://wiki.bash-hackers.org/start) | "hold documentation of any kind about GNU Bash"
 [Bash Reference Manual](https://tiswww.case.edu/php/chet/bash/bashref.html) | everything there is to know about bash

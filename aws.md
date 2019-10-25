@@ -183,8 +183,6 @@
                 - [ ] When your primary DB will fail it doesn't mean you will be able to write to one of the copies
     - [ ] Non Relational DB - Consists of 
 
-    
-
 
 ## Questions
 

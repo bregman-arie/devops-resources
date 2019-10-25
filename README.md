@@ -13,33 +13,33 @@
 <table>
   <tr>
     <td align="center"><a href="#devops"><img src="images/devops.png" width="70px;" height="75px;" alt="DevOps" /><br /><b>DevOps</b></a></td>
-    <td align="center"><a href="#jenkins"><img src="images/jenkins.png" width="80px;" height="85px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
-    <td align="center"><a href="#git"><img src="images/git.png" width="110px;" height="75px;" alt="Git"/><br /><b>Git</b></a></td>
-    <td align="center"><a href="#ansible"><img src="images/ansible.png" width="65px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a></td>
-    <td align="center"><a href="#Network"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a></td>
-    <td align="center"><a href="#linux"><img src="images/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a></td>
-    <td align="center"><a href="#terraform"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
-    <td align="center"><a href="#docker"><img src="images/docker.png" width="75px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a></td>
+    <td align="center"><a href="jenkins.md"><img src="images/jenkins.png" width="80px;" height="85px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
+    <td align="center"><a href="git.md"><img src="images/git.png" width="110px;" height="75px;" alt="Git"/><br /><b>Git</b></a></td>
+    <td align="center"><a href="ansible.md"><img src="images/ansible.png" width="65px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a></td>
+    <td align="center"><a href="Network.md"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a></td>
+    <td align="center"><a href="linux.md"><img src="images/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a></td>
+    <td align="center"><a href="terraform.md"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
+    <td align="center"><a href="docker.md"><img src="images/docker.png" width="75px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="#coding"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a></td>
+    <td align="center"><a href="coding.md"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a></td>
     <td align="center"><a href="python.md"><img src="images/python.png" width="80px;" height="75px;" alt="Python"/><br /><b>Python</b></a></td>
-    <td align="center"><a href="#go"><img src="images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a></td>
+    <td align="center"><a href="go"><img src="images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a></td>
     <td align="center"><a href="bash.md"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
-    <td align="center"><a href="#kubernetes"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
-    <td align="center"><a href="#prometheus"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
-    <td align="center"><a href="#mongo"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
-    <td align="center"><a href="#sql"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
+    <td align="center"><a href="kubernetes.md"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
+    <td align="center"><a href="prometheus.md"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
+    <td align="center"><a href="mongo.md"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
+    <td align="center"><a href="sql.md"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="#cloud"><img src="images/cloud.png" width="110px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
+    <td align="center"><a href="cloud.md"><img src="images/cloud.png" width="110px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
     <td align="center"><a href="aws.md"><img src="images/aws.png" width="110px;" height="75px;" alt="AWS"/><br /><b>AWS</b></a></td>
-    <td align="center"><a href="#azure"><img src="images/azure.png" width="80px;" height="75px;" alt="azure"/><br /><b>Azure</b></a></td>
-    <td align="center"><a href="#gcp"><img src="images/gcp.png" width="75px;" height="75px;" alt="gcp"/><br /><b>Google Cloud Platform</b></a></td>
+    <td align="center"><a href="azure.md"><img src="images/azure.png" width="80px;" height="75px;" alt="azure"/><br /><b>Azure</b></a></td>
+    <td align="center"><a href="gcp.md"><img src="images/gcp.png" width="75px;" height="75px;" alt="gcp"/><br /><b>Google Cloud Platform</b></a></td>
     <td align="center"><a href="openstack.md"><img src="images/openstack.png" width="75px;" height="75px;" alt="openstack"/><br /><b>OpenStack</b></a></td>
-    <td align="center"><a href="#security"><img src="images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>Security</b></a></td>
-    <td align="center"><a href="#puppet"><img src="images/puppet.png" width="75px;" height="75px;" alt="puppet"/><br /><b>Puppet</b></a></td>
-    <td align="center"><a href="#openshift"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
+    <td align="center"><a href="security.md"><img src="images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>Security</b></a></td>
+    <td align="center"><a href="puppet.md"><img src="images/puppet.png" width="75px;" height="75px;" alt="puppet"/><br /><b>Puppet</b></a></td>
+    <td align="center"><a href="openshift.md"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
   </tr>
 </table>
 </center>
@@ -84,24 +84,6 @@ Name | Description
 :------|:------:
 [opensource.com](https://opensource.com) | open source related articles including DevOps
 
-## Kubernetes
-
-Name | Description
-:------|:------:
-[OperatiorHub.io](https://www.operatorhub.io) | Kubernetes native applications
-[Kubernetes 101](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16) | Great beginner article on Kubernetes fundamental concepts
-
-
-## MongoDB
-Name | Description
-:------|:------:
-[Guru99 MongoDB Tutorial](https://www.guru99.com/what-is-mongodb.html) | MongoDB Tutorial
-[Tutorialspoint Tutorial](https://www.tutorialspoint.com/mongodb) | MongoDB Tutorial
-
-
-## Code challenges and practice sites
-
-
 ## DevOps Snippets
 
 Name | Description
@@ -113,7 +95,3 @@ Name | Description
 Name | Description
 :------|:------:
 [Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
-
-
-## Machine Learning
-Go [here](machine_learning.md)
