@@ -181,7 +181,8 @@
             - [ ] Read Replicas which are copies of your database. This is great for performance as you read from this copies.
                 - [ ] You can 5 copies of your database
                 - [ ] When your primary DB will fail it doesn't mean you will be able to write to one of the copies
-    - [ ] Non Relational DB - Consists of 
+    - [ ] Non Relational DB - Consists of collections and inside these collections we can find documents and each document consists of key value pairs
+        - [ ] The fields can be different in each document as opposed to Relational DB
 
 
 ## Questions
