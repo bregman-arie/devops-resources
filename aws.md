@@ -1,5 +1,12 @@
 # AWS
 
+## Tools and Projects
+
+Name | Comments
+:------|:------:
+[Cloud Mapper](https://github.com/duo-labs/cloudmapper) | "analyze your Amazon Web Services (AWS) environments""
+[EC2 Instances Info](https://www.ec2instances.info) | "Easy Amazon EC2 Instance Comparison"
+
 ## Cloud Practicioner
 
 - [ ] **Cloud Computing**

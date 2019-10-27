@@ -71,11 +71,14 @@ Name | Description
 :------|:------:
 [Periodic table of DevOps tools](https://xebialabs.com/periodic-table-of-devops-tools) | Table of DevOps tools per category
 [DevOps tool chest](https://xebialabs.com/the-ultimate-devops-tool-chest/#tool-chest-type) | List of DevOps tools
+[DevOps Bookmarks](http://www.devopsbookmarks.com) | NSIA
 
 ## Books
 
 Name | Comments
 :------|:------:
+[The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290) | DevOps explained through a story of a fictional company on the brink of failure
+[The DevOps Handbook](https://www.amazon.com/dp/1942788002) |
 [Google SRE books](https://landing.google.com/sre/books) | Very detailed books on the theory and also practice of SRE
 
 ## Practice and learning sites
@@ -84,12 +87,20 @@ Name | Description
 [KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
 [vim-adventures](https://vim-adventures.com) | Learning VIM while playing a game
+[DevOps Roadmap](https://roadmap.sh) | How to become a DevOps engineer. What to learn at each step
 
-## Sites with DevOps articles
+## Blogs & News
 
 Name | Description
 :------|:------:
 [opensource.com](https://opensource.com) | open source related articles including DevOps
+[CooperPress](https://cooperpress.com/publications) | various newsletters on different topics
+
+## Articles
+
+Author | Name | Description
+:-------|:------|:------:
+Emily Woods | [Infrastructure as Code, Part One](https://crate.io/a/infrastructure-as-code-part-one) |
 
 ## DevOps Snippets
 
@@ -98,12 +109,19 @@ Name | Description
 [DevOpsnipp](https://www.devopsnipp.com/) | Sharing DevOps Snippets
 [Gist](https://gist.github.com) | Not DevOps specific and yet, probably the best place for code snippets
 
+## Community
+
+Name | Comments
+:------|:------:
+[Reddit DevOps](https://www.reddit.com/r/devops) | 
+
 ## Misc
 
 Name | Description
 :------|:------:
 [CheatSheets](https://cheatsheet.dennyzhang.com) | CheatSeets for Kubernetes, Jenkins, YAML, Groovy, etc.
 [Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
+[Terraform Script Builder](https://terraparty.com) | export valid Terraform scripts using UI
 
 ## DevOps Checklist
 
