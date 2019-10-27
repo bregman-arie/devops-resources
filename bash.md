@@ -116,6 +116,13 @@ x=$(date) -> Yes :D
 ```
 FILE=/some/file
 if [ -f "$FILE" ]; then
-    echo "$FILE exist"
+    echo "$FILE exists"
 fi
 ```
+
+* check if directory exists
+```
+DIR=/some/dir
+if [ -d "$DIR"]; then
+    echo "$DIR" exists"
+fi
