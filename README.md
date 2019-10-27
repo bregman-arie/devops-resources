@@ -48,7 +48,11 @@
 <!-- ALL-TOPICS-LIST:END -->
 
 
-## DevOps
+<a name="devops"></a>
+## Roadmap - from zero to hero
+
+
+<div align="center"><img src="images/devops_roadmap.png"></div><hr/>
 
 ### How to start
 
@@ -58,7 +62,7 @@ Name | Description
 [What is DevOps? - Amazon](https://aws.amazon.com/devops/what-is-devops) | Amazon's "What is DevOps?" page
 [DevOps Best Practices](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) | What is DevOps + list of resources
 
-### Tooling
+### Tools
 
 Name | Description
 :------|:------:
@@ -90,6 +94,7 @@ Name | Description
 Name | Description
 :------|:------:
 [DevOpsnipp](https://www.devopsnipp.com/) | Sharing DevOps Snippets
+[Gist](https://gist.github.com) | Not DevOps specific and yet, probably the best place for code snippets
 
 ## Utils
 
