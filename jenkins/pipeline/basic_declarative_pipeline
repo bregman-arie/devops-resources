@@ -1,0 +1,39 @@
+// Best practice is to actually call this file 'Jenkinsfile'
+// I named it 'basic_pipeline' just to explain its purpose
+
+// Pipeline is written in Pipeline DSL syntax
+
+pipeline {
+
+    // Jenkins to allocate workspace and executor
+    agent any
+
+    // Stages are block of code you execute through your build
+    stages {
+
+    // This is the first stage the pipeline will execute
+    // A stage execute specific step of your flow
+        stage('Build') {
+            // Steps to be executed as part of the 'Build' stage
+            steps {
+                sh 'echo "Building"' // Execute the 'echo' shell command
+            }
+        }
+
+    // Once previous stage finished successfully, Jenkins will 
+    // execute this stage.
+        stage('Test'){
+            steps {
+                sh 'echo "Testing"'
+                // To publish test results add this: junit 'reports/**/*.xml'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                sh 'echo "Deploying"'
+            }
+        }
+    }
+
+} // End of the pipeline 

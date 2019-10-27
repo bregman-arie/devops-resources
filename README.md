@@ -13,7 +13,7 @@
 <table>
   <tr>
     <td align="center"><a href="#devops"><img src="images/devops.png" width="70px;" height="75px;" alt="DevOps" /><br /><b>DevOps</b></a></td>
-    <td align="center"><a href="jenkins.md"><img src="images/jenkins.png" width="80px;" height="85px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
+    <td align="center"><a href="jenkins/README.md"><img src="images/jenkins.png" width="80px;" height="85px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
     <td align="center"><a href="git.md"><img src="images/git.png" width="110px;" height="75px;" alt="Git"/><br /><b>Git</b></a></td>
     <td align="center"><a href="ansible.md"><img src="images/ansible.png" width="65px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a></td>
     <td align="center"><a href="Network.md"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a></td>
@@ -49,10 +49,6 @@
 
 
 <a name="devops"></a>
-## Roadmap - from zero to hero
-
-
-<div align="center"><img src="images/devops_roadmap.png"></div><hr/>
 
 ### How to start
 
@@ -73,7 +69,7 @@ Name | Description
 
 Name | Comments
 :------|:------:
-[Google SRE books](https://landing.google.com/sre/books) |
+[Google SRE books](https://landing.google.com/sre/books) | Very detailed books on the theory and also practice of SRE
 
 ## Practice and learning sites
 Name | Description
@@ -106,7 +102,7 @@ Name | Description
 
 Name | Description
 :------|:------:
-[CheatSheets](https://cheatsheet.dennyzhang.com) |
+[CheatSheets](https://cheatsheet.dennyzhang.com) | CheatSeets for Kubernetes, Jenkins, YAML, Groovy, etc.
 
 ## DevOps Checklist
 
@@ -136,3 +132,7 @@ Check your knowledge by going over the following DevOps topics list
   - [ ] Advantages
   - [ ] Disadvantages
   - [ ] Licenses
+
+## License
+
+[![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
