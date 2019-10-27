@@ -1,5 +1,7 @@
 # Jenkins
 
+<div align="center"><img src="images/jenkins_map.png"></div><hr/>
+
 ## Documantation 
 
 Title | Author | Comments
