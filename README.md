@@ -101,3 +101,38 @@ Name | Description
 Name | Description
 :------|:------:
 [Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
+
+## Misc
+
+Name | Description
+:------|:------:
+[CheatSheets](https://cheatsheet.dennyzhang.com) |
+
+## DevOps Checklist
+
+Check your knowledge by going over the following DevOps topics list
+
+- [ ] **CI/CD**
+  - [ ] Continuous Integration
+  - [ ] Continuous Delivery
+  - [ ] Continuous Deployment
+  - [ ] CI/CD metrics
+
+- [ ] **Tools & Platforms** (One of each should be enough)
+  - [ ] CI/CD - Jenkins, Travis
+  - [ ] Provisioning - Terraform, CloudFormation
+  - [ ] Configuration Management - Ansible, Terraform, Chef
+  - [ ] Monitoring - Prometheus, Nagios
+  - [ ] Logging - Logstash, Graylog, Fluentd
+  - [ ] Code review - Gerrit, Review Board
+  - [ ] Code coverage - Cobertura, Clover, JaCoCo
+
+- [ ] **Mutability**
+  - [ ] Immutable infrastructure
+  - [ ] Mutable infrastructure
+  - [ ] Configuration drift
+
+- [ ] **Open Source**
+  - [ ] Advantages
+  - [ ] Disadvantages
+  - [ ] Licenses
