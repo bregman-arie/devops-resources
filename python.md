@@ -1,6 +1,10 @@
 # Python
 
-## Topics you should be familiar with
+## Beginner
+
+<div align="center"><img src="images/python_map.png"></div><hr/>
+
+## Checklist
 
 - [ ] **Data Types**
   - [ ] Numbers (int, long, float, complex)

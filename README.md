@@ -47,7 +47,10 @@
 <!-- prettier-ignore-end -->
 <!-- ALL-TOPICS-LIST:END -->
 
+
 <div align="center"><img src="images/jenkins_map.png"></div><hr/>
+
+<div align="center"><img src="images/python_map.png"></div><hr/>
 
 <a name="devops"></a>
 
