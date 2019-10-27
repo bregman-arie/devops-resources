@@ -1,5 +1,7 @@
 # Linux
 
+<div align="center"><img src="images/linux_map.png"></div><hr/>
+
 ## Checklist
 
 Check your Linux educational progress with the following list:
