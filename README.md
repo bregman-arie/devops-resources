@@ -55,6 +55,7 @@
 
 
 <a name="devops"></a>
+## DevOps
 
 ### How to start
 
@@ -83,7 +84,6 @@ Name | Description
 [KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
 [vim-adventures](https://vim-adventures.com) | Learning VIM while playing a game
-[CheatSheets](https://cheatsheet.dennyzhang.com) |
 
 ## Sites with DevOps articles
 
@@ -98,17 +98,12 @@ Name | Description
 [DevOpsnipp](https://www.devopsnipp.com/) | Sharing DevOps Snippets
 [Gist](https://gist.github.com) | Not DevOps specific and yet, probably the best place for code snippets
 
-## Utils
-
-Name | Description
-:------|:------:
-[Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
-
 ## Misc
 
 Name | Description
 :------|:------:
 [CheatSheets](https://cheatsheet.dennyzhang.com) | CheatSeets for Kubernetes, Jenkins, YAML, Groovy, etc.
+[Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
 
 ## DevOps Checklist
 

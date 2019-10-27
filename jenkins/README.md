@@ -46,7 +46,7 @@ Name | Comments
 [How to create Jenkins Pipeline with an Example](https://www.youtube.com/watch?v=s73nhwYBtzE) | Great for beginners |
 [Codifying the Build and Release Process with a Jenkins Pipeline Shared Library](https://www.youtube.com/watch?v=lzzx59kLW9w) |
 
-## Topics you should be familiar with
+## Checklist
 
 - [ ] **Terms & Entities**
   - [ ] Job
