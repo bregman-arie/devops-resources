@@ -2,7 +2,7 @@
 
 <div align="center"><img src="images/jenkins_map.png"></div><hr/>
 
-## Documantation 
+## Documentation
 
 Title | Author | Comments
 :------ |:------|:------:

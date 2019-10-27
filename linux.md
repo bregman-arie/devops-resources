@@ -63,6 +63,13 @@ Author | Title | Comments
 William Shotts | [The Linux Command Line](http://linuxcommand.org/tlcl.php) | Free |
 Christopher Negus | [Linux Bible](https://www.wiley.com/en-us/Linux+Bible%2C+9th+Edition-p-9781118999875) | |
 
+## Sites
+
+Name | Comments
+:------|:------:
+[Linux From Scratch](http://www.linuxfromscratch.org) |
+[Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP) |
+
 
 ## Videos
 

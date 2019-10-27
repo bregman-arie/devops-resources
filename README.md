@@ -16,7 +16,7 @@
     <td align="center"><a href="jenkins/README.md"><img src="images/jenkins.png" width="80px;" height="85px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
     <td align="center"><a href="git.md"><img src="images/git.png" width="110px;" height="75px;" alt="Git"/><br /><b>Git</b></a></td>
     <td align="center"><a href="ansible.md"><img src="images/ansible.png" width="65px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a></td>
-    <td align="center"><a href="Network.md"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a></td>
+    <td align="center"><a href="network.md"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a></td>
     <td align="center"><a href="linux.md"><img src="images/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a></td>
     <td align="center"><a href="terraform.md"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
     <td align="center"><a href="docker.md"><img src="images/docker.png" width="75px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a></td>
@@ -114,6 +114,20 @@ Name | Description
 Name | Comments
 :------|:------:
 [Reddit DevOps](https://www.reddit.com/r/devops) | 
+
+## Other Great Projects
+
+Name | Comments
+:------|:------:
+[DevOps Wiki](https://github.com/Leo-G/DevopsWiki) | 
+[System Design Primer](https://github.com/donnemartin/system-design-primer) |
+[awesome-sre](https://github.com/dastergon/awesome-sre) |
+
+## Interview Questions
+
+Name | Comments
+:------|:------:
+[DevOps Interview Questions](https://github.com/bregman-arie/devops-interview-questions) | Personally, I think it's pretty decent :)
 
 ## Misc
 

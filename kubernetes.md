@@ -8,3 +8,10 @@ Name | Comments
 [OperatiorHub.io](https://www.operatorhub.io) | Kubernetes native applications
 [Kubernetes 101](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16) | Great beginner article on Kubernetes fundamental concepts
 [YAML templates](https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates) |
+
+## Videos
+
+
+Name | Comments
+:------ |:--------:
+[The Illustrated Children's Guide to Kubernetes](https://www.youtube.com/watch?v=4ht22ReBjno)
