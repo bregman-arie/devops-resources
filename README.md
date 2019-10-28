@@ -53,6 +53,8 @@
 
 <div align="center"><img src="images/jenkins_map.png"></div><hr/>
 
+<div align="center"><img src="images/terraform_map.png"></div><hr/>
+
 
 <a name="devops"></a>
 ## DevOps
