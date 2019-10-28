@@ -113,21 +113,23 @@ Name | Description
 
 Name | Comments
 :------|:------:
-[Reddit DevOps](https://www.reddit.com/r/devops) | 
+[Reddit DevOps](https://www.reddit.com/r/devops) | Reddit DevOps Community 
+[Linkedin DevOps](https://www.linkedin.com/groups/2825397) | Linkedin DevOps Community
 
 ## Other Great Projects
 
 Name | Comments
 :------|:------:
-[DevOps Wiki](https://github.com/Leo-G/DevopsWiki) | 
-[System Design Primer](https://github.com/donnemartin/system-design-primer) |
-[awesome-sre](https://github.com/dastergon/awesome-sre) |
+[DevOps Wiki](https://github.com/Leo-G/DevopsWiki) | "A wiki of Devops Tools, Tutorials and Scripts"
+[System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
+[awesome-sre](https://github.com/dastergon/awesome-sre) | A curated list of Site Reliability and Production Engineering resources
 
 ## Interview Questions
 
 Name | Comments
 :------|:------:
 [DevOps Interview Questions](https://github.com/bregman-arie/devops-interview-questions) | Personally, I think it's pretty decent :)
+[System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
 
 ## Misc
 
