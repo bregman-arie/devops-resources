@@ -64,6 +64,7 @@ Name | Description
 [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
 [What is DevOps? - Amazon](https://aws.amazon.com/devops/what-is-devops) | Amazon's "What is DevOps?" page
 [DevOps Best Practices](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) | What is DevOps + list of resources
+[DevOps 3 Weeks Plan](https://medium.com/@medineshkatwal/devops-3-week-plan-from-16-oct-2019-to-31st-oct-2019-af486e625f72) | Detailed plan on what to do at each day
 
 ### Tools
 
