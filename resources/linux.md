@@ -77,9 +77,15 @@ Presenter | Video | Length | Level
 :------ |:------|:------:|:--------:
 Joseph Delgadillo | [The Complete Linux Course: Beginner to Power User!](https://www.youtube.com/watch?v=wBp0Rb-ZJak&t=6578s) | 07:23:52 | Beginner |
 
-
 ## Tweak OS
 
 Fedora disable alert sound
 
 `dconf write /org/gnome/desktop/sound/event-sounds "false"`
+
+## Presentations
+
+Author | Presentation | Level | Comments
+:------ |:------|:--------:|:--------:
+Arie Bregman | [Linux Networking](https://www.slideshare.net/ArieBregman/linux-networking-113100224) | Beginner | |
+Andrew McNico | [tcpdump](https://www.slideshare.net/j0b1n/tcpdump-hunter?qid=b71dea53-7829-40a3-b82b-4a669383eac6) | Beginner | |

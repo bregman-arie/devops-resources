@@ -1,6 +1,6 @@
 # Jenkins
 
-<div align="center"><img src="images/jenkins_map.png"></div><hr/>
+<div align="center"><img src="../../images/jenkins_map.png"></div><hr/>
 
 ## Documentation
 
