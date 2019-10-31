@@ -56,6 +56,15 @@ Check your Linux educational progress with the following list:
 - [ ] **Storage, Filesystem**
     - [ ] inode
 
+## Learn Linux
+
+
+Name | Comments
+:------|:------:
+[Linux Journey](https://linuxjourney.com) | Written guides + exercises + quiz
+[Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | Written articles/lessons
+[Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
+
 ## Books
 
 Author | Title | Comments

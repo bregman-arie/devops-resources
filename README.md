@@ -47,6 +47,10 @@
 <!-- prettier-ignore-end -->
 <!-- ALL-TOPICS-LIST:END -->
 
+## Roadmaps
+
+How to use them? for each topic/technology, make sure learn the subjects (blue rectangle) by order and after reading and learning about each subject, make sure you know what the purple rectangles mean.
+
 <div align="center"><img src="images/linux_map.png"></div><hr/>
 
 <div align="center"><img src="images/python_map.png"></div><hr/>
