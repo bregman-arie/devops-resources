@@ -1,6 +1,6 @@
 # Linux
 
-<div align="center"><img src="images/linux_map.png"></div><hr/>
+<div align="center"><img src="../images/linux_map.png"></div><hr/>
 
 ## Checklist
 
@@ -98,3 +98,13 @@ Author | Presentation | Level | Comments
 :------ |:------|:--------:|:--------:
 Arie Bregman | [Linux Networking](https://www.slideshare.net/ArieBregman/linux-networking-113100224) | Beginner | |
 Andrew McNico | [tcpdump](https://www.slideshare.net/j0b1n/tcpdump-hunter?qid=b71dea53-7829-40a3-b82b-4a669383eac6) | Beginner | |
+
+## Cheat Sheet
+
+Get SElinux denials
+
+```
+semodule -DB
+
+sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
+```
