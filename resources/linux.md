@@ -6,34 +6,60 @@
 
 Check your Linux educational progress with the following list:
 
-- [ ] **Basic commands**
-  - [ ] pwd
-  - [ ] ls
-    - [ ] How to list hidden files?
-    - [ ] How to list content using long list format?
-  - [ ] cd
-    - [ ] What 'cd ..' means?
-    - [ ] What will happen when running 'cd -'?
-  - [ ] touch
-  - [ ] rm
-      - [ ] how to remove a directory?
+- [ ] **File System Hierarchy**
+  - [ ] `/`
+  - [ ] `/bin` and `/sbin`
+  - [ ] `/opt`
+  - [ ] `/usr`
+  - [ ] `/var`
+  - [ ] `/home`
 
-- [ ] **File system hierarchy**
-  - [ ] What is '/'?
-  - [ ] What is stored in '/bin'?
-  - [ ] What '/home' is usually used for?
-  - [ ] What can you find in '/var'?
+  - [ ] Check yourself
+    - [ ] What is '/'?
+    - [ ] What is stored in '/bin'?
+    - [ ] What '/home' is usually used for?
+    - [ ] What type of files can you find in '/var'?
+
+- [ ] **Navigation**
+  - [ ] `pwd` - where am I?
+
+  - [ ] cd
+    - [ ] relative vs. absolute paths
+    - [ ] What will happen when running 'cd -'?
+
+  - [ ] Check yourself
+    - [ ] How to check your current path?
+
+- [ ] **Files**
+  - [ ] Commands
+    - [ ] touch
+    - [ ] rm
+    - [ ] how to remove a directory?
+
+  - [ ] `ls` - list files and directories
+    - [ ] `-a` for listing hidden files
+    - [ ] `-l` for list formt
+    - [ ] `-t` order by time
+    - [ ] `-F` better distinguish between regular files and directories
+
+  - [ ] Check yourself
+    - [ ] How to list hidden files?
+    - [ ] What `cd ..` will do?
 
 - [ ] **I/O redirection**
 
 - [ ] **Network**
-    - [ ] netstat
+  - [ ] netstat
 
 - [ ] **Users**
-    - [ ] commands
-        - [ ] useradd
-        - [ ] usermod
-        - [ ] who
+  - [ ] Commands
+    - [ ] useradd
+    - [ ] usermod
+    - [ ] userdel
+    - [ ] who
+  - [ ] Nice to know commands
+    - [ ] lastlog
+  - [ ] Check yourself
     - [ ] how to add a new user?
     - [ ] should you be using your user or root?
 
@@ -45,16 +71,16 @@ Check your Linux educational progress with the following list:
     - [ ] Running in ackground (&)
 
 - [ ] **Archives**
-    - [ ] what is it good for
-    - [ ] tar
-    - [ ] zip
-    - [ ] commands
-        - [ ] create an archive
-        - [ ] list archive's content
-        - [ ] remove an archive
+  - [ ] what is it good for
+  - [ ] tar
+  - [ ] zip
+  - [ ] commands
+    - [ ] create an archive
+    - [ ] list archive's content
+    - [ ] remove an archive
 
 - [ ] **Storage, Filesystem**
-    - [ ] inode
+  - [ ] inode
 
 ## Learn Linux
 
