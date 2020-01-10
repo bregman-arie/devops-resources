@@ -24,3 +24,46 @@ Name | Comments
 :------ |:--------:
 [The Illustrated Children's Guide to Kubernetes](https://www.youtube.com/watch?v=4ht22ReBjno) |
 [Learn Kubernetes](https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0) | Over 50 Kubernetes videos
+
+
+## CheatSheet
+
+### Minikube
+
+Minikube version
+
+```
+minikube version
+```
+
+Start cluster
+
+```
+minikube start
+```
+
+Delete cluster
+
+```
+minikube delete
+```
+
+### Kubernetes
+
+Cluster version
+
+```
+kubectl version
+```
+
+Cluster information
+
+```
+kubectl cluster-info
+```
+
+List nodes
+
+```
+kubectl get nodes
+```
