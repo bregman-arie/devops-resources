@@ -80,6 +80,7 @@ Name | Description
 [Periodic table of DevOps tools](https://xebialabs.com/periodic-table-of-devops-tools) | Table of DevOps tools per category
 [DevOps tool chest](https://xebialabs.com/the-ultimate-devops-tool-chest/#tool-chest-type) | List of DevOps tools
 [DevOps Bookmarks](http://www.devopsbookmarks.com) | NSIA
+[CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io) | CNCF's recommended path through the cloud native landscape
 
 ## Books
 
