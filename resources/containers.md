@@ -23,27 +23,6 @@ Name | Description
   - [ ] `docker commit` command
   - [ ] `docker tag` command
 
-## Docker - Cheat sheet
-
-* Run container with bash shell
-
-```
-docker run -ti ubuntu:latest bash
-```
-
-* Check how many containers are running
-
-```
-docker info
-```
-
-## Docker - Interview Questions
-
-* What happens when you run `docker run hello-world`?
-* How do you run a container?
-* What do you see when you run `docker ps`?
-* What `docker commit` does? when will you use it?
-
 ## Nomad - Resources
 
 Name | Description

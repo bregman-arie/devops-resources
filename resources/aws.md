@@ -6,6 +6,7 @@ Name | Comments
 :------|:------:
 [Cloud Mapper](https://github.com/duo-labs/cloudmapper) | "analyze your Amazon Web Services (AWS) environments""
 [EC2 Instances Info](https://www.ec2instances.info) | "Easy Amazon EC2 Instance Comparison"
+[amazon-redshift-utils](https://github.com/awslabs/amazon-redshift-utils) | "Contains utilities, scripts and view which are useful in a Redshift environment"
 
 ## Blog Posts & Articles
 

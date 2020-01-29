@@ -104,6 +104,7 @@ Name | Description
 :------|:------:
 [opensource.com](https://opensource.com) | open source related articles including DevOps
 [CooperPress](https://cooperpress.com/publications) | various newsletters on different topics
+[afreshcup](https://afreshcup.com) | "covering Ruby on Rails and whatever else I find interesting in the universe of software"
 
 ## Articles
 
@@ -137,7 +138,7 @@ Name | Comments
 
 Name | Comments
 :------|:------:
-[DevOps Interview Questions](https://github.com/bregman-arie/devops-interview-questions) | Personally, I think it's pretty decent :)
+[DevOps Exercises](https://github.com/bregman-arie/devops-exercises) | Personally, I think it's pretty decent :)
 [System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
 
 ## Misc
