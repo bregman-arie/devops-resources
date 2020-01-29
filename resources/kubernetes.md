@@ -19,11 +19,16 @@ Name | Comments
 
 ## Videos
 
-
 Name | Comments
 :------ |:--------:
 [The Illustrated Children's Guide to Kubernetes](https://www.youtube.com/watch?v=4ht22ReBjno) |
 [Learn Kubernetes](https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0) | Over 50 Kubernetes videos
+
+## Tools & Projects
+
+Name | Comments
+:------ |:--------:
+[KubeInvaders](https://github.com/lucky-sideburn/KubeInvaders) | "Chaos Engineering Tool for Kubernetes and Openshift"
 
 
 ## CheatSheet
