@@ -140,6 +140,15 @@ Name | Comments
 :------|:------:
 [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) | Personally, I think it's pretty decent :)
 [System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
+kdn251 | [Interviews](https://github.com/kdn251/interviews) | 
+
+## Coding Practice Sites
+
+Name | Description
+:------|:------:
+[Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
+[LeetCode](https://leetcode.com) | Practice programming online
+[Kevin Naughton Jr Channel](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g/videos) | Channel with interview questions from different companies 
 
 ## Misc
 
