@@ -73,7 +73,7 @@ Name | Description
 [DevOps Best Practices](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) | What is DevOps + list of resources
 [DevOps 3 Weeks Plan](https://medium.com/@medineshkatwal/devops-3-week-plan-from-16-oct-2019-to-31st-oct-2019-af486e625f72) | Detailed plan on what to do at each day
 
-### Tools
+### Tools, Apps & Services
 
 Name | Description
 :------|:------:
@@ -81,6 +81,47 @@ Name | Description
 [DevOps tool chest](https://xebialabs.com/the-ultimate-devops-tool-chest/#tool-chest-type) | List of DevOps tools
 [DevOps Bookmarks](http://www.devopsbookmarks.com) | NSIA
 [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io) | CNCF's recommended path through the cloud native landscape
+
+
+- [ ] CI/CD
+  - [ ] Jenkins
+  - [ ] Travis
+  - [ ] CircleCI
+
+- [ ] Provision
+  - [ ] Terraform
+  - [ ] CloudFormation (AWS only)
+
+- [ ] Configuration Management
+  - [ ] Ansible
+  - [ ] Puppet
+  - [ ] Chef
+  - [ ] Salt
+
+- [ ] Cloud
+  - [ ] AWS
+  - [ ] Azure
+  - [ ] GCP
+  - [ ] OpenStack
+
+- [ ] Monitoring
+  - [ ] Prometheus
+  - [ ] Nagios
+
+- [ ] Logging
+  - [ ] Logstash
+  - [ ] Graylog
+  - [ ] Fluentd
+
+- [ ] Code review 
+  - [ ] Gerrit (System)
+  - [ ] PullPanda (tools such as reminder & analytics)
+  - [ ] Review Board
+
+- [ ] Code coverage
+  - [ ] Cobertura
+  - [ ] Clover
+  - [ ] JaCoCo
 
 ## Books
 
@@ -158,34 +199,14 @@ Name | Description
 [Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
 [Terraform Script Builder](https://terraparty.com) | export valid Terraform scripts using UI
 
-## DevOps Checklist
+## DevOps Concepts
 
-Check your knowledge by going over the following DevOps topics list
+These are concepts you should be familiar with or at least understand the idea behind them
 
 - [ ] **CI/CD**
   - [ ] Continuous Integration
   - [ ] Continuous Delivery
   - [ ] Continuous Deployment
-  - [ ] CI/CD metrics
-
-- [ ] **Tools & Platforms** (One of each should be enough)
-  - [ ] CI/CD - Jenkins, Travis
-  - [ ] Provisioning - Terraform, CloudFormation
-  - [ ] Configuration Management - Ansible, Terraform, Chef
-  - [ ] Monitoring - Prometheus, Nagios
-  - [ ] Logging - Logstash, Graylog, Fluentd
-  - [ ] Code review - Gerrit, Review Board
-  - [ ] Code coverage - Cobertura, Clover, JaCoCo
-
-- [ ] **Mutability**
-  - [ ] Immutable infrastructure
-  - [ ] Mutable infrastructure
-  - [ ] Configuration drift
-
-- [ ] **Open Source**
-  - [ ] Advantages
-  - [ ] Disadvantages
-  - [ ] Licenses
 
 ## Design & Architecture
 
