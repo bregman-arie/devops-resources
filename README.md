@@ -41,6 +41,9 @@
     <td align="center"><a href="resources/puppet.md"><img src="images/puppet.png" width="75px;" height="75px;" alt="puppet"/><br /><b>Puppet</b></a></td>
     <td align="center"><a href="resources/openshift.md"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="resources/elk.md"><img src="images/elk.png" width="75px;" height="75px;" alt="ELK"/><br /><b>ELK</b></a></td>
+  </tr>
 </table>
 </center>
 <!-- markdownlint-enable -->
