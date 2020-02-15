@@ -84,6 +84,7 @@ Name | Description
 [DevOps tool chest](https://xebialabs.com/the-ultimate-devops-tool-chest/#tool-chest-type) | List of DevOps tools
 [DevOps Bookmarks](http://www.devopsbookmarks.com) | NSIA
 [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io) | CNCF's recommended path through the cloud native landscape
+[DevOpsBookmarks](https://www.devopsbookmarks.org) | To discover tools in the devops landscape.
 
 
 - [ ] CI/CD
