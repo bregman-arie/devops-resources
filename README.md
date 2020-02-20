@@ -50,18 +50,6 @@
 <!-- prettier-ignore-end -->
 <!-- ALL-TOPICS-LIST:END -->
 
-## Roadmaps
-
-How to use them? for each topic/technology, make sure learn the subjects (blue rectangle) by order and after reading and learning about each subject, make sure you know what the purple rectangles mean.
-
-<div align="center"><img src="images/linux_map.png"></div><hr/>
-
-<div align="center"><img src="images/python_map.png"></div><hr/>
-
-<div align="center"><img src="images/jenkins_map.png"></div><hr/>
-
-<div align="center"><img src="images/terraform_map.png"></div><hr/>
-
 
 <a name="devops"></a>
 ## DevOps
@@ -111,6 +99,7 @@ Name | Description
 - [ ] Monitoring
   - [ ] Prometheus
   - [ ] Nagios
+  - [ ] [statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
 
 - [ ] Logging
   - [ ] Logstash
@@ -118,14 +107,22 @@ Name | Description
   - [ ] Fluentd
 
 - [ ] Code review 
-  - [ ] Gerrit (System)
-  - [ ] PullPanda (tools such as reminder & analytics)
+  - [ ] Gerrit - Code Review system
+  - [ ] PullPanda - A collection of Tools such as reminder & analytics
   - [ ] Review Board
 
 - [ ] Code coverage
   - [ ] Cobertura
   - [ ] Clover
   - [ ] JaCoCo
+
+## Practice Coding
+
+Name | Comments
+:------|:------:
+[HackerRank](https://www.hackerrank.com) |
+[LeetCode](https://leetcode.com) |
+[Exercism](https://exercism.io) |
 
 ## Books
 
@@ -136,12 +133,12 @@ Name | Comments
 [Google SRE books](https://landing.google.com/sre/books) | Very detailed books on the theory and also practice of SRE
 
 ## Practice and learning sites
+
 Name | Description
 :------|:------:
 [KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
 [vim-adventures](https://vim-adventures.com) | Learning VIM while playing a game
-[DevOps Roadmap](https://roadmap.sh) | How to become a DevOps engineer. What to learn at each step
 
 ## Blogs & News
 
@@ -201,16 +198,7 @@ Name | Description
 :------|:------:
 [CheatSheets](https://cheatsheet.dennyzhang.com) | CheatSeets for Kubernetes, Jenkins, YAML, Groovy, etc.
 [Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
-[Terraform Script Builder](https://terraparty.com) | export valid Terraform scripts using UI
-
-## DevOps Concepts
-
-These are concepts you should be familiar with or at least understand the idea behind them
-
-- [ ] **CI/CD**
-  - [ ] Continuous Integration
-  - [ ] Continuous Delivery
-  - [ ] Continuous Deployment
+[Codelabs](https://codelabs.transcend.io) | "Codelabs provide a guided, tutorial, hands-on coding experience"
 
 ## Design & Architecture
 
