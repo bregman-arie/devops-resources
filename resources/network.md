@@ -1,5 +1,70 @@
 # Network
 
+## Docs
+
+Name | Comments
+:------|:------:
+[TCP/IP networking referen](http://www.penguintutor.com/linux/basic-network-reference)
+
+## Books
+
+Author | Title | Comments
+:------ |:------:|:--------:
+James Kurose & Keith Ross | Computer Networking: A Top-Down Approach | Great for beginners 
+Andrew S. Tanenbaum | Computer Networks | Commonly used by academic networking courses 
+Richard Stevens | TCP/IP illustrated | 
+Richard Stevens                                              |                   UNIX Network Programming                   |                                                              
+OccupyTheWeb                                                 | Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali |          Includes a chapter on wireless networking           
+Evi Nemeth & Garth Snyder & Trent R. Hein &  Ben Whaley & Dan Mackin |        UNIX and Linux System Administration Handbook         | A great book on Linux and there is a dedicated chapter for Linux networking 
+
+## Videos - Basic Networking Concepts
+
+Presenter | Video | Length | Level
+:------ |:------|:------:|:--------:
+Rene Molenaar | [Address Resolution Protocol (ARP) Explained](https://www.youtube.com/watch?v=xTOyZ6TWQdM) | 00:05:13 | Beginner |
+Eli the Computer Guy | [The OSI Model Demystified](https://www.youtube.com/watch?v=HEEnLZV2wGI) | 00:18:40 | Beginner |
+Pieter De Decker | [Hub, Switch or Router? Network Devices Explained](https://www.youtube.com/watch?v=Ofjsh_E4HFY) | 00:07:39 | Beginner |
+Pieter De Decker | [How Network Address Translation Works](https://www.youtube.com/watch?v=QBqPzHEDzvo) | 00:10:04 | Beginner |
+Pieter De Decker | [How DHCP Works](https://www.youtube.com/watch?v=RUZohsAxPxQ) | 00:07:55 | Beginner |
+Pieter De Decker | [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8) | 00:11:34 | Beginner |
+Ricky Tapia | [CSMA/CD](https://www.youtube.com/watch?v=IAKncL67Pp4) | 00:04:01 | Beginner |
+
+
+## Videos - Linux
+
+Presenter | Video | Length | Level
+:------ |:------|:------:|:--------:
+David Mahler | [Introduction to Linux Network Namespaces](https://www.youtube.com/watch?v=_WgUwUf1d34) | 00:25:50 | Beginner |
+
+
+## Videos - OpenvSwitch
+
+Presenter | Video | Slides | Length | Level
+:------ |:------|:------:|:--------:|:--------:
+David Mahler | [Introduction to Open vSwitch](https://www.youtube.com/watch?v=rYW7kQRyUvA) | | 00:14:35 | Beginner |
+David Mahler | [An Introduction to Open vSwitch](https://www.youtube.com/watch?v=_PCRNUB7oNw) | [Slides](http://openvswitch.org/slides/openvswitch.en-2.pdf)| 00:35:49 | First half beginners, second half intermediate level |
+
+
+## Videos - OpenFlow
+
+Presenter | Video | Length | Level | Comments
+:------ |:------|:------:|:--------:|:--------:
+David Mahler | [Introduction to OpenFlow](https://www.youtube.com/watch?v=l25Ukkmk6Sk) | 00:15:25 | Beginner | |
+Steven Wallace | [Describes the OpenFlow flow table](https://www.youtube.com/watch?v=-xLQHld3fPI) | 00:03:00 | Beginner | |
+David Mahler | [OpenFlow with multiple Flow Tables](https://www.youtube.com/watch?v=TD5wmoD7XOE) | 00:09:30 | Intermediate | |
+David Mahler | [OpenFlow flow entries on Open vSwitch (OVS)](https://www.youtube.com/watch?v=FyV4MoQ3T0I) | 00:14:22 | Intermediate | Required Knowledge: Open vSwitch |
+
+## Videos - OpenStack Neutron
+
+Presenter | Video | Length | Level | Comments
+:------ |:------|:------:|:--------:|:--------:
+[Shalu George & Naveen Joy] | [Neutron networking demystified for beginners](https://www.youtube.com/watch?v=c-x90PZFv8k) | 00:39:53 | Beginner | 2017 |
+David Mahler | [Introduction to OpenStack Neutron](https://www.youtube.com/watch?v=yqFpyubsYfE) | 00:19:38 | Beginner | |
+Assaf Muller | [Introduction to OpenStack Neutron](https://www.youtube.com/watch?v=IGGgVuZe7UA) | 00:33:20 | Beginner | |
+Rossella Sblendido | [I Can't Ping My VM! Learn How to Debug Neutron and Solve Common Problems](https://www.youtube.com/watch?v=aNA8Pvewu2M) | 00:42:16 | Intermediate | Required Knowledge: neutron basics |
+David Mahler | [OpenStack Neutron Packet Walkthrough (DVR)](https://www.youtube.com/watch?v=7IXEtUEZslg) | 00:44:56 | Intermediate | Required Knowledge: neutron, openvswitch, namespaces and openflow |
+Mohamed Elsakhawy | [Neutron- Where Did My Packets Go?](https://www.youtube.com/watch?v=uKgMp5c6R-4) | 00:39:32 | Beginner | |
+
 ## Checklist - Network Newbie
 
 - [ ] **OSI model**
@@ -208,64 +273,3 @@
 - [ ] **Floating IP**
 
 - [ ] **Provider Network**
-
-
-## Books
-
-Author | Title | Comments
-:------ |:------:|:--------:
-James Kurose & Keith Ross | Computer Networking: A Top-Down Approach | Great for beginners 
-Andrew S. Tanenbaum | Computer Networks | Commonly used by academic networking courses 
-Richard Stevens | TCP/IP illustrated | 
-Richard Stevens                                              |                   UNIX Network Programming                   |                                                              
-OccupyTheWeb                                                 | Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali |          Includes a chapter on wireless networking           
-Evi Nemeth & Garth Snyder & Trent R. Hein &  Ben Whaley & Dan Mackin |        UNIX and Linux System Administration Handbook         | A great book on Linux and there is a dedicated chapter for Linux networking 
-
-## Videos - Basic Networking Concepts
-
-Presenter | Video | Length | Level
-:------ |:------|:------:|:--------:
-Rene Molenaar | [Address Resolution Protocol (ARP) Explained](https://www.youtube.com/watch?v=xTOyZ6TWQdM) | 00:05:13 | Beginner |
-Eli the Computer Guy | [The OSI Model Demystified](https://www.youtube.com/watch?v=HEEnLZV2wGI) | 00:18:40 | Beginner |
-Pieter De Decker | [Hub, Switch or Router? Network Devices Explained](https://www.youtube.com/watch?v=Ofjsh_E4HFY) | 00:07:39 | Beginner |
-Pieter De Decker | [How Network Address Translation Works](https://www.youtube.com/watch?v=QBqPzHEDzvo) | 00:10:04 | Beginner |
-Pieter De Decker | [How DHCP Works](https://www.youtube.com/watch?v=RUZohsAxPxQ) | 00:07:55 | Beginner |
-Pieter De Decker | [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8) | 00:11:34 | Beginner |
-Ricky Tapia | [CSMA/CD](https://www.youtube.com/watch?v=IAKncL67Pp4) | 00:04:01 | Beginner |
-
-
-## Videos - Linux
-
-Presenter | Video | Length | Level
-:------ |:------|:------:|:--------:
-David Mahler | [Introduction to Linux Network Namespaces](https://www.youtube.com/watch?v=_WgUwUf1d34) | 00:25:50 | Beginner |
-
-
-## Videos - OpenvSwitch
-
-Presenter | Video | Slides | Length | Level
-:------ |:------|:------:|:--------:|:--------:
-David Mahler | [Introduction to Open vSwitch](https://www.youtube.com/watch?v=rYW7kQRyUvA) | | 00:14:35 | Beginner |
-David Mahler | [An Introduction to Open vSwitch](https://www.youtube.com/watch?v=_PCRNUB7oNw) | [Slides](http://openvswitch.org/slides/openvswitch.en-2.pdf)| 00:35:49 | First half beginners, second half intermediate level |
-
-
-## Videos - OpenFlow
-
-Presenter | Video | Length | Level | Comments
-:------ |:------|:------:|:--------:|:--------:
-David Mahler | [Introduction to OpenFlow](https://www.youtube.com/watch?v=l25Ukkmk6Sk) | 00:15:25 | Beginner | |
-Steven Wallace | [Describes the OpenFlow flow table](https://www.youtube.com/watch?v=-xLQHld3fPI) | 00:03:00 | Beginner | |
-David Mahler | [OpenFlow with multiple Flow Tables](https://www.youtube.com/watch?v=TD5wmoD7XOE) | 00:09:30 | Intermediate | |
-David Mahler | [OpenFlow flow entries on Open vSwitch (OVS)](https://www.youtube.com/watch?v=FyV4MoQ3T0I) | 00:14:22 | Intermediate | Required Knowledge: Open vSwitch |
-
-
-## Videos - OpenStack Neutron
-
-Presenter | Video | Length | Level | Comments
-:------ |:------|:------:|:--------:|:--------:
-[Shalu George & Naveen Joy] | [Neutron networking demystified for beginners](https://www.youtube.com/watch?v=c-x90PZFv8k) | 00:39:53 | Beginner | 2017 |
-David Mahler | [Introduction to OpenStack Neutron](https://www.youtube.com/watch?v=yqFpyubsYfE) | 00:19:38 | Beginner | |
-Assaf Muller | [Introduction to OpenStack Neutron](https://www.youtube.com/watch?v=IGGgVuZe7UA) | 00:33:20 | Beginner | |
-Rossella Sblendido | [I Can't Ping My VM! Learn How to Debug Neutron and Solve Common Problems](https://www.youtube.com/watch?v=aNA8Pvewu2M) | 00:42:16 | Intermediate | Required Knowledge: neutron basics |
-David Mahler | [OpenStack Neutron Packet Walkthrough (DVR)](https://www.youtube.com/watch?v=7IXEtUEZslg) | 00:44:56 | Intermediate | Required Knowledge: neutron, openvswitch, namespaces and openflow |
-Mohamed Elsakhawy | [Neutron- Where Did My Packets Go?](https://www.youtube.com/watch?v=uKgMp5c6R-4) | 00:39:32 | Beginner | |

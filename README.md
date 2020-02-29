@@ -64,6 +64,15 @@ Name | Description
 [DevOps Best Practices](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) | What is DevOps + list of resources
 [DevOps 3 Weeks Plan](https://medium.com/@medineshkatwal/devops-3-week-plan-from-16-oct-2019-to-31st-oct-2019-af486e625f72) | Detailed plan on what to do at each day
 
+## Practice Coding
+
+Name | Comments
+:------|:------:
+[HackerRank](https://www.hackerrank.com) |
+[LeetCode](https://leetcode.com) |
+[Exercism](https://exercism.io) |
+
+
 ### Tools, Apps & Services
 
 Name | Description
@@ -76,9 +85,11 @@ Name | Description
 
 
 - [ ] CI/CD
-  - [ ] Jenkins
-  - [ ] Travis
-  - [ ] CircleCI
+  - [ ] Jenkins (System)
+  - [ ] Travis (Hosted Service)
+  - [ ] CircleCI (Hosted Service)
+  - [ ] [BuildKite](https://buildkite.com) (Platform for running CI pipelines)
+  - [ ] [Zuul](https://zuul-ci.org/docs/zuul) (A project gating system)
 
 - [ ] Provision
   - [ ] Terraform
@@ -101,10 +112,12 @@ Name | Description
   - [ ] Nagios
   - [ ] [statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
 
-- [ ] Logging
+- [ ] Log Management
   - [ ] Logstash
   - [ ] Graylog
   - [ ] Fluentd
+  - [ ] [Splunk](https://www.splunk.com)
+  - [ ] [SumoLogic](https://www.sumologic.com)
 
 - [ ] Code review 
   - [ ] Gerrit - Code Review system
@@ -115,14 +128,6 @@ Name | Description
   - [ ] Cobertura
   - [ ] Clover
   - [ ] JaCoCo
-
-## Practice Coding
-
-Name | Comments
-:------|:------:
-[HackerRank](https://www.hackerrank.com) |
-[LeetCode](https://leetcode.com) |
-[Exercism](https://exercism.io) |
 
 ## Books
 

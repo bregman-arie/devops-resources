@@ -19,6 +19,12 @@ Name | Comments
 [Grok Patterns](https://github.com/logstash-plugins/logstash-patterns-core/blob/master/patterns/grok-patterns) | Logstash Patterns Code
 [RE used by Grok](https://github.com/kkos/oniguruma/blob/master/doc/RE) |
 
+## Elasticsearch Tools
+
+Name | Comments
+:------|:------:
+[elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump) | Import and export tools for elasticsearch
+
 ## Logstash Tools
 
 Name | Comments
@@ -31,6 +37,19 @@ Name | Comments
 :------|:------:
 [Rubban](https://github.com/sherifabdlnaby/rubban) | "Kibana Automatic Index Pattern Discovery and Other Curating Tasks"
 
+## Elsaticsearch Cheat Sheet
+
+* Test elasticsearch
+
+`curl localhost:9200`
+
+* Check elasticsearch health (also good for checking number of nodes)
+
+`curl -X GET "localhost:9200/_cat/health?v"`
+
+* List indexes
+
+`curl 'localhost:9200/_cat/indices?v'`
 
 ## Logstash Cheat Sheet
 
@@ -68,18 +87,4 @@ filter {
         columns => ["col1", "col2"]
     }
 }
-```
-
-## Elsaticsearch Cheat Sheet
-
-* Test elasticsearch
-
-```
-curl localhost:9200
-```
-
-* List indexes
-
-```
-curl 'localhost:9200/_cat/indices?v'
 ```
