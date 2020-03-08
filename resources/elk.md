@@ -51,6 +51,45 @@ Name | Comments
 
 `curl 'localhost:9200/_cat/indices?v'`
 
+* Create a new index called "customers" and add a document with the field name
+
+```
+curl -X PUT "localhost:9200/gamer/_doc/1?pretty" -H 'Content-Type: application/json' -d'
+{
+  "name": "John Doe"
+}
+'
+```
+
+* Add documents from a JSON file
+
+```
+curl -H "Content-Type: application/json" -XPOST "localhost:9200/customer/_bulk?pretty&refresh" --data-binary "@customers.json"
+```
+
+* Get the document with ID 1
+
+`curl -X GET "localhost:9200/gamer/_doc/1"`
+
+* List all indices
+
+`curl "localhost:9200/_cat/indices?v"`
+
+* Increase fields limit
+
+```
+PUT test_index/_settings
+{
+  "index.mapping.total_fields.limit": 2000
+}
+```
+
+* Delete index 
+
+```
+DELETE /<index_name>
+```
+
 ## Logstash Cheat Sheet
 
 * input - filebeat
@@ -86,5 +125,33 @@ filter {
     csv {
         columns => ["col1", "col2"]
     }
+}
+```
+
+## Kibana Cheat Sheet
+
+* Unlock Indexes (in case of forbbiden error)
+
+```
+PUT .kibana/_settings
+{
+"index": {
+"blocks": {
+"read_only_allow_delete": false
+}
+}
+}
+```
+
+* Unlock specific index
+
+```
+PUT your_index_name/_settings
+{
+"index": {
+"blocks": {
+"read_only_allow_delete": "false"
+}
+}
 }
 ```
