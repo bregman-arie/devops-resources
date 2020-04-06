@@ -112,6 +112,25 @@ x=$(date) -> Yes :D
 
 ## Cheat Sheet
 
+#### Variables
+
+* Set variable with default value (string): `x=${x:-'some_default'}`
+* Set variable with default value (variable): `y=${y:-$z}`
+
+#### Arguments
+
+* Read input: `read -p "enter a number: " num`
+* Number of arguments: `$#`
+* Check if an argument was passed
+
+```
+if [ "$#" -lt 1 ]; then
+    echo "Illegal number of parameters"
+fi
+```
+
+#### Files
+
 * check if file exists
 
 ```

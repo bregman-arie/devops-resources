@@ -34,3 +34,7 @@ Name | Description
 mkdir ~/.infrared/plugins/<plugin_name>/infrared_plugin/roles
 ln -s ~/<plugin_name> ~/.infrared/plugins/<plugin_name>/infrared_plugin/roles/<plugin_name>
 ```
+
+### Servers
+
+* List openstack instances: `openstack server list`

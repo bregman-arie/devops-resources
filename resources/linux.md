@@ -2,13 +2,19 @@
 
 <div align="center"><img src="../images/linux_map.png"></div><hr/>
 
-## Learn Linux - Written Resources
+## Learn Linux - Articles and Guides
 
 Name | Comments
 :------|:------:
 [Linux Journey](https://linuxjourney.com) | Written guides + exercises + quiz
 [Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | Written articles/lessons
 [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
+
+## Linux Deep Dive - Articles
+
+Name | Comments
+:------|:------:
+[How are Unix pipes implemented?](https://toroid.org/unix-pipe-implementation) | 
 
 ## Learn Linux - Videos
 
@@ -52,6 +58,8 @@ Andrew McNico | [tcpdump](https://www.slideshare.net/j0b1n/tcpdump-hunter?qid=b7
 
 ## Cheat Sheet
 
+#### SElinux
+
 Get SElinux denials
 
 ```
@@ -59,6 +67,16 @@ semodule -DB
 
 sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
 ```
+
+#### Tmux
+
+* Join session `tmux a`
+
+#### Virsh
+
+* Destroy: `virsh destroy <vm_name>`
+* Shutdown: `virsh shutdown <vm_name>`
+
 ## Checklist
 
 Check your Linux educational progress with the following list:
