@@ -1,6 +1,61 @@
 # Python
 
-## Beginner
+## Learning Python
+
+Name | Description
+:------|:------:
+[HackerRank](https://www.hackerrank.com) | Python challenges
+[LeetCode](https://leetcode.com) | Python challenges
+[Exercism](https://exercism.io) | Python challenges
+[py4e](https://www.py4e.com) | Python lessons and materials
+[W3 Python](https://www.w3schools.com/python) | Python tutorial
+[Mode Python Tutorial](https://mode.com/python-tutorial) | Python Tutorial
+[Khan Academy](https://www.khanacademy.org) | Python courses and lessons
+
+## Resources
+
+Name | Description
+:------|:------:
+[pippython](https://pippython.com) | I don't know what it is exactly but it's great
+
+## Modules
+
+Name | Description
+:------|:------:
+subprocess | Spawn new processes (=execute commands).
+agithub | Rest API client for rapid prototyping on any rest API.
+
+## Books
+
+Author | Title | Comments
+:------ |:------:|:--------:
+Jeff Knupp | Writing Idiomatic Python 3.3 | |
+
+## Articles, Tutorials & Blog Posts
+
+Author | Article | Level | Comments
+:------ |:------|:--------:|:--------:
+Megha Mohan | [Mutable vs Immutable Objects in Python](https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747) | Beginner | |
+Kenneth Reitz | [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest) | | |
+Kenneth Reitz | [Serialization](https://docs.python-guide.org/scenarios/serialization/) | | |
+
+## Frameworks & Tools
+
+Name | Description
+:------:|:-------:
+[Natural Language Toolkit](https://www.nltk.org)  | Platform for language processing programming |
+[Flask](http://flask.pocoo.org)  | Web microframework based on Werkzeug, Jinja 2
+[Django](https://www.djangoproject.com)  | Web framework with batteries included
+[Mypy](http://mypy-lang.org) | Static type checker
+
+## Cheat Sheet
+
+* Read YAML
+```
+with open(r'/file/path') as file:
+```
+
+## Python Checklist
 
 <div align="center"><img src="images/python_map.png"></div><hr/>
 
@@ -50,47 +105,3 @@
  [ ] Context Managers
 
 - [ ] Buffering Protocol
-
-
-## Resources
-
-Name | Description
-:------|:------:
-[pippython](https://pippython.com) | I don't know what it is exactly but it's great
-
-## Modules
-
-Name | Description
-:------|:------:
-subprocess | Spawn new processes (=execute commands).
-agithub | Rest API client for rapid prototyping on any rest API.
-
-## Books
-
-Author | Title | Comments
-:------ |:------:|:--------:
-Jeff Knupp | Writing Idiomatic Python 3.3 | |
-
-## Articles, Tutorials & Blog Posts
-
-Author | Article | Level | Comments
-:------ |:------|:--------:|:--------:
-Megha Mohan | [Mutable vs Immutable Objects in Python](https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747) | Beginner | |
-Kenneth Reitz | [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest) | | |
-Kenneth Reitz | [Serialization](https://docs.python-guide.org/scenarios/serialization/) | | |
-
-## Frameworks & Tools
-
-Name | Description
-:------:|:-------:
-[Natural Language Toolkit](https://www.nltk.org)  | Platform for language processing programming |
-[Flask](http://flask.pocoo.org)  | Web microframework based on Werkzeug, Jinja 2
-[Django](https://www.djangoproject.com)  | Web framework with batteries included
-[Mypy](http://mypy-lang.org) | Static type checker
-
-## Cheat Sheet
-
-* Read YAML
-```
-with open(r'/file/path') as file:
-```
