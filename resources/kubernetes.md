@@ -9,7 +9,14 @@ Name | Comments
 [Learning Path: Kubernetes](https://developer.ibm.com/series/kubernetes-learning-path/) | From basic to advanced Kubernetes learning series
 [Kubernetes 101 - Concepts and Why It Matters](https://www.magalix.com/blog/kubernetes-101-concepts-and-why-it-matters?fbclid=IwAR10FZlZ9Pw5c94tGRlgsCrVZTa1bSV2mbxEP8p4cXZ5T-k4VXF-3OUKkFo) |
 [kubernetes-workshop](https://github.com/eon01/kubernetes-workshop) |
-[Kubernetes Deployment Tutorial](https://devopscube.com/kubernetes-deployment-tutorial)
+[Kubernetes Deployment Tutorial](https://devopscube.com/kubernetes-deployment-tutorial) |
+[Katacoda](https://www.katacoda.com/courses/kubernetes) | Learn Kubernetes using Interactive Browser-Based Scenarios
+
+## Kubernetes Deep Dive
+
+Name | Comments
+:------ |:--------:
+[Kubernetes Networking](https://github.com/nleiva/kubernetes-networking-links) | Kubernetes Networking Resources
 
 ## Misc
 

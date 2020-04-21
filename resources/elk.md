@@ -39,18 +39,12 @@ Name | Comments
 
 ## Elsaticsearch Cheat Sheet
 
-* Test elasticsearch
-
-`curl localhost:9200`
-
-* Check elasticsearch health (also good for checking number of nodes)
-
-`curl -X GET "localhost:9200/_cat/health?v"`
-
-* List indexes
-
-`curl 'localhost:9200/_cat/indices?v'`
-
+* Test elasticsearch: `curl <es_host>:9200`
+* List of APIs: `curl <es_host>:9200/_cat`
+* List nodes: `curl <es_host>:9200/_cat/nodes`
+* List nodes with headers: `curl <es_host>:9200/_cat/nodes?v`
+* Check elasticsearch health (also good for checking number of nodes): `curl -X GET "localhost:9200/_cat/health?v"`
+* List indexes: `curl 'localhost:9200/_cat/indices?v'`
 * Create a new index called "customers" and add a document with the field name
 
 ```
@@ -61,22 +55,11 @@ curl -X PUT "localhost:9200/gamer/_doc/1?pretty" -H 'Content-Type: application/j
 '
 ```
 
-* Add documents from a JSON file
-
-```
-curl -H "Content-Type: application/json" -XPOST "localhost:9200/customer/_bulk?pretty&refresh" --data-binary "@customers.json"
-```
-
-* Get the document with ID 1
-
-`curl -X GET "localhost:9200/gamer/_doc/1"`
-
-* List all indices
-
-`curl "localhost:9200/_cat/indices?v"`
+* Add documents from a JSON file: `curl -H "Content-Type: application/json" -XPOST "localhost:9200/customer/_bulk?pretty&refresh" --data-binary "@customers.json"`
+* Get the document with ID 1: `curl -X GET "localhost:9200/gamer/_doc/1"`
+* List all indices: `curl "localhost:9200/_cat/indices?v"`
 
 * Increase fields limit
-
 ```
 PUT test_index/_settings
 {
@@ -84,10 +67,36 @@ PUT test_index/_settings
 }
 ```
 
-* Delete index 
+* Delete index: `DELETE /<index_name>`
+
+* Create cluster
 
 ```
-DELETE /<index_name>
+# On the master node
+dnf install -y elasticsearch
+systemctl enable elasticsearch
+vi /etc/elasticsearch/elasticsearch.yml
+  set cluster.name
+  set node.name
+  set network.host to [_local_, _site_]
+  set discovery.seed_hosts to master private IP address (or addresses if you are using multiple nodes)
+  set cluster.inital_master_nodes to master node name(s)
+  set node.master to true
+  set node.data to false
+  set node.ingest to true
+  set node.ml to false
+# On second node (and any additional node)
+  set cluster.name
+  set node.name
+  set network.host to [_local_, _site_]
+  set discovery.seed_hosts to master private IP address (or addresses if you are using multiple nodes)
+  set cluster.inital_master_nodes to master node name(s)
+  set node.master to false
+  set node.master to true
+  set node.ingest to false
+  set node.ml to false
+# On all nodes
+systemctl start elasticsearch
 ```
 
 ## Logstash Cheat Sheet
