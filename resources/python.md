@@ -1,6 +1,15 @@
 # Python
 
-## Learning Python
+## Learning Python (Courses)
+
+Name | Description
+:------|:------:
+[Introduction To Python Programming](https://www.udemy.com/course/pythonforbeginnersintro) | Free, Udemy
+[Python for Beginner](https://www.udemy.com/course/python-hackcc) | Free, Udemy
+[Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw&feature=emb_logo) | Free, freeCodeCamp
+[Learn Python from Scratch](https://www.educative.io/courses/learn-python-from-scratch) | Free, educative.io
+
+## Learning Python (Tutorials an Interactive)
 
 Name | Description
 :------|:------:
