@@ -32,5 +32,4 @@ when: my_list | length > 0
   debug:
     msg: "{{ ansible_facts.packages['chromium'] }}"
   when: "'chromium' in ansible_facts.packages"
-
 ```
