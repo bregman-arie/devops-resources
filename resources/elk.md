@@ -67,7 +67,8 @@ PUT test_index/_settings
 }
 ```
 
-* Delete index: `DELETE /<index_name>`
+* Delete index from console UI: `DELETE /<index_name>`
+* Delete all indexes from CLI: `curl -X DELETE 'http://<elasticsearch_address>:9200/_all` # Don't run this! it will delete also the Kibana index and you'll not have default space available
 
 * Create cluster
 

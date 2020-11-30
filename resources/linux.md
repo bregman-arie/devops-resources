@@ -2,13 +2,19 @@
 
 <div align="center"><img src="../images/linux_map.png"></div><hr/>
 
-## Learn Linux - Articles and Guides
+## Learn Linux - Tutorials and Guides
 
 Name | Comments
 :------|:------:
 [Linux Journey](https://linuxjourney.com) | Written guides + exercises + quiz
 [Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | Written articles/lessons
 [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
+
+## Learn Linux - Articles
+
+Name | Comments
+:------|:------:
+[Linux Filesystem Explained](https://www.linux.com/training-tutorials/linux-filesystem-explained) | NSIA
 
 ## Linux Deep Dive - Articles
 

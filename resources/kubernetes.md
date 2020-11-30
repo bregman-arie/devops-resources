@@ -17,6 +17,7 @@ Name | Comments
 Name | Comments
 :------ |:--------:
 [Kubernetes Networking](https://github.com/nleiva/kubernetes-networking-links) | Kubernetes Networking Resources
+[Liveness and Readiness Probes](https://www.openshift.com/blog/liveness-and-readiness-probes) |
 
 ## Misc
 
@@ -40,6 +41,12 @@ Name | Comments
 [KubeInvaders](https://github.com/lucky-sideburn/KubeInvaders) | "Chaos Engineering Tool for Kubernetes and Openshift"
 [Kubesort](https://github.com/AATHITH/kubesort) | "kubesort helps you sort the results from kubectl get in an easy way"
 [IngressMonitorController](https://github.com/stakater/IngressMonitorController) | "A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices"
+
+## Certificates
+
+Name | Comments
+:------ |:--------:
+[CKAD-Practice-Questions](https://github.com/bbachi/CKAD-Practice-Questions) | "a consolidated list for CKAD practice questions"
 
 ## CheatSheet
 

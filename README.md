@@ -152,6 +152,7 @@ Name | Description
 [opensource.com](https://opensource.com) | open source related articles including DevOps
 [CooperPress](https://cooperpress.com/publications) | various newsletters on different topics
 [afreshcup](https://afreshcup.com) | "covering Ruby on Rails and whatever else I find interesting in the universe of software"
+[thisweekindevops.com](https://thisweekindevops.com) | "DevOps news without the hype"
 
 ## Articles
 
