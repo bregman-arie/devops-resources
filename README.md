@@ -43,6 +43,7 @@
   </tr>
   <tr>
     <td align="center"><a href="resources/elk.md"><img src="images/elk.png" width="75px;" height="75px;" alt="ELK"/><br /><b>ELK</b></a></td>
+    <td align="center"><a href="resources/dataops.md"><img src="images/dataops.png" width="75px;" height="75px;" alt="ELK"/><br /><b>DataOps</b></a></td>
   </tr>
 </table>
 </center>
@@ -67,9 +68,9 @@ Name | Description
 
 Name | Comments
 :------|:------:
-[HackerRank](https://www.hackerrank.com) |
-[LeetCode](https://leetcode.com) |
-[Exercism](https://exercism.io) |
+[HackerRank](https://www.hackerrank.com) | Practice Coding skills
+[Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
+[LeetCode](https://leetcode.com) | Practice programming online
 
 
 ### Tools, Apps & Services
@@ -82,57 +83,11 @@ Name | Description
 [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io) | CNCF's recommended path through the cloud native landscape
 [DevOpsBookmarks](https://www.devopsbookmarks.org) | To discover tools in the devops landscape.
 
-
-- [ ] CI/CD
-  - [ ] Jenkins (System)
-  - [ ] Travis (Hosted Service)
-  - [ ] CircleCI (Hosted Service)
-  - [ ] [BuildKite](https://buildkite.com) (Platform for running CI pipelines)
-  - [ ] [Zuul](https://zuul-ci.org/docs/zuul) (A project gating system)
-
-- [ ] Provision
-  - [ ] Terraform
-  - [ ] CloudFormation (AWS only)
-
-- [ ] Configuration Management
-  - [ ] Ansible
-  - [ ] Puppet
-  - [ ] Chef
-  - [ ] Salt
-
-- [ ] Cloud
-  - [ ] AWS
-  - [ ] Azure
-  - [ ] GCP
-  - [ ] OpenStack
-
-- [ ] Monitoring
-  - [ ] Prometheus
-  - [ ] Nagios
-  - [ ] [statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
-
-- [ ] Log Management
-  - [ ] Logstash
-  - [ ] Graylog
-  - [ ] Fluentd
-  - [ ] [Splunk](https://www.splunk.com)
-  - [ ] [SumoLogic](https://www.sumologic.com)
-
-- [ ] Code review 
-  - [ ] Gerrit - Code Review system
-  - [ ] PullPanda - A collection of Tools such as reminder & analytics
-  - [ ] Review Board
-
-- [ ] Code coverage
-  - [ ] Cobertura
-  - [ ] Clover
-  - [ ] JaCoCo
-
 ## Books
 
 Name | Comments
 :------|:------:
-[The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290) | DevOps explained through a story of a fictional company on the brink of failure
+[The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290) | DevOps explained through a story of a fictional company on the brink of a failure
 [The DevOps Handbook](https://www.amazon.com/dp/1942788002) |
 [Google SRE books](https://landing.google.com/sre/books) | Very detailed books on the theory and also practice of SRE
 
@@ -164,7 +119,7 @@ Emily Woods | [Infrastructure as Code, Part One](https://crate.io/a/infrastructu
 Name | Description
 :------|:------:
 [DevOpsnipp](https://www.devopsnipp.com/) | Sharing DevOps Snippets
-[Gist](https://gist.github.com) | Not DevOps specific and yet, probably the best place for code snippets
+[Gist](https://gist.github.com) | Not DevOps specific
 
 ## Community
 
@@ -172,6 +127,7 @@ Name | Comments
 :------|:------:
 [Reddit DevOps](https://www.reddit.com/r/devops) | Reddit DevOps Community 
 [Linkedin DevOps](https://www.linkedin.com/groups/2825397) | Linkedin DevOps Community
+[DevOps Bits](https://www.facebook.com/groups/538897960007080) | Facebook DevOps group
 
 ## Other Great Projects
 
@@ -189,20 +145,11 @@ Name | Comments
 [System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
 kdn251 | [Interviews](https://github.com/kdn251/interviews) | 
 
-## Coding Practice Sites
-
-Name | Description
-:------|:------:
-[Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
-[LeetCode](https://leetcode.com) | Practice programming online
-[Kevin Naughton Jr Channel](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g/videos) | Channel with interview questions from different companies 
-
 ## Misc
 
 Name | Description
 :------|:------:
 [CheatSheets](https://cheatsheet.dennyzhang.com) | CheatSeets for Kubernetes, Jenkins, YAML, Groovy, etc.
-[Json Formatter](https://jsonformatter.curiousconcept.com) | Json Formatter & Validator
 [Codelabs](https://codelabs.transcend.io) | "Codelabs provide a guided, tutorial, hands-on coding experience"
 
 ## Design & Architecture
@@ -210,6 +157,81 @@ Name | Description
 Name | Description
 :------|:------:
 [The 12 Factor App](https://12factor.net) | must-read in my opinion 
+[A distributed Systems Reading List](https://dancres.github.io/Pages/?fbclid=IwAR2gapLU03iaxH4NDotc0LD_GiXOkyByfMT3iwufofUOEfCKEVwmezE3vCw)
+
+## Tooling and Systems
+
+- [ ] CI/CD
+  - [ ] Jenkins (Managed & on-premise)
+  - [ ] GitHub Actions (Hosted service)
+  - [ ] Travis (Hosted service)
+  - [ ] CircleCI (Hosted service)
+  - [ ] GitLab CI (Hosted service and on-premise)
+  - [ ] [BuildKite](https://buildkite.com) (Hosted)
+  - [ ] [Zuul](https://zuul-ci.org/docs/zuul) (Hosted and on-premise)
+
+- [ ] Provision
+  - [ ] Terraform
+  - [ ] CloudFormation (AWS only)
+  - [ ] Pulumi
+
+- [ ] Configuration Management
+  - [ ] Ansible
+  - [ ] Puppet
+  - [ ] Chef
+  - [ ] Salt
+
+- [ ] Cloud
+  - [ ] AWS
+  - [ ] Azure
+  - [ ] GCP
+  - [ ] OpenStack
+
+- [ ] Monitoring
+  - [ ] [Prometheus](https://prometheus.io)
+  - [ ] Nagios
+  - [ ] [statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
+
+- [ ] Log Management
+  - [ ] Logstash
+  - [ ] Graylog
+  - [ ] Fluentd
+  - [ ] [Splunk](https://www.splunk.com)
+  - [ ] [SumoLogic](https://www.sumologic.com)
+
+- [ ] Dashboards
+  - [ ] Kibana (Elastic)
+  - [ ] Grafana
+  - [ ] Report Portal
+
+- [ ] Code review 
+  - [ ] Gerrit - Code Review system
+  - [ ] PullPanda - A collection of Tools such as reminder & analytics
+  - [ ] Review Board
+
+- [ ] Code coverage
+  - [ ] Cobertura
+  - [ ] Clover
+  - [ ] JaCoCo
+
+- [ ] Data Processors
+  - [ ] Spark
+  - [ ] Apache Hadoop
+  - [ ] Apache Airflow
+  - [ ] Presto
+
+- [ ] Analytics Engines
+  - [ ] Druid
+  - [ ] Dremio
+  - [ ] Snowflake
+
+- [ ] Operations Data
+  - [ ] Salesforce
+  - [ ] Zuora
+
+## Credits
+
+Images and icons attribution can be found [here](credits.md)
 
 ## License
 
