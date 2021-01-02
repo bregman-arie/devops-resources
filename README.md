@@ -181,6 +181,10 @@ Name | Description
   - [ ] Chef
   - [ ] Salt
 
+- [ ] Images
+  - [ ] [Packer](https://www.packer.io)
+  - [ ] [diskimage-builder](https://github.com/openstack/diskimage-builder)
+
 - [ ] Cloud
   - [ ] AWS
   - [ ] Azure
@@ -203,6 +207,10 @@ Name | Description
   - [ ] Kibana (Elastic)
   - [ ] Grafana
   - [ ] Report Portal
+
+- [ ] Security
+  - [ ] [Vault](https://www.vaultproject.io) - "Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets..."
+  - [ ] [Open Policy Agent](https://www.openpolicyagent.org) - "Flexible, fine-grained control for administrators across the stack"
 
 - [ ] Code review 
   - [ ] Gerrit - Code Review system
