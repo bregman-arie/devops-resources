@@ -24,6 +24,8 @@ I assume the following for the purpose of the examples:
 
 * Export Mongo DB into JSON file: `mongoexport --db=usage_patterns --collection=accounts --out=data.json`
 
+* Rename field: ```db.hosts.updateMany( {}, { $rename: { "hosts": "hosts_file" } } )```
+
 #### Aggregations
 
 * Count the number of documents: `db.accounts.aggregate([ { "$count": "number of documents" }])`

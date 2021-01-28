@@ -169,6 +169,7 @@ Name | Description
   - [ ] GitLab CI (Hosted service and on-premise)
   - [ ] [BuildKite](https://buildkite.com) (Hosted)
   - [ ] [Zuul](https://zuul-ci.org/docs/zuul) (Hosted and on-premise)
+  - [ ] [Drone](drone.io)
 
 - [ ] Provision
   - [ ] Terraform
@@ -182,8 +183,8 @@ Name | Description
   - [ ] Salt
 
 - [ ] Images
-  - [ ] [Packer](https://www.packer.io)
   - [ ] [diskimage-builder](https://github.com/openstack/diskimage-builder)
+  - [ ] [Packer](https://www.packer.io)
 
 - [ ] Cloud
   - [ ] AWS
