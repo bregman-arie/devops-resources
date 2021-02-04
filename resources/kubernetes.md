@@ -12,12 +12,19 @@ Name | Comments
 [Kubernetes Deployment Tutorial](https://devopscube.com/kubernetes-deployment-tutorial) |
 [Katacoda](https://www.katacoda.com/courses/kubernetes) | Learn Kubernetes using Interactive Browser-Based Scenarios
 
+
 ## Kubernetes Deep Dive
 
 Name | Comments
 :------ |:--------:
 [Kubernetes Networking](https://github.com/nleiva/kubernetes-networking-links) | Kubernetes Networking Resources
 [Liveness and Readiness Probes](https://www.openshift.com/blog/liveness-and-readiness-probes) |
+
+## Kubernetes Deep Dive
+
+Name | Comments
+:------ |:--------:
+[Kubernetes Troubleshooting Visual Guide](https://learnk8s.io/troubleshooting-deployments?fbclid=IwAR2k6ziNfhBe--CKoYP6qh5_lHYM7_kruDjc1EcyrpgyV_tKJzQlwiuA_Jk) |
 
 ## Misc
 

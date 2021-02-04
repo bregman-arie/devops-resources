@@ -11,20 +11,16 @@ Name | Description
 
 ### Mongo Shell
 
-I assume the following for the purpose of the examples:
-  * DB name: usage_patterns
-  * Collection name: accounts
+#### General
 
 * DB stats: `db.stats()`
-* Switch to a DB: `use usage_patterns`
-
+* Switch to a DB: `use DB_NAME`
 * show collections: `show collections`
-* Count the number of documents in a collection: `db.accounts.count()`
-* Remove all the documents from a collection: `db.accounts.remove({})`
-
-* Export Mongo DB into JSON file: `mongoexport --db=usage_patterns --collection=accounts --out=data.json`
-
-* Rename field: ```db.hosts.updateMany( {}, { $rename: { "hosts": "hosts_file" } } )```
+* Count the number of documents in a collection: `db.COLLECTION_NAME.count()`
+* Remove all the documents from a collection: `db.COLLECTION_NAME.remove({})`
+* Export Mongo DB collection to a JSON file: `mongoexport --db=DB_NAME --collection=COLLECTION_NAME --out=data.json`
+* Export specific fields from a Mongo DB collection to a  JSON file: `mongoexport --db=DB_NAME  --fields=FIELD_NAME,FIELD_NAME2 --collection=COLLECTION_NAME --out=data.json`
+* Rename field: ```db.hosts.updateMany( {}, { $rename: { "CURRENT_FIELD_NAME": "NEW_FIELD_NAME" } } )```
 
 #### Aggregations
 
