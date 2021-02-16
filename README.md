@@ -1,6 +1,6 @@
 <p align="center"><img src="images/devops_resources.png"/></p>
 
-:information_source: &nbsp;This repository is about gathering any useful resources and information regarding DevOps
+:information_source: &nbsp;This repository is about gathering any useful resources and information regarding DevOps and secondly, provide some roadmap for those who want to practice DevOps.
 
 :pencil: &nbsp;Feel free to add more resources by sumitting pull requests
 
@@ -79,7 +79,10 @@ Name | Description
 [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc) | Article on Git concepts
 [Codeacademy Learn Git](https://www.codecademy.com/learn/learn-git) | Not Free 
 
-## Practice Coding
+## Programming
+
+Practicing DevOps without knowing programming is like eating cornflakes with ketchup - it's just doesn't makes sense... (yes, my analogies are the worst).
+Here is a list of some good sites to practice programming in general:
 
 Name | Comments
 :------|:------:
@@ -87,6 +90,28 @@ Name | Comments
 [Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
 [LeetCode](https://leetcode.com) | Practice programming online
 
+A better approach might be to actually write some DevOps related scripts or projects. Start simple. Here are some ideas:
+
+  * Write a script that gets a number of instances and a name of a platform (AWS, local, Azure, ...) as parameters and provisions those instances on the chosen platform
+  * Write a script to parse logs and extract some specific information you are interested in
+
+### Operating Systems
+
+Deep dive into operation system internals. I would say choose Linux but I must admin I'm biased.
+If you did choose Linux, here is a list of resources that will help you learn Linux
+
+Name | Comments
+:------|:------:
+[Linux Journey](https://linuxjourney.com) | Written guides + exercises + quiz
+[Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | Written articles/lessons
+[Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
+
+Once you are familiar with the commands and feel comfortable enough to keep deep diving, learn some OS concepts:
+
+  * Memory Management
+  * Processes
+  * Kernel
+  * Virtulization
 
 ### Tools, Apps & Services
 
@@ -98,21 +123,33 @@ Name | Description
 [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io) | CNCF's recommended path through the cloud native landscape
 [DevOpsBookmarks](https://www.devopsbookmarks.org) | To discover tools in the devops landscape.
 
+## Practice and learning sites
+
+Learning by doing proved to be a very effective way to learn new things. If you are at a point where you don't feel comfortable enough to do it by yourself and you look for some guidance, the following sites might assist you
+
+Name | Description
+:------|:------:
+[KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
+[QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
+
+## Community
+
+Another great way to learn is to learn from the experience of others. For that, the are some excellent DevOps communities.
+Name | Comments
+:------|:------:
+[Reddit DevOps](https://www.reddit.com/r/devops) | Reddit DevOps Community 
+[Linkedin DevOps](https://www.linkedin.com/groups/2825397) | Linkedin DevOps Community
+[DevOps Bits](https://www.facebook.com/groups/538897960007080) | Facebook DevOps group. Disclosure: I started it :)
+
 ## Books
+
+Read book! Practice is important and the best way to learn practical things but reading about cultures, methods, concepts, ... has its own important role in your path towards mastering DevOps and SRE.
 
 Name | Comments
 :------|:------:
 [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290) | DevOps explained through a story of a fictional company on the brink of a failure
 [The DevOps Handbook](https://www.amazon.com/dp/1942788002) |
 [Google SRE books](https://landing.google.com/sre/books) | Very detailed books on the theory and also practice of SRE
-
-## Practice and learning sites
-
-Name | Description
-:------|:------:
-[KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
-[QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
-[vim-adventures](https://vim-adventures.com) | Learning VIM while playing a game
 
 ## Blogs & News
 
@@ -136,14 +173,6 @@ Name | Description
 :------|:------:
 [DevOpsnipp](https://www.devopsnipp.com/) | Sharing DevOps Snippets
 [Gist](https://gist.github.com) | Not DevOps specific
-
-## Community
-
-Name | Comments
-:------|:------:
-[Reddit DevOps](https://www.reddit.com/r/devops) | Reddit DevOps Community 
-[Linkedin DevOps](https://www.linkedin.com/groups/2825397) | Linkedin DevOps Community
-[DevOps Bits](https://www.facebook.com/groups/538897960007080) | Facebook DevOps group
 
 ## Other Great Projects
 
