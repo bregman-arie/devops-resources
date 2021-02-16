@@ -64,6 +64,21 @@ Name | Description
 [DevOps Best Practices](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) | What is DevOps + list of resources
 [DevOps 3 Weeks Plan](https://medium.com/@medineshkatwal/devops-3-week-plan-from-16-oct-2019-to-31st-oct-2019-af486e625f72) | Detailed plan on what to do at each day
 
+### Learn Git
+
+In general, you should be comfortable with:
+
+  * Commit changes to a project
+  * Submit pull/merge requests
+  * Working with branches
+  * Rebase changes (change order, squash, ...)
+
+Name | Description
+:------|:------:
+[Interactive Git Branching Learning](https://learngitbranching.js.org/) | Visual and interactive way to learn Git branching
+[Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc) | Article on Git concepts
+[Codeacademy Learn Git](https://www.codecademy.com/learn/learn-git) | Not Free 
+
 ## Practice Coding
 
 Name | Comments
@@ -107,6 +122,7 @@ Name | Description
 [CooperPress](https://cooperpress.com/publications) | various newsletters on different topics
 [afreshcup](https://afreshcup.com) | "covering Ruby on Rails and whatever else I find interesting in the universe of software"
 [thisweekindevops.com](https://thisweekindevops.com) | "DevOps news without the hype"
+[Uber Engineering](https://eng.uber.com/) | Uber Engineering Blog
 
 ## Articles
 
