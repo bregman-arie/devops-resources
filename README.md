@@ -57,30 +57,28 @@
 
 ### How to learn and practice DevoOps
 
-This is one out of many possible paths to learn and practice DevOps and is based on own opinion.
-In the next section, you'll find alternative paths and roadmaps. Don't be too fixed on any path. Learn every topic step by step and make sure you feel comfortable and you understand the topic as to why it's part of DevOps, why it is used and how.
-Remember, DevOps is more a culture rather than a list of tools or platforms. The reason you learn concepts, tools and platforms is to be comfortable enough to practice that culture.
+  * The following path is opinionated. You can find alternative paths in the next section.
+  * Remember, DevOps is more a culture rather than a list of tools or platforms. The reason you learn concepts and tools is to be comfortable enough to practice and apply that culture
+  * Learn what DevOps is all about
 
 Let's start with the must
 
 Topic | What to learn | Alternatives | Description
 :------|:------|:------|:------:
 Version Control | [Git](#Learn-git) | None | Version Control is used everywhere and Git is the leading version control technology
-Programming | Personally, I like Python and Go | Ruby, Node.js | Anyone who practice DevOps should know programming to some extent
+Programming | At least one [programming language](#programming) |  | Anyone who practice DevOps should know programming to some extent
 Operating System | [Linux](#operating-systems) | Windows | Operating Systems is another must when it comes to DevOps
+Protocols | DHCP, UDP, TCP, SSH | Not as an alternative, you can simply learn later: NFS, NTP | Learn how these protocols work and what they are used for
+Applications | Web Server, Load Balancer, Cache, Database | | Learn how they work and try out some implementations (e.g. MySQL for databases and httpd for web servers)
+System Design | Availability, Reliability, Scalability, Performance | Learn how to design infrastructure and systems
 
-What's next?
+What's next? (Note: the order isn't important)
 
 Topic | What to learn | Alternatives | Description
 :------|:------|:------|:------:
 Configuration Management and IaC | Ansible and Terraform | CM: Chef, Puppet and Salt. IaC: Pulumi and CloudFormation |
 Cloud | Azure, AWS, GCP | OpenStack |
 Containers | Podman and Kubernetes| Docker instead of Podman. Nomad instead of Kubernetes | 
-
-What else? 
-
-Topic | What to learn | Alternatives | Description
-:------|:------|:------|:------:
 CI/CD | Jenkins, GitHub Actions | Gitlab CI, Circle CI, Argo CD |
 Logging and Dashboards | Elastic Stack (Elasticsearch and Logstash), Report Portal | Graylog, Splunk |
 Monitoring | Prometheus and Grafana | Nagios, Datadog | 
@@ -90,8 +88,16 @@ Monitoring | Prometheus and Grafana | Nagios, Datadog |
 Name | Description
 :------|:------:
 [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
-[What is DevOps? - Amazon](https://aws.amazon.com/devops/what-is-devops) | Amazon's "What is DevOps?" page
 [DevOps 3 Weeks Plan](https://medium.com/@medineshkatwal/devops-3-week-plan-from-16-oct-2019-to-31st-oct-2019-af486e625f72) | Detailed plan on what to do at each day
+
+### Learn about DevOps
+
+Name | Description
+:------|:------:
+[What is DevOps? - Amazon](https://aws.amazon.com/devops) |
+[What is DevOps? - Red Hat](https://www.redhat.com/en/topics/devops) |
+[What is DevOps? - Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops)
+[What is DevOps? - Google](https://cloud.google.com/devops) |
 
 ### Learn Git
 
