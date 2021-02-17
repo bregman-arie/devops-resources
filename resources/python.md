@@ -9,17 +9,18 @@ Name | Description
 [Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw&feature=emb_logo) | Free, freeCodeCamp
 [Learn Python from Scratch](https://www.educative.io/courses/learn-python-from-scratch) | Free, educative.io
 
-## Learning Python (Tutorials an Interactive)
+## Learning Python (Tutorials and Interactive platforms)
 
 Name | Description
 :------|:------:
-[HackerRank](https://www.hackerrank.com) | Python challenges
-[LeetCode](https://leetcode.com) | Python challenges
-[Exercism](https://exercism.io) | Python challenges
+[HackerRank](https://www.hackerrank.com) | Python challenges/exercises
+[LeetCode](https://leetcode.com) | Python challenges/exercises
+[Exercism](https://exercism.io) | Python challenges/exercises
 [py4e](https://www.py4e.com) | Python lessons and materials
 [W3 Python](https://www.w3schools.com/python) | Python tutorial
 [Mode Python Tutorial](https://mode.com/python-tutorial) | Python Tutorial
 [Khan Academy](https://www.khanacademy.org) | Python courses and lessons
+[Python resources for everybody](https://learnbyexample.github.io/py_resources) | Python written resources
 
 ## Resources
 
