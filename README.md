@@ -194,7 +194,14 @@ Name | Description
 [CooperPress](https://cooperpress.com/publications) | various newsletters on different topics
 [afreshcup](https://afreshcup.com) | "covering Ruby on Rails and whatever else I find interesting in the universe of software"
 [thisweekindevops.com](https://thisweekindevops.com) | "DevOps news without the hype"
-[Uber Engineering](https://eng.uber.com/) | Uber Engineering Blog
+[Uber Engineering](https://eng.uber.com/) | Not only DevOps
+[Azure DevOps Blog](https://devblogs.microsoft.com/devops) | Microsoft DevOps Blog
+[DevOps Dudes](https://medium.com/devops-dudes) | "Shortening the system development life cycle"
+[Netflix Tech Blog](https://netflixtechblog.com/tagged/devops) | Not Only DevOps
+[CloudBees Blog](https://www.cloudbees.com/blog) |
+[Red Hat Blog](ttps://www.redhat.com/en/blog) | Not only DevOps
+[Atlassian DevOps Blog](https://www.atlassian.com/blog/devops) |
+[Facebook Engineering Blog](https://engineering.fb.com) | Not only DevOps
 
 ## Articles
 
@@ -318,6 +325,11 @@ Name | Description
 - [ ] Operations Data
   - [ ] Salesforce
   - [ ] Zuora
+
+## Other DevOps Projects
+
+<p align="center"><a href="https://github.com/bregman-arie/howtheydevops"><img src="images/how_they_devops.png"/></a></p>
+<p align="center"><a href="https://github.com/bregman-arie/devops-exercises"><img src="images/devops_exercises.png"/></a></p>
 
 ## Credits
 
