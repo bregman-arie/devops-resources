@@ -52,14 +52,22 @@
 <!-- ALL-TOPICS-LIST:END -->
 
 
+* [DevOps Roadmap](#devops-roadmap)
+* [Alternative Roadmaps](#alternative-roadmaps)
+* [Learn About DevOps](#learn-about-devops)
+* [Learn Git](#learn-git)
+* [Programming](#programming)
+* [Operating Systems](#operating-systems)
+* [DevOps Toolchain](#devops-toolchain)
+
+
 <a name="devops"></a>
 ## DevOps
 
-### How to learn and practice DevoOps
+### DevOps Roadmap
 
   * The following path is opinionated. You can find alternative paths in the next section.
-  * Remember, DevOps is more a culture rather than a list of tools or platforms. The reason you learn concepts and tools is to be comfortable enough to practice and apply that culture
-  * Learn what DevOps is all about
+  * Remember, DevOps is more a culture rather than a list of tools or platforms. The reason you learn concepts and tools is to be comfortable enough to practice and apply that culture.
 
 Let's start with the must
 
@@ -68,9 +76,9 @@ Topic | What to learn | Alternatives | Description
 Version Control | [Git](#Learn-git) | None | Version Control is used everywhere and Git is the leading version control technology
 Programming | At least one [programming language](#programming) |  | Anyone who practice DevOps should know programming to some extent
 Operating System | [Linux](#operating-systems) | Windows | Operating Systems is another must when it comes to DevOps
-Protocols | DHCP, UDP, TCP, SSH | Not as an alternative, you can simply learn later: NFS, NTP | Learn how these protocols work and what they are used for
+Protocols | DHCP, UDP, TCP, HTTP, SSH | Not as an alternative, you can simply learn later: NFS, NTP, FTP | Learn how these protocols work and what they are used for
 Applications | Web Server, Load Balancer, Cache, Database | | Learn how they work and try out some implementations (e.g. MySQL for databases and httpd for web servers)
-System Design | Availability, Reliability, Scalability, Performance | Learn how to design infrastructure and systems
+[System Design](https://github.com/bregman-arie/system-design-notebook) | Availability, Reliability, Scalability, Performance | Learn how to design infrastructure and systems
 
 What's next? (Note: the order isn't important)
 
@@ -83,7 +91,7 @@ CI/CD | Jenkins, GitHub Actions | Gitlab CI, Circle CI, Argo CD |
 Logging and Dashboards | Elastic Stack (Elasticsearch and Logstash), Report Portal | Graylog, Splunk |
 Monitoring | Prometheus and Grafana | Nagios, Datadog | 
 
-### Alternative Roadmaps and Paths
+### Alternative Roadmaps
 
 Name | Description
 :------|:------:
@@ -147,6 +155,12 @@ Once you are familiar with the commands and feel comfortable enough to keep deep
   * Processes
   * Kernel
   * Virtulization
+
+### System Design
+
+System Design can be a complex topic. For that reason, I've created a separate repository for you to learn it properly.
+
+<p align="center"><a href="https://github.com/bregman-arie/system-design-notebook"><img src="images/system_design_notebook.png"/></a></p>
 
 ### Tools, Apps & Services
 
@@ -247,28 +261,32 @@ Name | Description
 [The 12 Factor App](https://12factor.net) | must-read in my opinion 
 [A distributed Systems Reading List](https://dancres.github.io/Pages/?fbclid=IwAR2gapLU03iaxH4NDotc0LD_GiXOkyByfMT3iwufofUOEfCKEVwmezE3vCw)
 
-## Tooling and Systems
+## DevOps Toolchain
 
 - [ ] CI/CD
-  - [ ] Jenkins (Managed & on-premise)
+  - [ ] Jenkins (Managed & on-premise, Containers supported, Plugins)
   - [ ] GitHub Actions (Hosted service)
   - [ ] Travis (Hosted service)
   - [ ] CircleCI (Hosted service)
   - [ ] GitLab CI (Hosted service and on-premise)
   - [ ] [BuildKite](https://buildkite.com) (Hosted)
   - [ ] [Zuul](https://zuul-ci.org/docs/zuul) (Hosted and on-premise)
-  - [ ] [Drone](drone.io)
+  - [ ] [Drone](https://www.drone.io)
+  - [ ] [Tekton](https://cloud.google.com/tekton)
+  - [ ] [Argo CD](https://argoproj.github.io/argo-cd)
 
-- [ ] Provision
-  - [ ] Terraform
-  - [ ] CloudFormation (AWS only)
-  - [ ] Pulumi
+Note: "Provisioning" tools can be used to perform configuration management to some extent. The same applies for configuration management tools, which can be used for pprovisioning.
 
-- [ ] Configuration Management
-  - [ ] Ansible
-  - [ ] Puppet
-  - [ ] Chef
-  - [ ] Salt
+- [ ] Provisioning
+  - [ ] Terraform (Open Source)
+  - [ ] CloudFormation (Available only on AWS)
+  - [ ] Pulumi (Open Source)
+
+- [ ] Configuration Management (all Open Source)
+  - [ ] Ansible (Agentless, Mutable Infrastructure, Procedural)
+  - [ ] Puppet (Agent, Mutable Infrastructure, Procedural)
+  - [ ] Chef (Mutable Infrastructure)
+  - [ ] Salt (Mutable Infrastructure)
 
 - [ ] Images
   - [ ] [diskimage-builder](https://github.com/openstack/diskimage-builder)
@@ -283,11 +301,15 @@ Name | Description
 - [ ] Monitoring
   - [ ] [Prometheus](https://prometheus.io)
   - [ ] Nagios
-  - [ ] [statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
+  - [ ] Datadog
+  - [ ] Zabbix
+  - [ ] Monit
+  - [ ] [Statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
 
 - [ ] Log Management
   - [ ] Logstash
   - [ ] Graylog
+  - [ ] Papertrail
   - [ ] Fluentd
   - [ ] [Splunk](https://www.splunk.com)
   - [ ] [SumoLogic](https://www.sumologic.com)
