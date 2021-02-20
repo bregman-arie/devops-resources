@@ -273,6 +273,7 @@ Name | Description
   - [ ] Travis (Hosted service)
   - [ ] CircleCI (Hosted service)
   - [ ] GitLab CI (Hosted service and on-premise)
+  - [ ] Bamboo (Managed service and on-premise)
   - [ ] [BuildKite](https://buildkite.com) (Hosted)
   - [ ] [Zuul](https://zuul-ci.org/docs/zuul) (Hosted and on-premise)
   - [ ] [Drone](https://www.drone.io)
@@ -290,7 +291,7 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Ansible (Agentless, Mutable Infrastructure, Procedural)
   - [ ] Puppet (Agent, Mutable Infrastructure, Procedural)
   - [ ] Chef (Mutable Infrastructure)
-  - [ ] Salt (Mutable Infrastructure)
+  - [ ] Saltstack (Mutable Infrastructure)
 
 - [ ] Images
   - [ ] [diskimage-builder](https://github.com/openstack/diskimage-builder)
@@ -332,6 +333,10 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] PullPanda - A collection of Tools such as reminder & analytics
   - [ ] Review Board
 
+- [ ] Issue Tracking
+  - [ ] Jira
+  - [ ] Bugzilla
+
 - [ ] Code coverage
   - [ ] Cobertura
   - [ ] Clover
@@ -352,10 +357,11 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Salesforce
   - [ ] Zuora
 
-## Other DevOps Projects
+## More Infra & DevOps projects
 
 <p align="center"><a href="https://github.com/bregman-arie/howtheydevops"><img src="images/how_they_devops.png"/></a></p>
 <p align="center"><a href="https://github.com/bregman-arie/devops-exercises"><img src="images/devops_exercises.png"/></a></p>
+<p align="center"><a href="https://github.com/bregman-arie/infraverse"><img src="images/infraverse.png"/></a></p>
 
 ## Credits
 
