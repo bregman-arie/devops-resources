@@ -22,12 +22,6 @@ Name | Description
 [Khan Academy](https://www.khanacademy.org) | Python courses and lessons
 [Python resources for everybody](https://learnbyexample.github.io/py_resources) | Python written resources
 
-## Resources
-
-Name | Description
-:------|:------:
-[pippython](https://pippython.com) | I don't know what it is exactly but it's great
-
 ## Modules
 
 Name | Description

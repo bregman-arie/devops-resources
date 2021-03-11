@@ -7,6 +7,12 @@ Name | Description
 [Guru99 MongoDB Tutorial](https://www.guru99.com/what-is-mongodb.html) | MongoDB Tutorial
 [Tutorialspoint Tutorial](https://www.tutorialspoint.com/mongodb) | MongoDB Tutorial
 
+## Authentication and Authorization
+
+Name | Description
+:------|:------:
+[Tutorial User Administration Without You Integrating LDAP with MongoDB](https://www.youtube.com/watch?v=ky8OKWPCZXs&ab_channel=MongoDB) | Full explanation on Mongo and LDAP integration
+
 ## Cheat Sheet
 
 ### Mongo Shell

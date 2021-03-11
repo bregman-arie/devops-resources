@@ -59,40 +59,12 @@ Name | Comments
 
 ### Minikube
 
-Minikube version
-
-```
-minikube version
-```
-
-Start cluster
-
-```
-minikube start
-```
-
-Delete cluster
-
-```
-minikube delete
-```
+* Minikube version: `minikube version`
+* Start cluster: `minikube start`
+* Delete cluster: `minikube delete`
 
 ### Kubernetes
 
-Cluster version
-
-```
-kubectl version
-```
-
-Cluster information
-
-```
-kubectl cluster-info
-```
-
-List nodes
-
-```
-kubectl get nodes
-```
+* Cluster version: `kubectl version`
+* Cluster information: `kubectl cluster-info`
+* List nodes: `kubectl get nodes`
