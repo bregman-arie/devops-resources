@@ -160,6 +160,12 @@ Once you are familiar with the commands and feel comfortable enough to keep deep
   * Kernel
   * Virtulization
 
+#### Linux Master Application
+
+A completely free application for testing your knowledge on Linux
+
+<a href="https://play.google.com/store/apps/details?id=com.codingshell.linuxmaster"><img src="images/linux_master.jpeg"/></a>
+
 ### System Design
 
 System Design can be a complex topic. For that reason, I've created a separate repository for you to learn it properly.
