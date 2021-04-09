@@ -6,6 +6,7 @@ Name | Comments
 :------ |:--------:
 [kubernetes.io](https://kubernetes.io) | Official Kubernetes site by Google
 [Kubernetes 101](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16) | Great beginner article on Kubernetes fundamental concepts
+[Kubernetes Tutorial for Beginners](https://www.youtube.com/watch?v=X48VuDVv0do&ab_channel=TechWorldwithNana) | Full video of 4 hours on Kubernetes (2020)
 [Learning Path: Kubernetes](https://developer.ibm.com/series/kubernetes-learning-path/) | From basic to advanced Kubernetes learning series
 [Kubernetes 101 - Concepts and Why It Matters](https://www.magalix.com/blog/kubernetes-101-concepts-and-why-it-matters?fbclid=IwAR10FZlZ9Pw5c94tGRlgsCrVZTa1bSV2mbxEP8p4cXZ5T-k4VXF-3OUKkFo) |
 [kubernetes-workshop](https://github.com/eon01/kubernetes-workshop) |
@@ -40,6 +41,7 @@ Name | Comments
 :------ |:--------:
 [The Illustrated Children's Guide to Kubernetes](https://www.youtube.com/watch?v=4ht22ReBjno) |
 [Learn Kubernetes](https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0) | Over 50 Kubernetes videos
+[Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=GhZi4DxaxxE&ab_channel=KodeKloud) | 2019
 
 ## Tools & Projects
 
@@ -54,6 +56,7 @@ Name | Comments
 Name | Comments
 :------ |:--------:
 [CKAD-Practice-Questions](https://github.com/bbachi/CKAD-Practice-Questions) | "a consolidated list for CKAD practice questions"
+[CKAD Prep Exam Video](https://www.youtube.com/watch?v=TPXwVmvzlV4&ab_channel=TheFrontOpsGuy) | A video of doing a CKAD prep exam (2020)
 
 ## CheatSheet
 

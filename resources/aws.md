@@ -14,6 +14,14 @@ Name | Comments
 :------|:------:
 [The Hitchhiker’s Guide to Redshift — part 1: With great power come performance issues](https://blog.atomdata.io/the-hitchhikers-guide-to-redshift-part-1-with-great-power-comes-performance-issues-748d293e0b18) | 
 
+## IaC
+
+Name | Comments
+:------|:------:
+[terraformer](https://github.com/GoogleCloudPlatform/terraformer) | "A CLI tool that generates tf/json and tfstate files based on existing infrastructure (reverse Terraform)."
+[terraforming](https://github.com/dtan4/terraforming) | "Export existing AWS resources to Terraform style (tf, tfstate)"
+
+
 ## Videos
 
 Name | Comments
