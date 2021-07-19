@@ -18,7 +18,7 @@ Some best practices for you to learn and use in your scripts
 When a script written in Bash fails to run a certain command it will keep
 running and will execute all other commands mentioned after the command which failed.
 Most of the time we would actually want the opposite to happen.
-In order to make Bash exist when a specific command fails, use 'set -e' in your script.
+In order to make Bash exit when a specific command fails, use 'set -e' in your script.
 
 ```
 #!/usr/bin/env bash
