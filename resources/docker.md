@@ -22,4 +22,5 @@ Name | Comments
 * Stop and remove all containers: `docker container stop $(docker container ls -aq)`
 * Run container with bash shell: `docker run -ti ubuntu:latest bash`
 * Check how many containers are running: `docker info`
+* Check the docker images on your system: `docker images`
 * Cleanup everything: `docker system prune -a -f`
