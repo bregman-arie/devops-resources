@@ -19,7 +19,7 @@
     <td align="center"><a href="resources/network.md"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a></td>
     <td align="center"><a href="resources/linux.md"><img src="images/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a></td>
     <td align="center"><a href="resources/terraform.md"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
-    <td align="center"><a href="resources/docker.md"><img src="images/docker.png" width="75px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a></td>
+    <td align="center"><a href="resources/containers.md"><img src="images/container.png" width="75px;" height="75px;" alt="Containers"/><br /><b>Containers</b></a></td>
   </tr>
   <tr>
     <td align="center"><a href="resources/coding.md"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a></td>
@@ -194,11 +194,19 @@ Name | Description
 ## Community
 
 Another great way to learn is to learn from the experience of others. For that, the are some excellent DevOps communities.
+
 Name | Comments
 :------|:------:
 [Reddit DevOps](https://www.reddit.com/r/devops) | Reddit DevOps Community 
 [Linkedin DevOps](https://www.linkedin.com/groups/2825397) | Linkedin DevOps Community
 [DevOps Bits](https://www.facebook.com/groups/538897960007080) | Facebook DevOps group. Disclosure: I started it :)
+
+## Conferences
+
+Name | Comments
+:------|:------:
+[DevOpsDays](https://devopsdays.org) | DevOps Conferences around the world
+[Velocity](https://conferences.oreilly.com/velocity) | Oracle's DevOps conference
 
 ## Books
 
@@ -253,9 +261,9 @@ Name | Comments
 
 Name | Comments
 :------|:------:
-[DevOps Exercises](https://github.com/bregman-arie/devops-exercises) | Personally, I think it's pretty decent :)
 [System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
 kdn251 | [Interviews](https://github.com/kdn251/interviews) | 
+[DevOps Exercises](https://github.com/bregman-arie/devops-exercises) | By topic, DevOps related questions and exercises
 
 ## Misc
 
@@ -271,7 +279,7 @@ Name | Description
 [The 12 Factor App](https://12factor.net) | must-read in my opinion 
 [A distributed Systems Reading List](https://dancres.github.io/Pages/?fbclid=IwAR2gapLU03iaxH4NDotc0LD_GiXOkyByfMT3iwufofUOEfCKEVwmezE3vCw)
 
-## DevOps Toolchain
+## DevOps Tooling
 
 - [ ] CI/CD
   - [ ] Jenkins (Managed & on-premise, Containers supported, Plugins)

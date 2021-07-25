@@ -25,6 +25,7 @@ Name | Description
 * Show all the document in a collection: `db.COLLECTION_NAME.find({})`
 * Count the number of documents in a collection: `db.COLLECTION_NAME.count()`
 * Remove all the documents from a collection: `db.COLLECTION_NAME.remove({})`
+* Remove field from all documents: `db.COLLECTION_NAME.update({}, {$unset: { FIELD_NAME: ""}}, {multi:true})` 
 * Rename field: ```db.hosts.updateMany( {}, { $rename: { "CURRENT_FIELD_NAME": "NEW_FIELD_NAME" } } )```
 
 #### Mongoexport 

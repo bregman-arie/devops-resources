@@ -1,51 +1,36 @@
-## Tools
+## Containers
+
+### Articles
+
+Name | Comments
+:------ |:--------:
+[Docker CheatSheet](https://cheatsheet.dennyzhang.com/cheatsheet-docker-a4) |
+[Everything you need to know about containers](https://medium.com/faun/everything-you-need-to-know-about-containers-7655badb4307) |
+[A container networking overview](https://jvns.ca/blog/2016/12/22/container-networking) |
+[My Docker Cheat Sheet](https://medium.com/statuscode/dockercheatsheet-9730ce03630d) |
+[Docker Networking Deep Dive](http://100daysofdevops.com/21-days-of-docker-day-19-docker-networking-deep-dive/?fbclid=IwAR19KJWwhZjulbn7JNbBYLFxKFf-x0v25TSc-_bOJ6YieUND4A6UZcBSUhA) |
+
+#### Dockerfile
+
+
+
+### Projects
+
+Name | Comments
+:------ |:--------:
+[awesome-docker](https://github.com/veggiemonk/awesome-docker) | 
+
+
+#### Cheatsheet
+
+* Stop and remove all containers: `docker container stop $(docker container ls -aq)`
+* Run container with bash shell: `docker run -ti ubuntu:latest bash`
+* Check how many containers are running: `docker info`
+* Cleanup everything: `docker system prune -a -f`
+
+### Tools
 
 Name | Description
 :------|:------:
 [dive](https://github.com/wagoodman/dive) | "A tool for exploring a docker image, layer content, ..."
 [trivy](https://github.com/aquasecurity/trivy) | "A Simple and Comprehensive Vulnerability Scanner for Containers and other Artifacts, Suitable for CI."
-
-## Docker - Resources
-
-Name | Description
-:------|:------:
-[Docker Compose](https://docs.docker.com/compose/overview) | Multi-container applications
-
-## Docker - Checklist
-
-- [ ] **Images**
-  - [ ] tag
-  - [ ] `docker images` command
-
-- [ ] **Running containers**
-  - [ ] `docker run` command
-  - [ ] `-ti` arguments for interactive terminal
-
-- [ ] **List containers**
-  - [ ] `docker ps` command
-  - [ ] `-a` argument for stopped
-  - [ ] `-l` argument for last stopped
-
-- [ ] **Commit changes**
-  - [ ] `docker commit` command
-  - [ ] `docker tag` command
-
-## Nomad - Resources
-
-Name | Description
-:------|:------:
-[Official Introduction](https://www.nomadproject.io/intro/index.html) | Great place for beginners to start learning about Nomad
-
-## Nomad - Commands
-
-Run Nomad agent in development mode (don't use in production):
-
-     sudo nomad agent -dev
-
-See registered Nomad cluster nodes:
-
-     nomad node status
-
-View members of the gossip ring (used to connect all instances together):
-
-     nomad server members

@@ -58,13 +58,17 @@ Name | Comments
 [CKAD-Practice-Questions](https://github.com/bbachi/CKAD-Practice-Questions) | "a consolidated list for CKAD practice questions"
 [CKAD Prep Exam Video](https://www.youtube.com/watch?v=TPXwVmvzlV4&ab_channel=TheFrontOpsGuy) | A video of doing a CKAD prep exam (2020)
 
-## CheatSheet
+### CheatSheet
 
-### Minikube
+#### Minikube
 
 * Minikube version: `minikube version`
 * Start cluster: `minikube start`
 * Delete cluster: `minikube delete`
+
+#### Service Accounts
+
+* List service accounts: `kubectl get serviceaccounts`
 
 ### Kubernetes
 

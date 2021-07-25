@@ -16,11 +16,18 @@ Name | Comments
 :------|:------:
 [Linux Filesystem Explained](https://www.linux.com/training-tutorials/linux-filesystem-explained) | NSIA
 
-## Linux Deep Dive - Articles
+## Linux Internals - Articles
 
 Name | Comments
 :------|:------:
 [How are Unix pipes implemented?](https://toroid.org/unix-pipe-implementation) | 
+
+## Linux Internals - Videos
+
+Name | Comments
+:------|:------:
+[Understanding fork() system call for new process creation
+](https://www.youtube.com/watch?v=PwxTbksJ2fo) | 
 
 ## Learn Linux - Videos
 
