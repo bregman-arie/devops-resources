@@ -74,27 +74,28 @@ The must list
 
 Topic | What to learn | Alternatives | Description
 :------|:------|:------|:------:
-Version Control | [Git](#Learn-git) | None | Version Control is used everywhere and Git is the leading version control technology
+Version Control | [Git](#Learn-git) | - | Version Control is used everywhere and Git is the leading version control technology
 Programming | At least one [programming language](#programming) | None. Don't settle for learning only shell scripting  | Anyone who practice DevOps should know programming to some extent
-Operating System | [Linux](#operating-systems) | Windows? | Operating Systems is another must when it comes to DevOps
+Operating System | [Linux](#operating-systems) | Other distribution of Linux :D | Operating Systems is another must when it comes to DevOps
 Protocols | DHCP, UDP, TCP, HTTP, SSH | Not as an alternative, you can simply learn later: NFS, NTP, FTP | Learn how these protocols work and what they are used for
 Applications | Web Server, Load Balancer, Cache, Database | | Learn how they work and try out some implementations (e.g. MySQL for databases and httpd for web servers)
 [System Design](https://github.com/bregman-arie/system-design-notebook) | Availability, Reliability, Scalability, Performance | Learn how to design infrastructure and systems
 
-The second must list :) Seriously though, don't try to master everything in this list and start with something that you are interested in. The order has no meaning in this case.
+The second must list :)
+Seriously though, don't try to master everything in this list and start with something that you are interested in. The order has no meaning in this case.
 
 Topic | What to learn | Alternatives | Description
 :------|:------|:------|:------:
 Configuration Management and IaC | Ansible and Terraform | CM: Chef, Puppet and Salt. IaC: Pulumi and CloudFormation |
-Cloud | Azure, AWS, GCP | OpenStack |
+Cloud | Azure, AWS, GCP | - |
 Containers | Podman and Kubernetes| Docker instead of Podman. Nomad instead of Kubernetes | 
 CI/CD | Jenkins, GitHub Actions | Gitlab CI, Circle CI, Argo CD |
-Logging and Dashboards | Elastic Stack (Elasticsearch and Logstash), Report Portal | Graylog, Splunk |
-Monitoring | Prometheus and Grafana | Nagios, Datadog | 
+Logging and Dashboards | Elastic Stack, Report Portal, Grafana | Graylog, Splunk |
+Monitoring | Prometheus | Nagios, Datadog | 
 
 ### Alternative Roadmaps
 
-There are other DevOps roadmaps and learn plans out there. If you feel the one above is little bit too much, maybe you'll find these better.
+There are other DevOps roadmaps and learning plans out there. If you feel the one above is little bit too much or just want to look at other options, maybe you'll find the following useful
 
 Name | Description
 :------|:------:
@@ -140,11 +141,12 @@ A better approach might be to actually write some DevOps related scripts or proj
 
   * Write a script that gets a number of instances and a name of a platform (AWS, local, Azure, ...) as parameters and provisions those instances on the chosen platform
   * Write a script to parse logs and extract some specific information you are interested in
+  * Write a script that extracts information from some website using web scraping libraries
 
 ### Operating Systems
 
-Deep dive into operation system internals. I would say choose Linux but I must admit I'm biased.<br>
-If you do choose Linux eventually, here is a list of resources that will help you learn Linux.<br>
+Deep dive into operation system internals. Linux should be your first choice.
+Here is a list of resources that will help you learn Linux.<br>
 Also, don't waste a second on picking the right distribution. For learning OS concepts and internals, any distribution would work fine.
 
 Name | Comments
@@ -172,7 +174,7 @@ System Design can be a complex topic. For that reason, I've created a separate r
 
 <p align="center"><a href="https://github.com/bregman-arie/system-design-notebook"><img src="images/system_design_notebook.png"/></a></p>
 
-### Tools, Apps & Services
+### Tooling, Apps & Services
 
 Name | Description
 :------|:------:
@@ -182,7 +184,7 @@ Name | Description
 [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io) | CNCF's recommended path through the cloud native landscape
 [DevOpsBookmarks](https://www.devopsbookmarks.org) | To discover tools in the devops landscape.
 
-## Practice and learning sites
+## Interactive practice and learning sites
 
 Learning by doing proved to be a very effective way to learn new things. If you are at a point where you don't feel comfortable enough to do it by yourself and you look for some guidance, the following sites might assist you
 

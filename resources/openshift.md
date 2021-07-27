@@ -10,16 +10,20 @@ Name | Comments
 
 * Login: `oc login -u my_user -p my_password`
 
-#### Project
+#### Projects
 
 * Highlevel overview of the project: `oc status`
 * Create a new project: `oc new-project my_project`
 * List projects: `oc get projects`
 
-#### User
+#### Accounts
 
 * The username of the user currently logged in: `oc whoami`
+* Add to user "user1" the ability to view the project "wonderland": `oc adm policy add-role-to-user view user1 -n wonderland`
+* Get a list of all context whihc have ever been created: `oc config get-contexts`
+* Check what is the current context: `oc whoami --show-context`
 * The OpenShift server currently used: `oc whoami --show-server`
+* Get the list of all the OpenShift clusters you have ever logged into: `oc config get-clusters`
 
 #### Pods
 
