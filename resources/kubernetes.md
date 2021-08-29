@@ -70,8 +70,36 @@ Name | Comments
 
 * List service accounts: `kubectl get serviceaccounts`
 
-### Kubernetes
+### Cluster
 
 * Cluster version: `kubectl version`
 * Cluster information: `kubectl cluster-info`
 * List nodes: `kubectl get nodes`
+
+### Pods
+
+* List of Pods in current namespace: `kubectl get po`
+* List of Pods in all amespaces: `kubectl get po --all-namespaces`
+* Get containers names: `kubectl get po <POD_NAME> -o jsonpath="{.spec.containers[*].name}"`
+
+* Create a Pod from file: `kubectl create -f pod_definition.yaml`
+* Delete a Pod using a YAML definition: `kubectl delete -f pod_definition.yaml`
+* Delete a Pod using the Pod name: `kubectl delete <POD_NAME>`
+* Delete a Pod instantly: `kubectl delete <POD_NAME> --grace-period=0 --force`
+
+* Execute commands inside a container: `kubectl exec -it -c <CONTAINER_NAME> <POD_NAME> ls`
+
+* Display logs of a Pod: `kubectl logs <POD_NAME>`
+* Display logs of a specific container in a Pod: `kubectl logs <POD_NAME> -c <CONTAINER_NAME>`
+
+### User
+
+* Creating a new user
+
+```
+openssl genrsa -out user.key 2048 # create key
+openssl req key user.key user.csr -subj "/CN=user /O=sgroup" # create csr
+openssl x509 -req -in user.csr -CA ca.crt -CAkey ca.key -CAcreateseral -out user.crt -days 365
+kubectl config set-credentials myuser --client-certificates=$PWD/user.crt --client-key=$PWD/user.key
+kubectl config set-context myuser-context --cluster=k8s-cluster --user=user
+```

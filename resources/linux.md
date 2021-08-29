@@ -83,7 +83,10 @@ sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
 
 #### Tmux
 
-* Join session `tmux a`
+* Join a session `tmux a`
+* Attach to existing session: `tmux attach -t <SESSION_NAME>`
+* New tab: `ctrl + B + c`
+* New session called "bla": `tmux new -s bla`
 
 #### Virsh
 

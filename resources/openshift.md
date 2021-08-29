@@ -19,7 +19,10 @@ Name | Comments
 #### Accounts
 
 * The username of the user currently logged in: `oc whoami`
+
 * Add to user "user1" the ability to view the project "wonderland": `oc adm policy add-role-to-user view user1 -n wonderland`
+* Add a user as admin to the project "wonderland": `oc adm policy add-role-to-user admin some_user -n wonderland`
+
 * Get a list of all context whihc have ever been created: `oc config get-contexts`
 * Check what is the current context: `oc whoami --show-context`
 * The OpenShift server currently used: `oc whoami --show-server`
