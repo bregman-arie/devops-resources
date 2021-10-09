@@ -93,6 +93,12 @@ sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
 * Destroy: `virsh destroy <vm_name>`
 * Shutdown: `virsh shutdown <vm_name>`
 
+#### Date
+
+* year: `date +”%Y”`
+* month: `date +”%m”`
+* day: `date +”%a”`
+
 ## Checklist
 
 Check your Linux educational progress with the following list:

@@ -374,6 +374,11 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Salesforce
   - [ ] Zuora
 
+- [ ] Kubernetes
+  - [ ] [confTest](https://www.conftest.dev)
+  - [ ] [datree](https://www.datree.io)
+  - [ ] [gatekeeper](https://github.com/open-policy-agent/gatekeeper)
+
 ## More Infra & DevOps projects
 
 <p align="center"><a href="https://github.com/bregman-arie/howtheydevops"><img src="images/how_they_devops.png"/></a></p>

@@ -1,6 +1,6 @@
-# Kubernetes
+## Kubernetes
 
-## Getting started with Kubernetes
+### Getting started with Kubernetes
 
 Name | Comments
 :------ |:--------:
@@ -13,45 +13,45 @@ Name | Comments
 [Kubernetes Deployment Tutorial](https://devopscube.com/kubernetes-deployment-tutorial) |
 [Katacoda](https://www.katacoda.com/courses/kubernetes) | Learn Kubernetes using Interactive Browser-Based Scenarios
 
+### Kubernetes - Tooling
 
-## Kubernetes Deep Dive
+Name | Comments
+:------ |:--------:
+[confTest](https://www.conftest.dev) | Used in the development phase
+[datree](https://www.datree.io) | Used in the development phase
+[gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Used in the production
+
+### Kubernetes - Deep Dive
 
 Name | Comments
 :------ |:--------:
 [Kubernetes Networking](https://github.com/nleiva/kubernetes-networking-links) | Kubernetes Networking Resources
 [Liveness and Readiness Probes](https://www.openshift.com/blog/liveness-and-readiness-probes) |
+[Kubernetes Troubleshooting Visual Guide](https://learnk8s.io/troubleshooting-deployments?fbclid=IwAR2k6ziNfhBe--CKoYP6qh5_lHYM7_kruDjc1EcyrpgyV_tKJzQlwiuA_Jk) |
 
-## Kubernetes Deep Dive
+### Kubernetes - Security
 
 Name | Comments
 :------ |:--------:
-[Kubernetes Troubleshooting Visual Guide](https://learnk8s.io/troubleshooting-deployments?fbclid=IwAR2k6ziNfhBe--CKoYP6qh5_lHYM7_kruDjc1EcyrpgyV_tKJzQlwiuA_Jk) |
+[Kubescape](https://github.com/armosec/kubescape) | "Kubescape is the first tool for testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by NSA and CISA"
 
-## Misc
+### Kubernetes - Misc
 
 Name | Comments
 :------ |:--------:
 [Kubernetes CheatSheet](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4) |
 [OperatiorHub.io](https://www.operatorhub.io) | Kubernetes native applications
 [YAML templates](https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates) |
+[Kubesort](https://github.com/AATHITH/kubesort) | "kubesort helps you sort the results from kubectl get in an easy way"
+[IngressMonitorController](https://github.com/stakater/IngressMonitorController) | "A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices"
 
-## Videos
-
-Name | Comments
-:------ |:--------:
-[The Illustrated Children's Guide to Kubernetes](https://www.youtube.com/watch?v=4ht22ReBjno) |
-[Learn Kubernetes](https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0) | Over 50 Kubernetes videos
-[Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=GhZi4DxaxxE&ab_channel=KodeKloud) | 2019
-
-## Tools & Projects
+### Kubernetes - SRE
 
 Name | Comments
 :------ |:--------:
 [KubeInvaders](https://github.com/lucky-sideburn/KubeInvaders) | "Chaos Engineering Tool for Kubernetes and Openshift"
-[Kubesort](https://github.com/AATHITH/kubesort) | "kubesort helps you sort the results from kubectl get in an easy way"
-[IngressMonitorController](https://github.com/stakater/IngressMonitorController) | "A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices"
 
-## Certificates
+### Kubernetes - Certificates
 
 Name | Comments
 :------ |:--------:
@@ -65,6 +65,10 @@ Name | Comments
 * Minikube version: `minikube version`
 * Start cluster: `minikube start`
 * Delete cluster: `minikube delete`
+
+#### Common Kubectl Operations
+
+* Create objects defined in a YAML: kubectl apply -f rs.yaml
 
 #### Service Accounts
 
@@ -103,3 +107,7 @@ openssl x509 -req -in user.csr -CA ca.crt -CAkey ca.key -CAcreateseral -out user
 kubectl config set-credentials myuser --client-certificates=$PWD/user.crt --client-key=$PWD/user.key
 kubectl config set-context myuser-context --cluster=k8s-cluster --user=user
 ```
+
+### Service
+
+* Expose a ReplicaSet: `kubectl expose rs REPLICASET_NAME --name=SERVICE_NAME --target-port=PORT --type=NodePort/SOME_OTHER_SERVICE_TYPE`

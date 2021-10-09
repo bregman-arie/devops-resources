@@ -52,11 +52,25 @@ Name | Description
 [Django](https://www.djangoproject.com)  | Web framework with batteries included
 [Mypy](http://mypy-lang.org) | Static type checker
 
-## Cheat Sheet
+### Cheat Sheet
+
+#### YAML
 
 * Read YAML
 ```
 with open(r'/file/path') as file:
+```
+
+#### Files
+
+* Read remote file(s)
+
+```
+from fabric import Connection
+
+with Connection(host) as conn:
+    with conn.sftp().open(path) as stream:
+    ...
 ```
 
 ## Python Checklist
