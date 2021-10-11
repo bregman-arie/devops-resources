@@ -9,6 +9,7 @@ Name | Comments
 [Linux Journey](https://linuxjourney.com) | Written guides + exercises + quiz
 [Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | Written articles/lessons
 [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
+[NixCraft](https://www.cyberciti.biz/) | Succinct guides
 
 ## Learn Linux - Articles
 
