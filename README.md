@@ -316,6 +316,7 @@ Note: "Provisioning" tools can be used to perform configuration management to so
 
 - [ ] Cloud
   - [ ] AWS
+    - [ ] [Cloudcraft](https://www.cloudcraft.co) - Automated AWS diagram mapping of your cloud resources
   - [ ] Azure
   - [ ] GCP
   - [ ] OpenStack
@@ -374,10 +375,10 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Salesforce
   - [ ] Zuora
 
-- [ ] Kubernetes
-  - [ ] [confTest](https://www.conftest.dev)
-  - [ ] [datree](https://www.datree.io)
-  - [ ] [gatekeeper](https://github.com/open-policy-agent/gatekeeper)
+- [ ] Containers Orchestration
+  - [ ] Kubernetes
+  - [ ] OpenShift
+  - [ ] Nomad
 
 ## More Infra & DevOps projects
 

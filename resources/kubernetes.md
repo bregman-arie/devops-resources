@@ -20,6 +20,7 @@ Name | Comments
 [confTest](https://www.conftest.dev) | Used in the development phase
 [datree](https://www.datree.io) | Used in the development phase
 [gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Used in the production
+[telepresence](https://www.telepresence.io) | "FAST, LOCAL DEVELOPMENT FOR KUBERNETES AND OPENSHIFT MICROSERVICES"
 
 ### Kubernetes - Deep Dive
 
@@ -95,6 +96,16 @@ Name | Comments
 
 * Display logs of a Pod: `kubectl logs <POD_NAME>`
 * Display logs of a specific container in a Pod: `kubectl logs <POD_NAME> -c <CONTAINER_NAME>`
+
+* Get Pod name based on specific labels
+
+```
+POD_NAME=$(kubectl get pod \
+--no-headers \
+-o=custom-columns=NAME:.metadata.name \
+-l type=api,service=some-service \
+| tail -1)
+```
 
 ### User
 
