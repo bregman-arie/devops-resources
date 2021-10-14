@@ -317,7 +317,7 @@ Note: "Provisioning" tools can be used to perform configuration management to so
 - [ ] Cloud
   - [ ] AWS
     - [ ] [Cloudcraft](https://www.cloudcraft.co) - Automated AWS diagram mapping of your cloud resources.
-    - [ ] [nOps](https://www.nops.io/devops/) - a CloudOps platform for fast-moving DevOps teams helping them continuously monitor, analyze, and manage provisioned cloud workloads. Try it out with [a FREE 30-day trial](https://www.nops.io/free-trial-request/).
+    - [ ] [nOps](https://www.nops.io/devops/) - a CloudOps platform for fast-moving DevOps teams helping them continuously monitor, analyze, and manage provisioned cloud workloads. **Not Free.**  There's a [FREE 30-day trial though](https://www.nops.io/free-trial-request/).
   - [ ] Azure
   - [ ] GCP
   - [ ] OpenStack
