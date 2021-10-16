@@ -19,7 +19,6 @@
     <td align="center"><a href="resources/network.md"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a></td>
     <td align="center"><a href="resources/linux.md"><img src="images/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a></td>
     <td align="center"><a href="resources/terraform.md"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
-    <td align="center"><a href="resources/containers.md"><img src="images/containers.png" width="75px;" height="75px;" alt="Containers"/><br /><b>Containers</b></a></td>
   </tr>
   <tr>
     <td align="center"><a href="resources/coding.md"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a></td>
@@ -29,7 +28,6 @@
     <td align="center"><a href="resources/kubernetes.md"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
     <td align="center"><a href="resources/prometheus.md"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
     <td align="center"><a href="resources/mongo.md"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
-    <td align="center"><a href="resources/sql.md"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
   </tr>
   <tr>
     <td align="center"><a href="resources/cloud.md"><img src="images/cloud.png" width="110px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
@@ -39,11 +37,13 @@
     <td align="center"><a href="resources/openstack.md"><img src="images/openstack.png" width="75px;" height="75px;" alt="openstack"/><br /><b>OpenStack</b></a></td>
     <td align="center"><a href="resources/security.md"><img src="images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>Security</b></a></td>
     <td align="center"><a href="resources/puppet.md"><img src="images/puppet.png" width="75px;" height="75px;" alt="puppet"/><br /><b>Puppet</b></a></td>
-    <td align="center"><a href="resources/openshift.md"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
   </tr>
   <tr>
     <td align="center"><a href="resources/elk.md"><img src="images/elk.png" width="75px;" height="75px;" alt="ELK"/><br /><b>ELK</b></a></td>
     <td align="center"><a href="resources/dataops.md"><img src="images/dataops.png" width="75px;" height="75px;" alt="ELK"/><br /><b>DataOps</b></a></td>
+    <td align="center"><a href="resources/openshift.md"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
+    <td align="center"><a href="resources/sql.md"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
+    <td align="center"><a href="resources/containers.md"><img src="images/containers.png" width="75px;" height="75px;" alt="Containers"/><br /><b>Containers</b></a></td>
   </tr>
 </table>
 </center>
@@ -316,8 +316,6 @@ Note: "Provisioning" tools can be used to perform configuration management to so
 
 - [ ] Cloud
   - [ ] AWS
-    - [ ] [Cloudcraft](https://www.cloudcraft.co) - Automated AWS diagram mapping of your cloud resources.
-    - [ ] [nOps](https://www.nops.io/devops/) - a CloudOps platform for fast-moving DevOps teams helping them continuously monitor, analyze, and manage provisioned cloud workloads. **Not Free.**  There's a [FREE 30-day trial though](https://www.nops.io/free-trial-request/).
   - [ ] Azure
   - [ ] GCP
   - [ ] OpenStack
