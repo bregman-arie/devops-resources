@@ -257,6 +257,7 @@ Name | Description
 Name | Comments
 :------|:------:
 [DevOps Wiki](https://github.com/Leo-G/DevopsWiki) | "A wiki of Devops Tools, Tutorials and Scripts"
+[cheat-sheet-pdf](https://github.com/sk3pp3r/cheat-sheet-pdf) | "Cheat-Sheet Collection for DevOps, Engineers, IT and more"
 [System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
 [awesome-sre](https://github.com/dastergon/awesome-sre) | A curated list of Site Reliability and Production Engineering resources
 

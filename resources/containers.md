@@ -16,6 +16,23 @@ Name | Comments
 :------ |:--------:
 [awesome-docker](https://github.com/veggiemonk/awesome-docker) | 
 
+### Books
+
+
+Name | Comments
+:------ |:--------:
+Docker Deep Dive |
+
+### Tools
+
+Name | Description
+:------|:------:
+[dive](https://github.com/wagoodman/dive) | "A tool for exploring a docker image, layer content, ..."
+[trivy](https://github.com/aquasecurity/trivy) | "A Simple and Comprehensive Vulnerability Scanner for Containers and other Artifacts, Suitable for CI."
+
+### Production Best Practices
+
+* Secured communication between daemon and clients using TLS
 
 ### Cheatsheet
 
@@ -66,16 +83,3 @@ chmod 0400 ca-k.pem client-key.pem daemon-key.pem && chmod -v 0444 ca.pem client
 "tlskey": "/home/ubuntu/.docker/key.pem"
 }
 ```
-
-* 
-
-### Tools
-
-Name | Description
-:------|:------:
-[dive](https://github.com/wagoodman/dive) | "A tool for exploring a docker image, layer content, ..."
-[trivy](https://github.com/aquasecurity/trivy) | "A Simple and Comprehensive Vulnerability Scanner for Containers and other Artifacts, Suitable for CI."
-
-### Production Best Practices
-
-* Secured communication between daemon and clients using TLS

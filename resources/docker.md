@@ -32,11 +32,15 @@ Name | Comments
 #### Managing Containers
 
 * Launch a container and attach to it: `docker container run -it ubuntu:latest /bin/bash`
+* Run a command in the container: `docker exec -it <container ID/name> <commands>`
 * Attaching to running container: `docker container exec -it <name> bash`
 * List running containers: `docker container ls`
+* List all containers (including stopped): `docker container ls -a`
 * List containers (including stopped): `docker container ls -a`
 * Stop a container: `docker container stop <name>`
 * Remove a container: `docker container rm <name>`
+* Remove all containers: `docker container rm $(docker container ls -aq) -f`
+* Create, start, run command and destroy the container: `docker run --rm -it <image> <command>`
 
 #### Images
 
@@ -45,7 +49,24 @@ Name | Comments
 * List only images tagged as "latest": `docker image ls --filter=reference="*:latest"`
 * List dangling images: `docker image ls --filter dangling=true`
 * Which default registry is used: `docker info`
+* List supported image architectures: `docker manifest inspect golang | grep 'architecture\|os'`
 * Search all repositories that contain the string 'yay': `docker search yay`
 * Search only for official repositories: `docker search <name> --filter "is-official=true"`
 * Build an image: `docker image build -t <name>:<tag> .`
 * List images with the following data: name, tag and size: `docker image ls --format "{{.Repository}}: {{.Tag}}: {{.Size}}"`
+* List images with their digests: `docker image ls --digests`
+* Specify architecture when building an image: `docker buildx build --platform linux/arm/v1985 -t some_image:arm-v1985 .`
+* Delete an image: `docker image rm <name or ID>:<tag>`
+* Remove all images: `docker image rm $(docker image ls -q) -f`
+* Tag an image: `docker tag <image name>:<tag> <repo>/<image>:<tag>`
+* Push an image: `docker push <repo>/<image>:<tag>`
+* Save a running container as an image: `docker commit -m "some commit message" -a "author name/username" <container ID/name> <username>/<image name>:<tag>`
+
+#### Logs
+
+* Print the last 100 lines from container's logs: `docker container logs --tail 100 <container name/ID>`
+* Follow container logs: `docker logs -ft <container ID/name>`
+
+#### Network
+
+* List networks: `docker network ls`
