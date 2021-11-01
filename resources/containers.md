@@ -14,6 +14,7 @@ Name | Comments
 
 Name | Comments
 :------ |:--------:
+[container-diff](https://github.com/GoogleContainerTools/container-diff) | "container-diff is a tool for analyzing and comparing container images"
 [awesome-docker](https://github.com/veggiemonk/awesome-docker) | 
 
 ### Books

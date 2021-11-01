@@ -100,6 +100,13 @@ sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
 * month: `date +”%m”`
 * day: `date +”%a”`
 
+#### Fedora
+
+* Reset "interface text" value: `gsettings reset org.gnome.desktop.interface font-name`
+* Reset "monospace text" value: `gsettings reset org.gnome.desktop.interface monospace-font-name`
+* Reset "document text" value: `gsettings reset org.gnome.desktop.interface document-font-name`
+* Reset "Legacy Window Titles": `gsettings reset org.gnome.desktop.wm.preferences titlebar-font`
+
 ## Checklist
 
 Check your Linux educational progress with the following list:

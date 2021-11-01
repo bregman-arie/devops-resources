@@ -13,15 +13,6 @@ Name | Comments
 [Kubernetes Deployment Tutorial](https://devopscube.com/kubernetes-deployment-tutorial) |
 [Katacoda](https://www.katacoda.com/courses/kubernetes) | Learn Kubernetes using Interactive Browser-Based Scenarios
 
-### Kubernetes - Tooling
-
-Name | Comments
-:------ |:--------:
-[confTest](https://www.conftest.dev) | Used in the development phase
-[datree](https://www.datree.io) | Used in the development phase
-[gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Used in the production
-[telepresence](https://www.telepresence.io) | "FAST, LOCAL DEVELOPMENT FOR KUBERNETES AND OPENSHIFT MICROSERVICES"
-
 ### Kubernetes - Deep Dive
 
 Name | Comments
@@ -35,11 +26,16 @@ Name | Comments
 Name | Comments
 :------ |:--------:
 [Kubescape](https://github.com/armosec/kubescape) | "Kubescape is the first tool for testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by NSA and CISA"
+[Falco](https://falco.org) | "Falco...is the de facto Kubernetes threat detection engine"
 
 ### Kubernetes - Misc
 
 Name | Comments
 :------ |:--------:
+[confTest](https://www.conftest.dev) | "Conftest is a utility to help you write tests against structured configuration data" (Used in the development phase)
+[datree](https://www.datree.io) | "Prevent Kubernetes Misconfigurations From Reaching Production" (Used in development phase)
+[gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Used in the production
+[telepresence](https://www.telepresence.io) | "FAST, LOCAL DEVELOPMENT FOR KUBERNETES AND OPENSHIFT MICROSERVICES"
 [Kubernetes CheatSheet](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4) |
 [OperatiorHub.io](https://www.operatorhub.io) | Kubernetes native applications
 [YAML templates](https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates) |

@@ -70,3 +70,27 @@ Name | Comments
 #### Network
 
 * List networks: `docker network ls`
+
+#### Compose
+
+* Deploy compose app: `docker-compose up`
+* Stop and delete a running Compose app: `docker-compose down`
+* Restart a Compose app: `docker-compose restart`
+* List each container in the Compose app: `docker-compose ps`
+* Stop all of the container in Compose app: `docker-compose stop`
+* Delete a stopped Compose app: `docker-compose rm`
+
+### Common Failures
+
+#### Unable to start the Docker service
+
+Error:
+
+` Failed to start Docker Application Container Engine.`
+
+Fix:
+
+```
+sudo firewall-cmd --permanent --zone=docker --change-interface=docker0
+sudo firewall-cmd --reload
+```
