@@ -35,6 +35,25 @@ Name | Description
 
 * Secured communication between daemon and clients using TLS
 
+### Best Practices
+
+#### Dockerfile Best Practcies
+
+* Include only the packages you are going to use. Nothing else.
+* Specify a tag in FROM instruction. Not using a tag means you'll always pull the latest, which changes over time and might result in unexpected result.
+* Do not use environment variables to share secrets
+* Use images from official repositories
+* Keep images small! - you want them only to include what is required for the application to run successfully. Nothing else.
+* If are using the apt package manager, you might use 'no-install-recommends' with `apt-get install` to install only main dependencies (instead of suggested, recommended packages)
+
+#### Security Best Practcies
+
+  * Install only the necessary packages in the container
+  * Don't run containers as root when possible
+  * Don't mount the Docker daemon unix socket into any of the containers
+  * Set volumes and container's filesystem to read only
+  * DO NOT run containers with `--privilged` flag
+
 ### Cheatsheet
 
 * Stop and remove all containers: `podman container stop $(docker container ls -aq)`

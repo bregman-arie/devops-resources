@@ -55,6 +55,18 @@ Name | Comments
 [CKAD-Practice-Questions](https://github.com/bbachi/CKAD-Practice-Questions) | "a consolidated list for CKAD practice questions"
 [CKAD Prep Exam Video](https://www.youtube.com/watch?v=TPXwVmvzlV4&ab_channel=TheFrontOpsGuy) | A video of doing a CKAD prep exam (2020)
 
+### Best Practices
+
+#### Security Best Practices
+
+* Secure inter-service communication (one way is to use Istio to provide mutual TLS)
+* Isolate different resources into separate namespaces based on some logical groups
+* Use supported container runtime (if you use Docker then drop it because it's deprecated. You might want to CRI-O as an engine and podman for CLI)
+* Test properly changes to the cluster (e.g. consider using Datree to prevent kubernetes misconfigurations)
+* Limit who can do what (by using for example OPA gatekeeper) in the cluster
+* Use NetworkPolicy to apply network security
+* Consider using tools (e.g. Falco) for monitoring threats
+
 ### CheatSheet
 
 #### Minikube

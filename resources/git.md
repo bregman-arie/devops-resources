@@ -9,8 +9,16 @@ Name | Comments
 [Codeacademy Learn Git](https://www.codecademy.com/learn/learn-git) | Not Free 
 [Git for Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/) |
 
+### Best Practices
 
-## CheatSheet
+* Use a descriptive commit message
+* Make each commit a logical unit
+* Incorporate others' changes frequently
+* Share your changes frequently
+* Coordinate with your co-workers
+* Don't commit generated files
+
+### CheatSheet
 
 * Clone a repository: `git clone https://github.com/bregman-arie/devops-resources.git`
 * Pull changes from remote repository: `git pull`

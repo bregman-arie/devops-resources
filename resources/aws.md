@@ -42,3 +42,11 @@ Name | Description
 :------|:------:
 [devops-interview-questions repository](https://github.com/bregman-arie/devops-interview-questions/#aws) | Over 100 questions
 [AWS interview questions and answers](https://www.besanttechnologies.com/aws-interview-questions-and-answers) | 250 AWS interview questions
+
+### Best Practices
+
+#### IAM
+
+* Set up MFA
+* Delete root account access keys
+* Create IAM users instead of using root for daily management
