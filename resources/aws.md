@@ -1,5 +1,12 @@
 # AWS
 
+## Infrastructure
+
+Name | Comments
+:------|:------:
+[infrastructure.aws](https://infrastructure.aws) | AWS Infrastructure Overview
+[Regions and Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services) | See services list per region and AZ
+
 ## Tools and Projects
 
 Name | Comments
@@ -22,7 +29,6 @@ Name | Comments
 :------|:------:
 [terraformer](https://github.com/GoogleCloudPlatform/terraformer) | "A CLI tool that generates tf/json and tfstate files based on existing infrastructure (reverse Terraform)."
 [terraforming](https://github.com/dtan4/terraforming) | "Export existing AWS resources to Terraform style (tf, tfstate)"
-
 
 ## Videos
 

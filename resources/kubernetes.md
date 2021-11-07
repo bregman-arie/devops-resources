@@ -19,7 +19,13 @@ Name | Comments
 :------ |:--------:
 [Kubernetes Networking](https://github.com/nleiva/kubernetes-networking-links) | Kubernetes Networking Resources
 [Liveness and Readiness Probes](https://www.openshift.com/blog/liveness-and-readiness-probes) |
-[Kubernetes Troubleshooting Visual Guide](https://learnk8s.io/troubleshooting-deployments?fbclid=IwAR2k6ziNfhBe--CKoYP6qh5_lHYM7_kruDjc1EcyrpgyV_tKJzQlwiuA_Jk) |
+
+### Kubernetes - Troubleshooting
+
+Name | Comments
+:------ |:--------:
+[troubleshoot.sh](https://troubleshoot.sh) | "A kubectl plugin providing diagnostic tools for Kubernetes applications"
+[Kubernetes Troubleshooting Visual Guide](https://learnk8s.io/troubleshooting-deployments) |
 
 ### Kubernetes - Security
 

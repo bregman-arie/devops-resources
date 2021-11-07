@@ -116,6 +116,9 @@ x=$(date) -> Yes :D
 
 * Set variable with default value (string): `x=${x:-'some_default'}`
 * Set variable with default value (variable): `y=${y:-$z}`
+* return value of a program: `$?`
+* Check if variable is empty: `if [ -z "$var" ]; then`
+* Variable length: `${#string}`
 
 #### Arguments
 
@@ -126,6 +129,34 @@ x=$(date) -> Yes :D
 ```
 if [ "$#" -lt 1 ]; then
     echo "Illegal number of parameters"
+fi
+```
+
+* Check if two arguments were passed
+
+```
+if [ "$#" -ne 2 ]; then
+  echo 'Please pass two arguments'
+  exit 1
+fi
+```
+
+* Check if two arguments were passed and both are numbers
+
+```
+re='^[0-9]+$'
+if ! [[ $1 =~ $re && $2 =~ $re ]]; then
+    echo "Oh no...I need two numbers"
+    exit 2
+fi
+```
+
+* Check if arguments' strings length is equal
+
+```
+if [ ${#1} -ne ${#2} ]; then
+  echo 'Not equal`
+  exit 1
 fi
 ```
 
@@ -141,8 +172,67 @@ fi
 ```
 
 * check if directory exists
+
 ```
 DIR=/some/dir
 if [ -d "$DIR"]; then
     echo "$DIR" exists"
 fi
+```
+
+#### Loops
+
+* Iterate over a string: `for i in $(seq 1 ${#1}); do`
+
+#### Arithmetic Operations
+
+* print the sum of two numbers: `echo $((20+17))`
+* Check factor: `if [ $(($1 % 3)) -eq 0 ]; then`
+
+#### Extract Patterns
+
+* Extract date with sed: `echo $line | sed 's/.*\[//g;s/].*//g;s/:.*//g'`
+* Extract first field (space separator) with awk: `echo $line | awk '{print $1}'`
+
+#### Dictionary / Hash Table
+
+* Define a dictionary: `declare -A somedict`
+* Print one value based on given key: `echo ${somedict[some_key]}`
+* Print all the keys of a dictionary: `echo ${!somedict[*]}`
+* Check if key exists: `if [[ -v some_dict[$day] ]]; then`
+
+* Update dict based values and generate top 10:
+
+```
+function update_dict() {
+    declare -A some_dict
+    while read line; do
+        day=$line
+        if [[ -v some_dict[$day] ]]; then
+            some_dict[$day]=$((some_dict[$day]+1))
+        else
+            some_dict[$day]=1
+        fi
+    done < $FILE
+
+    for day in ${!some_dict[@]}; do echo ${some_dict[$day]} $day; done | sort -rn | head -10
+}
+```
+
+#### Common algorithms
+
+* Hamming distance
+
+```
+distance=0
+for i in $(seq 1 ${#1}); do
+  if [ ${1:$i-1:1} != ${2:$i-1:1} ]; then
+    distance=$((distance+1))
+  fi
+done
+echo $distance
+```
+
+#### Text Manipulation
+
+* Take the first letter of every word in a line: `echo $line | sed 's/\(.\)[^ ]* */\1/g'`

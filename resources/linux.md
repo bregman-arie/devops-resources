@@ -107,6 +107,14 @@ sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
 * Reset "document text" value: `gsettings reset org.gnome.desktop.interface document-font-name`
 * Reset "Legacy Window Titles": `gsettings reset org.gnome.desktop.wm.preferences titlebar-font`
 
+#### Files
+
+* Sort files by size: `ls -l | sort -nk5`
+
+#### Misc
+
+* Generate 8 digit random number: `shuf -i 9999999-99999999 -n 1`
+
 ## Checklist
 
 Check your Linux educational progress with the following list:
