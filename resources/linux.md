@@ -27,8 +27,7 @@ Name | Comments
 
 Name | Comments
 :------|:------:
-[Understanding fork() system call for new process creation
-](https://www.youtube.com/watch?v=PwxTbksJ2fo) | 
+[Understanding fork() system call for new process creation](https://www.youtube.com/watch?v=PwxTbksJ2fo) | 
 
 ## Learn Linux - Videos
 
@@ -110,6 +109,7 @@ sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
 #### Files
 
 * Sort files by size: `ls -l | sort -nk5`
+* Find broken links: `find /some/path -type l -exec test ! -e {} \; -print`
 
 #### Misc
 

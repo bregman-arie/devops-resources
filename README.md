@@ -323,8 +323,9 @@ Note: "Provisioning" tools can be used to perform configuration management to so
 
 - [ ] Monitoring
   - [ ] [Prometheus](https://prometheus.io)
-  - [ ] Nagios
-  - [ ] Datadog
+  - [ ] Nagios (Mostly legacy today)
+  - [ ] Sensu
+  - [ ] Datadog (`$$$`)
   - [ ] Zabbix
   - [ ] Monit
   - [ ] [Statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
@@ -338,9 +339,9 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] [SumoLogic](https://www.sumologic.com)
 
 - [ ] Dashboards
-  - [ ] Kibana (Elastic)
   - [ ] Grafana
-  - [ ] Report Portal
+  - [ ] Kibana (Elastic)
+  - [ ] Report Portal (Mostly for Test Automation)
 
 - [ ] Security
   - [ ] [Vault](https://www.vaultproject.io) - "Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets..."
@@ -379,6 +380,16 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Kubernetes
   - [ ] OpenShift
   - [ ] Nomad
+
+- [ ] Alerting
+  - [ ] PagerDuty
+  - [ ] ServiceNow
+  - [ ] Slack (Mostly used for IM)
+
+- [ ] Metric Storage
+  - [ ] InfluxDB
+  - [ ] Splunk
+  - [ ] Cloud Storage services and Databases
 
 ## More Infra & DevOps projects
 

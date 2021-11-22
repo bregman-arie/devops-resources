@@ -16,6 +16,7 @@ Name | Comments
 [amazon-redshift-utils](https://github.com/awslabs/amazon-redshift-utils) | "Contains utilities, scripts and view which are useful in a Redshift environment"
 [Cloudcraft](https://www.cloudcraft.co) | Automated AWS diagram mapping of your cloud resources.
 [nOps](https://www.nops.io/devops/) | "for fast-moving DevOps teams helping them ... monitor, analyze, and manage provisioned cloud workloads.", **Not Free.**
+[EC2Instances.info](https://instances.vantage.sh) | "Easy Amazon EC2 Instance Comparison"
 
 ## Blog Posts & Articles
 
@@ -56,3 +57,32 @@ Name | Description
 * Set up MFA
 * Delete root account access keys
 * Create IAM users instead of using root for daily management
+
+### Cheat Sheet
+
+### IAM
+
+* List users: `aws iam list-users`
+
+### EC2
+
+* List instances: `aws ec2 describe-instances`
+* Remove security group rules:
+
+```
+aws ec2 revoke-security-group-ingress \
+    --group-name someHTTPSecurityGroup
+    --protocol tcp \
+    --port 80 \
+    --cidr 0.0.0.0/0`
+```
+
+* Add security group rules:
+
+```
+aws ec2 authorize-security-group-ingress \
+    --group-name someHTTPSecurityGroup
+    --protocol tcp \
+    --port 80 \
+    --cidr 0.0.0.0/0
+```
