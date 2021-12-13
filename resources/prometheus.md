@@ -20,7 +20,6 @@ now to run as side car container we will just use its image and specify the port
         ports:
         - containerPort: 9108
         args: ['-es.uri=http://localhost:9200']
-        
         ```
 
 Now we will also create a config file for Prometheus:
