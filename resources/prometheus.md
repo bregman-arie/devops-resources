@@ -13,7 +13,14 @@ To Setup Prometheus in Kubernetes so that we can monitor third party application
 
 now to run as side car container we will just use its image and specify the port:
 
-![image-20211213174557999](/home/knoldus/.config/Typora/typora-user-images/image-20211213174557999.png)
+'''
+ containers:
+      - name: exporter
+        image: justwatch/elasticsearch_exporter:1.0.2
+        ports:
+        - containerPort: 9108
+        args: ['-es.uri=http://localhost:9200']
+        '''
 
 Now we will also create a config file for Prometheus:
 
