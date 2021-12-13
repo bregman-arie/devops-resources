@@ -48,9 +48,44 @@ metadata:
 Here make sure you either write your own namespace or create this elk namespace before running.
 
 Now next we will write a deployment file for Prometheus.
+```
 
-![img](https://lh5.googleusercontent.com/PBFqRyBv5ZroL8jKco99Eegycd6xp7RlJAi_e03FHXN4nMmmXPnqXfe2mchZbK8uhxxtZtcDbq-xWd9M6C4jHVRTfleQMTgtBpqz07mXKAyBYuTVOnUkFfkrVuq8WFV5ODXERQW2)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: elk
+  labels:
+    app: pr
+  name: pr
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pr
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: pr
+    spec:
+      containers:
+      - image: prom/prometheus
+        name: prometheus
+        ports:
+        - containerPort: 9090
+        volumeMounts:
+        - name: data
+          mountPath: /etc/prometheus
+      volumes: 
+      - name: data
+        configMap:
+          name: pr-conf
+          items:
+              - key:  prometheus.yml
+                path: prometheus.yml
 
+        
+```
 
 ​        
 ​        Now we will create a service file for nodePort , so that we can access it through our browser through our <node-ip>:<node-port>  
