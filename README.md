@@ -313,7 +313,7 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Puppet (Agent, Mutable Infrastructure, Procedural)
   - [ ] Chef (Mutable Infrastructure)
   - [ ] Saltstack (Mutable Infrastructure)
-  - [ ] [Spacelift](https://spacelift.io/)
+  - [ ] [Spacelift](https://spacelift.io/) (`$$$`)
 
 - [ ] Images
   - [ ] [diskimage-builder](https://github.com/openstack/diskimage-builder)
