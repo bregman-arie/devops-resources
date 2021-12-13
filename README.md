@@ -101,6 +101,7 @@ Name | Description
 :------|:------:
 [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
 [DevOps 3 Weeks Plan](https://medium.com/@medineshkatwal/devops-3-week-plan-from-16-oct-2019-to-31st-oct-2019-af486e625f72) | Detailed plan on what to do at each day
+[How to Become a DevOps Engineer in Six Months?](https://spacelift.io/blog/how-to-become-devops-engineer) | Skills you need to become DevOps Engineer
 
 ### Learn about DevOps
 
@@ -110,6 +111,7 @@ Name | Description
 [What is DevOps? - Red Hat](https://www.redhat.com/en/topics/devops) | Learn what is DevOps by Red Hat, including many interesting articles
 [What is DevOps? - Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops) | Learn what is DevOps by Microsofy, including Azure DevOps service
 [What is DevOps? - Google](https://cloud.google.com/devops) | Learn what is DevOps by Google
+[Who is DevOps? - Spacelift](https://spacelift.io/blog/who-is-devops-engineer) | Who is DevOps? Is it Worth it to Become a DevOps Engineer?
 
 ### Learn Git
 
@@ -244,6 +246,7 @@ Name | Description
 :------|:------:
 [Infrastructure as Code, Part One](https://crate.io/a/infrastructure-as-code-part-one) |
 [DevOps Best Practices](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) | What is DevOps + list of resources
+[Infrastructure as Code: Examples, Best Practices & Tools](https://spacelift.io/blog/infrastructure-as-code) |
 
 ## DevOps Snippets
 
@@ -310,6 +313,7 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Puppet (Agent, Mutable Infrastructure, Procedural)
   - [ ] Chef (Mutable Infrastructure)
   - [ ] Saltstack (Mutable Infrastructure)
+  - [ ] [Spacelift](https://spacelift.io/) (`$$$`)
 
 - [ ] Images
   - [ ] [diskimage-builder](https://github.com/openstack/diskimage-builder)
