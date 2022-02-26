@@ -326,12 +326,16 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] OpenStack
 
 - [ ] Monitoring
+  - [ ] [Dynatrace](https://www.dynatrace.com/platform/infrastructure-monitoring/)
+  - [ ] [AppDynamics](https://www.appdynamics.com/product/infrastructure-monitoring)
+  - [ ] [New Relic](https://newrelic.com/)
   - [ ] [Prometheus](https://prometheus.io)
-  - [ ] Nagios (Mostly legacy today)
-  - [ ] Sensu
-  - [ ] Datadog (`$$$`)
-  - [ ] Zabbix
-  - [ ] Monit
+  - [ ] [Datadog](https://www.datadoghq.com/)
+  - [ ] [SolarWinds](https://www.solarwinds.com/server-application-monitor)
+  - [ ] [Nagios](https://www.nagios.org/)
+  - [ ] [Sensu](https://sensu.io/)
+  - [ ] [Zabbix](https://www.zabbix.com/)
+  - [ ] [Monit](https://mmonit.com/monit/)
   - [ ] [Statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
 
 - [ ] Log Management
