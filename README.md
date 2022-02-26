@@ -289,12 +289,12 @@ Name | Description
 ## DevOps Tooling
 
 - [ ] CI/CD
-  - [ ] Jenkins (Managed & on-premise, Containers supported, Plugins)
-  - [ ] GitHub Actions (Hosted service)
-  - [ ] Travis (Hosted service)
-  - [ ] CircleCI (Hosted service)
-  - [ ] GitLab CI (Hosted service and on-premise)
-  - [ ] Bamboo (Managed service and on-premise)
+  - [ ] [Jenkins](https://www.jenkins.io/) (Managed & on-premise, Containers supported, Plugins)
+  - [ ] [GitHub Actions](https://docs.github.com/en/actions) (Hosted service)
+  - [ ] [Travis](https://travis-ci.org/) (Hosted service)
+  - [ ] [CircleCI](https://circleci.com/) (Hosted service)
+  - [ ] [GitLab CI](https://docs.gitlab.com/ee/ci/) (Hosted service and on-premise)
+  - [ ] [Bamboo](https://www.atlassian.com/software/bamboo) (Managed service and on-premise)
   - [ ] [BuildKite](https://buildkite.com) (Hosted)
   - [ ] [Zuul](https://zuul-ci.org/docs/zuul) (Hosted and on-premise)
   - [ ] [Drone](https://www.drone.io)
