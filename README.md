@@ -236,9 +236,10 @@ Name | Description
 [DevOps Dudes](https://medium.com/devops-dudes) | "Shortening the system development life cycle"
 [Netflix Tech Blog](https://netflixtechblog.com/tagged/devops) | Not Only DevOps
 [CloudBees Blog](https://www.cloudbees.com/blog) |
-[Red Hat Blog](ttps://www.redhat.com/en/blog) | Not only DevOps
+[Red Hat Blog](https://www.redhat.com/en/blog) | Not only DevOps
 [Atlassian DevOps Blog](https://www.atlassian.com/blog/devops) |
 [Facebook Engineering Blog](https://engineering.fb.com) | Not only DevOps
+[DoorDash Engineering Blog](https://doordash.engineering) | Not only DevOps
 
 ## Articles
 
