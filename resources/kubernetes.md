@@ -60,6 +60,9 @@ Name | Comments
 :------ |:--------:
 [CKAD-Practice-Questions](https://github.com/bbachi/CKAD-Practice-Questions) | "a consolidated list for CKAD practice questions"
 [CKAD Prep Exam Video](https://www.youtube.com/watch?v=TPXwVmvzlV4&ab_channel=TheFrontOpsGuy) | A video of doing a CKAD prep exam (2020)
+[CKA Complete Prep Exam ](https://github.com/walidshaari/Kubernetes-Certified-Administrator) | CKA prep exam (2021)
+[CKAD Complete Prep Exam ](https://github.com/dgkanatsios/CKAD-exercises) | CKAD prep exam (2021)
+[CKS Complete Prep Exam ](https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist) | CKA prep exam (2021)
 
 ### Best Practices
 
@@ -136,3 +139,38 @@ kubectl config set-context myuser-context --cluster=k8s-cluster --user=user
 ### Service
 
 * Expose a ReplicaSet: `kubectl expose rs REPLICASET_NAME --name=SERVICE_NAME --target-port=PORT --type=NodePort/SOME_OTHER_SERVICE_TYPE`
+
+### Deployment
+
+* Create and delete a deployment in one step:
+```
+$ kubectl create deployment demo --image=cloudnatived/demo:hello
+
+$ kubectl get pods --selector app=demo
+
+$ kubectl delete pods --selector app=demo
+
+$ kubectl delete all --selector app=demo
+```
+### Aliases 
+
+* Use kubectl aliases to speed up and reduce typo errors, practice these alaises early at your work and study for the exam. some example aliases:
+```
+alias k='kubectl'
+alias kg='kubectl get'
+alias kgpo='kubectl get pod'
+alias kcpyd='kubectl create pod -o yaml --dry-run=client'
+alias ksysgpo='kubectl --namespace=kube-system get pod'
+
+alias kd='kubectl delete'
+alias kdf='kubectl delete -f'
+## for quick deletes you can add --force --grace-period=0  **Not sure if it is a good idea if you are in a production cluster**
+alias krmgf='kubectl delete --grace-period 0 --force'
+alias kgsvcoyaml='kubectl get service -o=yaml'
+alias kgsvcwn='watch kubectl get service --namespace'
+alias kgsvcslwn='watch kubectl get service --show-labels --namespace'
+
+#example usage of aliases
+krmgf nginx-8jk71    # kill pod nginx-8jk71 using grace period 0 and force
+
+```
