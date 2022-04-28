@@ -12,6 +12,7 @@ Name | Comments
 [kubernetes-workshop](https://github.com/eon01/kubernetes-workshop) |
 [Kubernetes Deployment Tutorial](https://devopscube.com/kubernetes-deployment-tutorial) |
 [Katacoda](https://www.katacoda.com/courses/kubernetes) | Learn Kubernetes using Interactive Browser-Based Scenarios
+[Kubernetes Scheduler](https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/) | How does the Kubernetes scheduler work?
 
 ### Kubernetes - Deep Dive
 
