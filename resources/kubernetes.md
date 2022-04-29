@@ -65,6 +65,12 @@ Name | Comments
 [CKAD Complete Prep Exam ](https://github.com/dgkanatsios/CKAD-exercises) | CKAD prep exam (2021)
 [CKS Complete Prep Exam ](https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist) | CKA prep exam (2021)
 
+### Kubernetes - Labs
+
+Name | Comments
+:------ |:--------:
+[Building a Kubernetes 1.23 Cluster with Kubeadm](https://github.com/croguerrero/CKA-Labs/blob/main/resources/KC.md) | "Labs CKA - Build a Kubernetes cluster 1.23"
+
 ### Best Practices
 
 #### Security Best Practices
