@@ -9,3 +9,4 @@
 * Treat CI/CD as another application in your organization. Not as a glue code.
 * On demand environments instead of pre-allocated resources for CI/CD purposes
 * Stages/Steps/Tasks of pipelines should be shared between applications or microservices (don't re-invent common tasks like "cloning a project")
+* The CI/CD pipelines should have short execution time in order to provide a short feedback loop
