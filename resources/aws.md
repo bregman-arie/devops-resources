@@ -86,3 +86,9 @@ aws ec2 authorize-security-group-ingress \
     --port 80 \
     --cidr 0.0.0.0/0
 ```
+
+### RDS
+
+* Encryption in PostgreSQL: `rds.force_ssl=1 (parameter groups)`
+* Encryption in MySQL: `GRANT USAGE ON *.* TO 'mysqluser'@'%' REQUIRE SSL;`
+

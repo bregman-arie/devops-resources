@@ -43,7 +43,7 @@ Megha Mohan | [Mutable vs Immutable Objects in Python](https://medium.com/@megha
 Kenneth Reitz | [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest) | | |
 Kenneth Reitz | [Serialization](https://docs.python-guide.org/scenarios/serialization/) | | |
 
-## Frameworks & Tools
+## Libraries, Frameworks & Tools
 
 Name | Description
 :------:|:-------:
@@ -51,6 +51,7 @@ Name | Description
 [Flask](http://flask.pocoo.org)  | Web microframework based on Werkzeug, Jinja 2
 [Django](https://www.djangoproject.com)  | Web framework with batteries included
 [Mypy](http://mypy-lang.org) | Static type checker
+[Pandas](https://pandas.pydata.org) | "open source data analysis and manipulation tool"
 
 ### Cheat Sheet
 
@@ -72,6 +73,18 @@ with Connection(host) as conn:
     with conn.sftp().open(path) as stream:
     ...
 ```
+
+#### Dictionaries
+
+* Define dictionary: `some_dict = {'first_number': 2017, 'second_number': 2022}`
+* Add item to dictionary: `some_dict['third_number'] = 1991`
+* Remove last item: `some_dict.popitem()`
+* Remove item by key: `some_dict.pop("third_number")`
+* Get all keys without values: `some_dict.keys()`
+* Get all values without keys: `some_dict.values()`
+* Access item: `some_dict['first_number']` or `some_dict.get('second_number')`
+* Number of items in the dictionary: `len(some_dict)`
+* Update value of a certain key: `some_dict.update({"first_number": 02017})
 
 ## Python Checklist
 

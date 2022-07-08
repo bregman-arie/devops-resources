@@ -111,6 +111,11 @@ sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
 * Sort files by size: `ls -l | sort -nk5`
 * Find broken links: `find /some/path -type l -exec test ! -e {} \; -print`
 
+#### YAML
+
+* Validate YAML file with Ruby: `ruby -ryaml -e "p YAML.load(STDIN.read)" < some_file.yaml`
+* Validate YAML file with Python: `pip install pyyaml; python -c 'import yaml, sys; print(yaml.safe_load(sys.stdin))' < some_file.yaml`
+
 #### Misc
 
 * Generate 8 digit random number: `shuf -i 9999999-99999999 -n 1`

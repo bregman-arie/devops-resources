@@ -47,3 +47,8 @@ Name | Comments
 git revert --no-commit X..HEAD
 git commit
 ```
+
+#### References
+
+* All references in current repository: `find .git/refs/`
+* Update master reference: `git update-ref refs/heads/master <SOME_COMMIT>`
