@@ -225,8 +225,11 @@ Name | Comments
 
 ## Blogs & News
 
+DevOps & Software Engineering related blogs
+
 Name | Description
 :------|:------:
+[Spacelift Blog](https://spacelift.io/blog) | Excellent tech blog on Kubernetes, Ansible, Terraform and Engineering in general
 [opensource.com](https://opensource.com) | open source related articles including DevOps
 [CooperPress](https://cooperpress.com/publications) | various newsletters on different topics
 [afreshcup](https://afreshcup.com) | "covering Ruby on Rails and whatever else I find interesting in the universe of software"

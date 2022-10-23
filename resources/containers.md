@@ -65,6 +65,21 @@ Name | Description
 
 * List images: `podman image ls`
 * Pull latest ubuntu image: `podman image pull ubuntu:latest`
+* Remove image from the host: `podman rmi IMAGE`
+* Remove all images: `podman rmi -a` or the more extreme version of it: `podman rmi $(podman images -qa) -f`
+* Login to Red Hat registry: `podman login registry.redhat.io`
+* List all available tags for a given image using the CLI: `podman search --list-tags IMAGE_NAME`
+* List all available tags for a given image using an API request: `curl -Ls https://SERVER/v2/.../tags/list | python -m json.tool`
+* Create an archive from the image: `podman save -o some_image.tar IMAGE`
+* Load image from the archive: `podman load -i some_image.tar`
+* List added/modified/deleted files on container's image filesystem: `podman diff IMAGE_NAME`
+* List of mounted files for a running container: `podman inspect -f "{{range .Mounts}}{{println .Destination}}{{end}}" CONTAINER_NAME/ID`
+* Commit changes to another image: `podman commit EXISTING_IMAGE NEW_IMAGE`
+
+#### Registries
+
+* List all repositories in a registry: `curl -Ls https://SERVER/v2/_catalog?n=`
+* List all repositories in a registry and convert to JSON: `curl -Ls https://SERVER/v2/_catalog?n=3 > | python -m json.tool`
 
 #### Security
 
@@ -103,3 +118,7 @@ chmod 0400 ca-k.pem client-key.pem daemon-key.pem && chmod -v 0444 ca.pem client
 "tlskey": "/home/ubuntu/.docker/key.pem"
 }
 ```
+
+#### Cleanup
+
+* Remove everything: `podman system reset`

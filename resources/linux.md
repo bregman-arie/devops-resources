@@ -10,12 +10,9 @@ Name | Comments
 [Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | Written articles/lessons
 [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
 [NixCraft](https://www.cyberciti.biz/) | Succinct guides
-
-## Learn Linux - Articles
-
-Name | Comments
-:------|:------:
 [Linux Filesystem Explained](https://www.linux.com/training-tutorials/linux-filesystem-explained) | NSIA
+[Linux SysOps Handbook](https://abarrak.gitbook.io/linux-sysops-handbook) | A study notes book for the common knowledge and tasks of a Linux system admin.
+
 
 ## Linux Internals - Articles
 
@@ -71,7 +68,23 @@ Andrew McNico | [tcpdump](https://www.slideshare.net/j0b1n/tcpdump-hunter?qid=b7
 
 ## Cheat Sheet
 
-#### SElinux
+### Common Operations
+
+* Copy files to a remote host: `rsync -azv dir USER:REMOTE_HOST_ADDR`
+* View file size: `du -sh DIR/FILE`
+
+### Users
+
+* Who is connected: `w`
+
+### Troubleshooting and Debugging
+
+* see list of processes and the CPU and memory the consume: `top`
+* show how long the server is up running: `uptime`
+* List open files: `lsof`
+* List open connections: `lsof -i`
+
+### SElinux
 
 Get SElinux denials
 
@@ -81,7 +94,11 @@ semodule -DB
 sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
 ```
 
-#### Tmux
+### Communication
+
+* Broadcast a message to everyone: `wall`
+
+### Tmux
 
 * Join a session `tmux a`
 * Attach to existing session: `tmux attach -t <SESSION_NAME>`
@@ -111,13 +128,19 @@ sudo ausearch -m avc -m user_avc -m selinux_err -m user_selinux_err -i -ts today
 * Sort files by size: `ls -l | sort -nk5`
 * Find broken links: `find /some/path -type l -exec test ! -e {} \; -print`
 
-#### YAML
+### LDAP
+
+* LDAP search for a username: `ldapsearch -x -W -D username`
+* LDAP search for a username specifying DC and ldap server: `ldapsearch -x -H ldap://ldap.blabla.com -LLL -b 'dc=DOMAIN,dc=com' "rhatNickName=abregman"`
+
+### YAML
 
 * Validate YAML file with Ruby: `ruby -ryaml -e "p YAML.load(STDIN.read)" < some_file.yaml`
 * Validate YAML file with Python: `pip install pyyaml; python -c 'import yaml, sys; print(yaml.safe_load(sys.stdin))' < some_file.yaml`
 
-#### Misc
+### Misc
 
+* Random string of 7 characters: `mkpasswd -l 8`
 * Generate 8 digit random number: `shuf -i 9999999-99999999 -n 1`
 
 ## Checklist

@@ -31,6 +31,7 @@ Name | Comments
 * List branches: `git branch`
 * Update based on status of remote branches: `git remote prune origin`
 * Delete local branch: `git branch -d some-branch`
+* What are the changes if merging branch y into x: `git merge-tree $(git merge-base x y) x y`
 
 #### Staging
 

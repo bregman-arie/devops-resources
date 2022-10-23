@@ -105,6 +105,17 @@ Name | Comments
 * Cluster information: `kubectl cluster-info`
 * List nodes: `kubectl get nodes`
 
+### Images
+
+* List all containers images from all namespaces:
+
+```
+kubectl get pods --all-namespaces -o jsonpath="{.items[*].spec.containers[*].image}" |\
+tr -s '[[:space:]]' '\n' |\
+sort |\
+uniq -c
+```
+
 ### Pods
 
 * List of Pods in current namespace: `kubectl get po`
@@ -130,6 +141,10 @@ POD_NAME=$(kubectl get pod \
 -l type=api,service=some-service \
 | tail -1)
 ```
+
+* Get pods sorted by time creation: `kubectl get pods --sort-by='{.metadata.creationTimestamp}'`
+* Run long/endless running container: `kubectl run test --image ubuntu -- sleep 2000000000`
+* Get a shell access to a container: `kubectl exec --stdin --tty some-shell -- /bin/bash`
 
 ### User
 
@@ -181,3 +196,7 @@ alias kgsvcslwn='watch kubectl get service --show-labels --namespace'
 krmgf nginx-8jk71    # kill pod nginx-8jk71 using grace period 0 and force
 
 ```
+
+### Monitoring
+
+* Install metrics-server using Minikube: `minikube addons enable metrics-server`
