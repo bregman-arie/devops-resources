@@ -22,3 +22,7 @@ argocd app create {APP NAME} \
 * sync app: `argocd app sync <APP NAME>`
 * app history: `argocd app history <APP NAME>`
 * delete app: `argocd app delete <APP NAME>`
+
+* Add cluster: `argocd cluster add CLUSTER`
+* List clusters: `argocd cluster list`
+* Remove cluster: `argocd cluster rm CLUSTER

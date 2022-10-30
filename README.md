@@ -225,7 +225,13 @@ Name | Comments
 
 ## Blogs & News
 
-DevOps & Software Engineering related blogs
+My top picks:
+
+Name | Description
+:------|:------:
+[Codefresh Blog](https://codefresh.io/blog) | Probably best GitOps content out there
+
+Other DevOps & Software Engineering related blogs
 
 Name | Description
 :------|:------:
@@ -405,6 +411,7 @@ Note: "Provisioning" tools can be used to perform configuration management to so
 
 ## More Infra & DevOps projects
 
+<p align="center"><a href="https://github.com/bregman-arie/sre-checklist"><img width="500px" src="images/sre_checklist.png"/></a></p>
 <p align="center"><a href="https://github.com/bregman-arie/howtheydevops"><img src="images/how_they_devops.png"/></a></p>
 <p align="center"><a href="https://github.com/bregman-arie/devops-exercises"><img src="images/devops_exercises.png"/></a></p>
 <p align="center"><a href="https://github.com/bregman-arie/infraverse"><img src="images/infraverse.png"/></a></p>

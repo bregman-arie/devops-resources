@@ -200,3 +200,23 @@ krmgf nginx-8jk71    # kill pod nginx-8jk71 using grace period 0 and force
 ### Monitoring
 
 * Install metrics-server using Minikube: `minikube addons enable metrics-server`
+
+### Secrets
+
+* Install Bitnami Sealed secrets controller
+
+```
+helm repo add sealed-secrets https://bitnami-labs.github.io/sealed-secrets
+helm repo update
+helm install sealed-secrets-controller sealed-secrets/sealed-secrets
+```
+
+* sealed-secrets binary: `https://github.com/bitnami-labs/sealed-secrets/releases`
+
+* encrypt secret in yaml or json format: `kubeseal -n my-namespace <.db-creds.yml> db-creds.json`
+* apply secret on the cluser: `kubectl apply -f db-creds.json -n my-namespace`
+
+### Kustomize
+
+* Generate customized YAML file(s): `kustomize build name_of_application`
+* Apply generated customized YAML file(s) to the cluster: `kustomize build name_of_application`
