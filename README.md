@@ -311,6 +311,7 @@ Name | Description
   - [ ] [Drone](https://www.drone.io)
   - [ ] [Tekton](https://cloud.google.com/tekton)
   - [ ] [Argo CD](https://argoproj.github.io/argo-cd)
+  - [ ] [werf](https://werf.io/)
 
 Note: "Provisioning" tools can be used to perform configuration management to some extent. The same applies for configuration management tools, which can be used for pprovisioning.
 
