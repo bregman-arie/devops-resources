@@ -249,6 +249,7 @@ Name | Description
 [Atlassian DevOps Blog](https://www.atlassian.com/blog/devops) |
 [Facebook Engineering Blog](https://engineering.fb.com) | Not only DevOps
 [DoorDash Engineering Blog](https://doordash.engineering) | Not only DevOps
+[Palark tech blog](https://blog.palark.com/) | Tech blog dedicated to DevOps & SRE
 
 ## Articles
 
