@@ -35,6 +35,7 @@ Author | Title | Comments
 :------ |:------:|:--------:
 Jeff Knupp | Writing Idiomatic Python 3.3 | |
 Dane Hillard | [Publishing Python Packages](https://www.manning.com/books/publishing-python-packages) | |
+Yong Cui | [Python How-To](https://www.manning.com/books/python-how-to) | |
 
 ## Articles, Tutorials & Blog Posts
 
