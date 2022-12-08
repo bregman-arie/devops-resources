@@ -34,7 +34,7 @@ agithub | Rest API client for rapid prototyping on any rest API.
 Author | Title | Comments
 :------ |:------:|:--------:
 Jeff Knupp | Writing Idiomatic Python 3.3 | |
-Dane Hillard | Publishing Python Packages | |
+Dane Hillard | [Publishing Python Packages](https://www.manning.com/books/publishing-python-packages) | |
 
 ## Articles, Tutorials & Blog Posts
 
