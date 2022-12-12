@@ -8,6 +8,7 @@ Name | Description
 [Python for Beginner](https://www.udemy.com/course/python-hackcc) | Free, Udemy
 [Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw&feature=emb_logo) | Free, freeCodeCamp
 [Learn Python from Scratch](https://www.educative.io/courses/learn-python-from-scratch) | Free, educative.io
+[Learn Python Programming](https://www.scaler.com/topics/python/) | Free, Scaler Topics
 
 ## Learning Python (Tutorials and Interactive platforms)
 
