@@ -194,6 +194,7 @@ Name | Description
 :------|:------:
 [KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
+[NamasteJava](https://www.youtube.com/@NamasteJava/featured) | Simplified Devops tutorials
 
 ## Community
 
