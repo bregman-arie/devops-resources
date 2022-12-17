@@ -26,6 +26,7 @@
     <td align="center"><a href="resources/go.md"><img src="images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a></td>
     <td align="center"><a href="resources/bash.md"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
     <td align="center"><a href="resources/kubernetes.md"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
+    <td align="center"><a href="resources/victoriametrics.md"><img src="images/victoriametrics.png" width="64px;" height="75px;" alt="VictoriaMetrics"/><br /><b>VictoriaMetrics</b></a></td>
     <td align="center"><a href="resources/prometheus.md"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
     <td align="center"><a href="resources/mongo.md"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
   </tr>
@@ -91,7 +92,7 @@ Cloud | Azure, AWS, GCP | - |
 Containers | Podman and Kubernetes| Docker instead of Podman. Nomad instead of Kubernetes | 
 CI/CD | Jenkins, GitHub Actions | Gitlab CI, Circle CI, Argo CD |
 Logging and Dashboards | Elastic Stack, Report Portal, Grafana | Graylog, Splunk |
-Monitoring | Prometheus | Nagios, Datadog | 
+Monitoring | VictoriaMetrics, Prometheus | Nagios, Datadog | 
 
 ### Alternative Roadmaps
 
@@ -338,17 +339,19 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] OpenStack
 
 - [ ] Monitoring
-  - [ ] [Dynatrace](https://www.dynatrace.com/platform/infrastructure-monitoring/)
   - [ ] [AppDynamics](https://www.appdynamics.com/product/infrastructure-monitoring)
+  - [ ] [Datadog](https://www.datadoghq.com/)
+  - [ ] [Dynatrace](https://www.dynatrace.com/platform/infrastructure-monitoring/)
+  - [ ] [Monit](https://mmonit.com/monit/)
+  - [ ] [Nagios](https://www.nagios.org/)
   - [ ] [New Relic](https://newrelic.com/)
   - [ ] [Prometheus](https://prometheus.io)
-  - [ ] [Datadog](https://www.datadoghq.com/)
-  - [ ] [SolarWinds](https://www.solarwinds.com/server-application-monitor)
-  - [ ] [Nagios](https://www.nagios.org/)
   - [ ] [Sensu](https://sensu.io/)
+  - [ ] [SolarWinds](https://www.solarwinds.com/server-application-monitor)
+  - [ ] [Statuscake](https://www.statuscake.com) - Website Uptime & Performance
+  - [ ] [VictoriaMetrics](https://victoriametrics.com/) - a fast, cost-effective and scalable monitoring solution and time series database.
   - [ ] [Zabbix](https://www.zabbix.com/)
-  - [ ] [Monit](https://mmonit.com/monit/)
-  - [ ] [Statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
+ Monitoring
 
 - [ ] Log Management
   - [ ] Logstash
