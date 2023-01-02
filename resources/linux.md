@@ -12,6 +12,7 @@ Name | Comments
 [NixCraft](https://www.cyberciti.biz/) | Succinct guides
 [Linux Filesystem Explained](https://www.linux.com/training-tutorials/linux-filesystem-explained) | NSIA
 [Linux SysOps Handbook](https://abarrak.gitbook.io/linux-sysops-handbook) | A study notes book for the common knowledge and tasks of a Linux system admin.
+[LinuxToday](https://www.linuxtoday.com) |  Contributor-driven news resources
 
 
 ## Linux Internals - Articles
