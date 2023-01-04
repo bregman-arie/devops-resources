@@ -12,6 +12,7 @@ Name | Comments
 [terraformer](https://github.com/GoogleCloudPlatform/terraformer) | "A CLI tool that generates tf/json and tfstate files based on existing infrastructure (reverse Terraform)."
 [terraforming](https://github.com/dtan4/terraforming) | "Export existing AWS resources to Terraform style (tf, tfstate)"
 [terrascan](https://github.com/tenable/terrascan) | "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure"
+[terraform-kvm](https://github.com/dmacvicar/terraform-provider-libvirt) | "It's a one Terraform Provider for KVM"
 
 ### Best Practices
 
