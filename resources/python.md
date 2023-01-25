@@ -37,6 +37,7 @@ Jeff Knupp | Writing Idiomatic Python 3.3 | |
 Dane Hillard | [Publishing Python Packages](https://www.manning.com/books/publishing-python-packages) | |
 Yong Cui | [Python How-To](https://www.manning.com/books/python-how-to) | |
 Pael Anni | [Let's Talk Python](https://www.manning.com/books/lets-talk-python)) | |
+Rob Reider and Alexander Michalka | [Build a Robo Advisor with Python](https://www.manning.com/books/build-a-robo-advisor-with-python-from-scratch) | |
 
 ## Articles, Tutorials & Blog Posts
 
