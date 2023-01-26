@@ -2,7 +2,7 @@
 
 :information_source: &nbsp;This repository is about gathering any useful resources and information regarding DevOps and secondly, provide some roadmap for those who want to practice DevOps.
 
-:pencil: &nbsp;Feel free to add more resources by sumitting pull requests
+:pencil: &nbsp;Feel free to add more resources by submitting pull requests
 
 ****
 
@@ -19,7 +19,6 @@
     <td align="center"><a href="resources/network.md"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a></td>
     <td align="center"><a href="resources/linux.md"><img src="images/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a></td>
     <td align="center"><a href="resources/terraform.md"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
-    <td align="center"><a href="resources/containers.md"><img src="images/containers.png" width="75px;" height="75px;" alt="Containers"/><br /><b>Containers</b></a></td>
   </tr>
   <tr>
     <td align="center"><a href="resources/coding.md"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a></td>
@@ -27,9 +26,9 @@
     <td align="center"><a href="resources/go.md"><img src="images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a></td>
     <td align="center"><a href="resources/bash.md"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
     <td align="center"><a href="resources/kubernetes.md"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
+    <td align="center"><a href="resources/victoriametrics.md"><img src="images/victoriametrics.png" width="64px;" height="75px;" alt="VictoriaMetrics"/><br /><b>VictoriaMetrics</b></a></td>
     <td align="center"><a href="resources/prometheus.md"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
     <td align="center"><a href="resources/mongo.md"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
-    <td align="center"><a href="resources/sql.md"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
   </tr>
   <tr>
     <td align="center"><a href="resources/cloud.md"><img src="images/cloud.png" width="110px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
@@ -39,11 +38,14 @@
     <td align="center"><a href="resources/openstack.md"><img src="images/openstack.png" width="75px;" height="75px;" alt="openstack"/><br /><b>OpenStack</b></a></td>
     <td align="center"><a href="resources/security.md"><img src="images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>Security</b></a></td>
     <td align="center"><a href="resources/puppet.md"><img src="images/puppet.png" width="75px;" height="75px;" alt="puppet"/><br /><b>Puppet</b></a></td>
-    <td align="center"><a href="resources/openshift.md"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
   </tr>
+
   <tr>
     <td align="center"><a href="resources/elk.md"><img src="images/elk.png" width="75px;" height="75px;" alt="ELK"/><br /><b>ELK</b></a></td>
     <td align="center"><a href="resources/dataops.md"><img src="images/dataops.png" width="75px;" height="75px;" alt="ELK"/><br /><b>DataOps</b></a></td>
+    <td align="center"><a href="resources/openshift.md"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
+    <td align="center"><a href="resources/sql.md"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
+    <td align="center"><a href="resources/containers.md"><img src="images/containers.png" width="75px;" height="75px;" alt="Containers"/><br /><b>Containers</b></a></td>
   </tr>
 </table>
 </center>
@@ -91,7 +93,7 @@ Cloud | Azure, AWS, GCP | - |
 Containers | Podman and Kubernetes| Docker instead of Podman. Nomad instead of Kubernetes | 
 CI/CD | Jenkins, GitHub Actions | Gitlab CI, Circle CI, Argo CD |
 Logging and Dashboards | Elastic Stack, Report Portal, Grafana | Graylog, Splunk |
-Monitoring | Prometheus | Nagios, Datadog | 
+Monitoring | VictoriaMetrics, Prometheus | Nagios, Centreon, Datadog | 
 
 ### Alternative Roadmaps
 
@@ -101,6 +103,7 @@ Name | Description
 :------|:------:
 [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
 [DevOps 3 Weeks Plan](https://medium.com/@medineshkatwal/devops-3-week-plan-from-16-oct-2019-to-31st-oct-2019-af486e625f72) | Detailed plan on what to do at each day
+[How to Become a DevOps Engineer in Six Months?](https://spacelift.io/blog/how-to-become-devops-engineer) | Skills you need to become DevOps Engineer
 
 ### Learn about DevOps
 
@@ -110,6 +113,7 @@ Name | Description
 [What is DevOps? - Red Hat](https://www.redhat.com/en/topics/devops) | Learn what is DevOps by Red Hat, including many interesting articles
 [What is DevOps? - Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops) | Learn what is DevOps by Microsofy, including Azure DevOps service
 [What is DevOps? - Google](https://cloud.google.com/devops) | Learn what is DevOps by Google
+[Who is DevOps? - Spacelift](https://spacelift.io/blog/who-is-devops-engineer) | Who is DevOps? Is it Worth it to Become a DevOps Engineer?
 
 ### Learn Git
 
@@ -160,7 +164,8 @@ Once you are familiar with the commands and feel comfortable enough to keep deep
   * Memory Management
   * Processes
   * Kernel
-  * Virtulization
+  * Virtualization
+  * Storage
 
 #### Linux Master Application
 
@@ -223,8 +228,17 @@ Name | Comments
 
 ## Blogs & News
 
+My top picks:
+
 Name | Description
 :------|:------:
+[Codefresh Blog](https://codefresh.io/blog) | Probably best GitOps content out there
+
+Other DevOps & Software Engineering related blogs
+
+Name | Description
+:------|:------:
+[Spacelift Blog](https://spacelift.io/blog) | Excellent tech blog on Kubernetes, Ansible, Terraform and Engineering in general
 [opensource.com](https://opensource.com) | open source related articles including DevOps
 [CooperPress](https://cooperpress.com/publications) | various newsletters on different topics
 [afreshcup](https://afreshcup.com) | "covering Ruby on Rails and whatever else I find interesting in the universe of software"
@@ -234,9 +248,11 @@ Name | Description
 [DevOps Dudes](https://medium.com/devops-dudes) | "Shortening the system development life cycle"
 [Netflix Tech Blog](https://netflixtechblog.com/tagged/devops) | Not Only DevOps
 [CloudBees Blog](https://www.cloudbees.com/blog) |
-[Red Hat Blog](ttps://www.redhat.com/en/blog) | Not only DevOps
+[Red Hat Blog](https://www.redhat.com/en/blog) | Not only DevOps
 [Atlassian DevOps Blog](https://www.atlassian.com/blog/devops) |
 [Facebook Engineering Blog](https://engineering.fb.com) | Not only DevOps
+[DoorDash Engineering Blog](https://doordash.engineering) | Not only DevOps
+[Palark tech blog](https://blog.palark.com/) | Tech blog dedicated to DevOps & SRE
 
 ## Articles
 
@@ -244,6 +260,7 @@ Name | Description
 :------|:------:
 [Infrastructure as Code, Part One](https://crate.io/a/infrastructure-as-code-part-one) |
 [DevOps Best Practices](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) | What is DevOps + list of resources
+[Infrastructure as Code: Examples, Best Practices & Tools](https://spacelift.io/blog/infrastructure-as-code) |
 
 ## DevOps Snippets
 
@@ -257,6 +274,7 @@ Name | Description
 Name | Comments
 :------|:------:
 [DevOps Wiki](https://github.com/Leo-G/DevopsWiki) | "A wiki of Devops Tools, Tutorials and Scripts"
+[cheat-sheet-pdf](https://github.com/sk3pp3r/cheat-sheet-pdf) | "Cheat-Sheet Collection for DevOps, Engineers, IT and more"
 [System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
 [awesome-sre](https://github.com/dastergon/awesome-sre) | A curated list of Site Reliability and Production Engineering resources
 
@@ -285,17 +303,18 @@ Name | Description
 ## DevOps Tooling
 
 - [ ] CI/CD
-  - [ ] Jenkins (Managed & on-premise, Containers supported, Plugins)
-  - [ ] GitHub Actions (Hosted service)
-  - [ ] Travis (Hosted service)
-  - [ ] CircleCI (Hosted service)
-  - [ ] GitLab CI (Hosted service and on-premise)
-  - [ ] Bamboo (Managed service and on-premise)
+  - [ ] [Jenkins](https://www.jenkins.io/) (Managed & on-premise, Containers supported, Plugins)
+  - [ ] [GitHub Actions](https://docs.github.com/en/actions) (Hosted service)
+  - [ ] [Travis](https://travis-ci.org/) (Hosted service)
+  - [ ] [CircleCI](https://circleci.com/) (Hosted service)
+  - [ ] [GitLab CI](https://docs.gitlab.com/ee/ci/) (Hosted service and on-premise)
+  - [ ] [Bamboo](https://www.atlassian.com/software/bamboo) (Managed service and on-premise)
   - [ ] [BuildKite](https://buildkite.com) (Hosted)
   - [ ] [Zuul](https://zuul-ci.org/docs/zuul) (Hosted and on-premise)
   - [ ] [Drone](https://www.drone.io)
   - [ ] [Tekton](https://cloud.google.com/tekton)
   - [ ] [Argo CD](https://argoproj.github.io/argo-cd)
+  - [ ] [werf](https://werf.io/)
 
 Note: "Provisioning" tools can be used to perform configuration management to some extent. The same applies for configuration management tools, which can be used for pprovisioning.
 
@@ -309,6 +328,7 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Puppet (Agent, Mutable Infrastructure, Procedural)
   - [ ] Chef (Mutable Infrastructure)
   - [ ] Saltstack (Mutable Infrastructure)
+  - [ ] [Spacelift](https://spacelift.io/) (`$$$`)
 
 - [ ] Images
   - [ ] [diskimage-builder](https://github.com/openstack/diskimage-builder)
@@ -319,14 +339,26 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Azure
   - [ ] GCP
   - [ ] OpenStack
-
+ 
 - [ ] Monitoring
+  - [ ] [AppDynamics](https://www.appdynamics.com/product/infrastructure-monitoring)
+  - [ ] [Datadog](https://www.datadoghq.com/)
+  - [ ] [Dynatrace](https://www.dynatrace.com/platform/infrastructure-monitoring/)
+  - [ ] [Monit](https://mmonit.com/monit/)
+  - [ ] [Nagios](https://www.nagios.org/)
+  - [ ] [Centreon](https://www.centreon.com/centreon-editions/centreon-open-source/)
+  - [ ] [New Relic](https://newrelic.com/)
   - [ ] [Prometheus](https://prometheus.io)
-  - [ ] Nagios
-  - [ ] Datadog
-  - [ ] Zabbix
-  - [ ] Monit
-  - [ ] [Statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
+  - [ ] [Sensu](https://sensu.io/)
+  - [ ] [SolarWinds](https://www.solarwinds.com/server-application-monitor)
+  - [ ] [Statuscake](https://www.statuscake.com) - Website Uptime & Performance
+  - [ ] [VictoriaMetrics](https://victoriametrics.com/) - a fast, cost-effective and scalable monitoring solution and time series database.
+  - [ ] [Zabbix](https://www.zabbix.com/)
+
+- [ ] Collector of Metrics by agent
+  - [ ] [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
+
+ Monitoring
 
 - [ ] Log Management
   - [ ] Logstash
@@ -336,10 +368,13 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] [Splunk](https://www.splunk.com)
   - [ ] [SumoLogic](https://www.sumologic.com)
 
+- [ ] Log aggregation system
+  - [ ] [Loki](https://grafana.com/oss/loki/)
+
 - [ ] Dashboards
-  - [ ] Kibana (Elastic)
   - [ ] Grafana
-  - [ ] Report Portal
+  - [ ] Kibana (Elastic)
+  - [ ] Report Portal (Mostly for Test Automation)
 
 - [ ] Security
   - [ ] [Vault](https://www.vaultproject.io) - "Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets..."
@@ -374,8 +409,24 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Salesforce
   - [ ] Zuora
 
+- [ ] Containers Orchestration
+  - [ ] Kubernetes
+  - [ ] OpenShift
+  - [ ] Nomad
+
+- [ ] Alerting
+  - [ ] PagerDuty
+  - [ ] ServiceNow
+  - [ ] Slack (Mostly used for IM)
+
+- [ ] Metric Storage
+  - [ ] InfluxDB
+  - [ ] Splunk
+  - [ ] Cloud Storage services and Databases
+
 ## More Infra & DevOps projects
 
+<p align="center"><a href="https://github.com/bregman-arie/sre-checklist"><img width="500px" src="images/sre_checklist.png"/></a></p>
 <p align="center"><a href="https://github.com/bregman-arie/howtheydevops"><img src="images/how_they_devops.png"/></a></p>
 <p align="center"><a href="https://github.com/bregman-arie/devops-exercises"><img src="images/devops_exercises.png"/></a></p>
 <p align="center"><a href="https://github.com/bregman-arie/infraverse"><img src="images/infraverse.png"/></a></p>

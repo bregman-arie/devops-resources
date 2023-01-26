@@ -65,3 +65,7 @@ Name | Comments
   - [ ] Agent
   - [ ] Executor
   - [ ] Label
+
+### Cheat Sheet
+
+* Set build result to FAILURE/SUCCESS/UNSTABLE: `currentBuild.result = 'FAILURE'`
