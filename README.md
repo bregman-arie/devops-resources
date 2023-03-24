@@ -1,6 +1,5 @@
 <p align="center"><img src="images/devops_resources.png"/></p>
 
-
 ![GitHub](https://img.shields.io/github/license/hegdepavankumar/devops-resources?style=flat)
 ![GitHub top language](https://img.shields.io/github/languages/top/hegdepavankumar/devops-resources?style=flat)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hegdepavankumar/devops-resources?style=flat)
