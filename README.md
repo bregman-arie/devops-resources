@@ -1,5 +1,12 @@
 <p align="center"><img src="images/devops_resources.png"/></p>
 
+
+![GitHub](https://img.shields.io/github/license/hegdepavankumar/devops-resources?style=flat)
+![GitHub top language](https://img.shields.io/github/languages/top/hegdepavankumar/devops-resources?style=flat)
+![GitHub last commit](https://img.shields.io/github/last-commit/hegdepavankumar/devops-resources?style=flat)
+![ViewCount](https://views.whatilearened.today/views/github/hegdepavankumar/devops-resources.svg?cache=remove)
+
+
 :information_source: &nbsp;This repository is about gathering any useful resources and information regarding DevOps and secondly, provide some roadmap for those who want to practice DevOps.
 
 :pencil: &nbsp;Feel free to add more resources by submitting pull requests
