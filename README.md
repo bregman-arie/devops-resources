@@ -31,7 +31,7 @@
     <td align="center"><a href="resources/mongo.md"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="resources/cloud.md"><img src="images/cloud.png" width="110px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
+    <td align="center"><a href="resources/cloud.md"><img src="images/cloud.png" width="80px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
     <td align="center"><a href="resources/aws.md"><img src="images/aws.png" width="110px;" height="75px;" alt="AWS"/><br /><b>AWS</b></a></td>
     <td align="center"><a href="resources/azure.md"><img src="images/azure.png" width="80px;" height="75px;" alt="azure"/><br /><b>Azure</b></a></td>
     <td align="center"><a href="resources/gcp.md"><img src="images/gcp.png" width="75px;" height="75px;" alt="gcp"/><br /><b>Google Cloud Platform</b></a></td>
@@ -46,6 +46,7 @@
     <td align="center"><a href="resources/openshift.md"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
     <td align="center"><a href="resources/sql.md"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
     <td align="center"><a href="resources/containers.md"><img src="images/containers.png" width="75px;" height="75px;" alt="Containers"/><br /><b>Containers</b></a></td>
+    <td align="center"><a href="resources/docker.md"><img src="images/docker.png" width="90px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a></td>
   </tr>
 </table>
 </center>
