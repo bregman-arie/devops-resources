@@ -26,7 +26,7 @@
     <td align="center"><a href="resources/go.md"><img src="images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a></td>
     <td align="center"><a href="resources/bash.md"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
     <td align="center"><a href="resources/kubernetes.md"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
-    <td align="center"><a href="resources/victoriametrics.md"><img src="images/victoriametrics.png" width="64px;" height="75px;" alt="VictoriaMetrics"/><br /><b>VictoriaMetrics</b></a></td>
+    <td align="center"><a href="resources/victoriametrics.md"><img src="images/victoriametrics.png" width="64px;" height="75px;" alt="VictoriaMetrics"  style="background-color: #e3e6e8; padding : 3px"  /><br /><b>VictoriaMetrics</b></a></td>
     <td align="center"><a href="resources/prometheus.md"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
     <td align="center"><a href="resources/mongo.md"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
   </tr>
