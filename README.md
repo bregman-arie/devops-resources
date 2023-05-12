@@ -195,7 +195,7 @@ Learning by doing proved to be a very effective way to learn new things. If you 
 
 Name | Description
 :------|:------:
-[KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
+[Kodekloud Engineer](https://www.kodekloud-engineer.com/) | perform real tasks by working in a fictional organization
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
 
 ## Community
