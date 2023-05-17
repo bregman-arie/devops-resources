@@ -26,12 +26,12 @@
     <td align="center"><a href="resources/go.md"><img src="images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a></td>
     <td align="center"><a href="resources/bash.md"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
     <td align="center"><a href="resources/kubernetes.md"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
-    <td align="center"><a href="resources/victoriametrics.md"><img src="images/victoriametrics.png" width="64px;" height="75px;" alt="VictoriaMetrics"/><br /><b>VictoriaMetrics</b></a></td>
+    <td align="center"><a href="resources/victoriametrics.md"><img src="images/victoriametrics.png" width="64px;" height="75px;" alt="VictoriaMetrics"  style="background-color: #e3e6e8; padding : 3px"  /><br /><b>VictoriaMetrics</b></a></td>
     <td align="center"><a href="resources/prometheus.md"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
     <td align="center"><a href="resources/mongo.md"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="resources/cloud.md"><img src="images/cloud.png" width="90px;" height="85px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
+    <td align="center"><a href="resources/cloud.md"><img src="images/cloud.png" width="80px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
     <td align="center"><a href="resources/aws.md"><img src="images/aws.png" width="100px;" height="75px;" alt="AWS"/><br /><b>AWS</b></a></td>
     <td align="center"><a href="resources/azure.md"><img src="images/azure.png" width="80px;" height="75px;" alt="azure"/><br /><b>Azure</b></a></td>
     <td align="center"><a href="resources/gcp.md"><img src="images/gcp.png" width="75px;" height="75px;" alt="gcp"/><br /><b>Google Cloud Platform</b></a></td>
@@ -46,6 +46,7 @@
     <td align="center"><a href="resources/openshift.md"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
     <td align="center"><a href="resources/sql.md"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
     <td align="center"><a href="resources/containers.md"><img src="images/containers.png" width="75px;" height="75px;" alt="Containers"/><br /><b>Containers</b></a></td>
+    <td align="center"><a href="resources/docker.md"><img src="images/docker.png" width="90px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a></td>
   </tr>
 </table>
 </center>
