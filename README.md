@@ -104,6 +104,8 @@ Name | Description
 [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
 [DevOps 3 Weeks Plan](https://medium.com/@medineshkatwal/devops-3-week-plan-from-16-oct-2019-to-31st-oct-2019-af486e625f72) | Detailed plan on what to do at each day
 [How to Become a DevOps Engineer in Six Months?](https://spacelift.io/blog/how-to-become-devops-engineer) | Skills you need to become DevOps Engineer
+[Key DevOps Engineer Skills](https://www.scaler.com/blog/devops-engineer-skills/) | Technical Skills Every DevOps Engineer Needs
+
 
 ### Learn about DevOps
 
