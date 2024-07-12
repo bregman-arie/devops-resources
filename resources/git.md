@@ -57,4 +57,4 @@ git commit
 
 ### Tags
 
-* Create a new tag: `git tag -a "v0.0.1" -m "First release...yay`
+* Create a new tag: `git tag -a "v0.0.1" -m "First release...yay"`
