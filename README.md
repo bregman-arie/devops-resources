@@ -225,6 +225,7 @@ Name | Comments
 [The DevOps Handbook](https://www.amazon.com/dp/1942788002) |
 [Google SRE books](https://landing.google.com/sre/books) | Very detailed books on the theory and also practice of SRE
 [Essential Infrastructure as Code](https://www.manning.com/books/essential-infrastructure-as-code) | VBook about automating software infrastructure by capturing desired configurations as a set of scripts.
+[Fundamentals of DevOps and Software Delivery](https://www.fundamentals-of-devops.com/) | Learn to deploy and manage software in production through a series of hands-on examples.
 
 ## Blogs & News
 
