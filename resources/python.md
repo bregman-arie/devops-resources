@@ -36,7 +36,8 @@ Author | Title | Comments
 Jeff Knupp | Writing Idiomatic Python 3.3 | |
 Dane Hillard | [Publishing Python Packages](https://www.manning.com/books/publishing-python-packages) | |
 Yong Cui | [Python How-To](https://www.manning.com/books/python-how-to) | |
-Pael Anni | [Let's Talk Python](https://www.manning.com/books/lets-talk-python)) | |
+Pavel Anni | [A Pythonic Adventure](https://www.manning.com/books/a-pythonic-adventure) | |
+Reuven M. Lerner | [Python Workout, Second Edition](https://www.manning.com/books/python-workout-second-edition) | |
 
 ## Articles, Tutorials & Blog Posts
 
