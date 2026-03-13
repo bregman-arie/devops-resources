@@ -379,8 +379,9 @@ Note: "Provisioning" tools can be used to perform configuration management to so
 - [ ] Security
   - [ ] [Vault](https://www.vaultproject.io) - "Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets..."
   - [ ] [Open Policy Agent](https://www.openpolicyagent.org) - "Flexible, fine-grained control for administrators across the stack"
+  - [ ] [Greywall](https://github.com/GreyhavenHQ/greywall) - "Deny-by-default command sandbox with filesystem isolation, network control, and built-in profiles for agents like Claude Code or OpenCode"
 
-- [ ] Code review 
+- [ ] Code review
   - [ ] Gerrit - Code Review system
   - [ ] PullPanda - A collection of Tools such as reminder & analytics
   - [ ] Review Board
