@@ -188,6 +188,7 @@ Name | Description
 [DevOps Bookmarks](http://www.devopsbookmarks.com) | NSIA
 [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io) | CNCF's recommended path through the cloud native landscape
 [DevOpsBookmarks](https://www.devopsbookmarks.org) | To discover tools in the devops landscape.
+[ReleaseRun](https://releaserun.com) | Free release monitoring and dependency EOL tracking for the entire dev stack (npm, PyPI, Go, Rust, Kubernetes, Docker, and 10+ ecosystems)
 
 ## Interactive practice and learning sites
 
