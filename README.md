@@ -375,6 +375,7 @@ Note: "Provisioning" tools can be used to perform configuration management to so
   - [ ] Grafana
   - [ ] Kibana (Elastic)
   - [ ] Report Portal (Mostly for Test Automation)
+  - [ ] [KubeStellar Console](https://github.com/kubestellar/console) - Open source AI-powered multi-cluster Kubernetes dashboard with real-time observability and CNCF integrations (CNCF Sandbox)
 
 - [ ] Security
   - [ ] [Vault](https://www.vaultproject.io) - "Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets..."
