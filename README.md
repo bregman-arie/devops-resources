@@ -195,6 +195,7 @@ Learning by doing proved to be a very effective way to learn new things. If you 
 
 Name | Description
 :------|:------:
+[DevOps Daily](https://devops-daily.com/games) | free and open source interactive simulators, quizzes and exercises for Docker, Kubernetes, Linux, Terraform, SQL and more
 [Kodekloud Engineer](https://www.kodekloud-engineer.com/) | perform real tasks by working in a fictional organization
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
 
