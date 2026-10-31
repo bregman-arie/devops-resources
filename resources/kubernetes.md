@@ -13,6 +13,7 @@ Name | Comments
 [Kubernetes Deployment Tutorial](https://devopscube.com/kubernetes-deployment-tutorial) |
 [Katacoda](https://www.katacoda.com/courses/kubernetes) | Learn Kubernetes using Interactive Browser-Based Scenarios
 [Kubernetes Scheduler](https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/) | How does the Kubernetes scheduler work?
+[Kubernetes Mastery](https://k8s.naveedkumbhar.com) | Visual architecture guides, deep dives, and production Kubernetes mastery
 
 ### Kubernetes - Deep Dive
 
@@ -46,6 +47,7 @@ Name | Comments
 [Kubernetes CheatSheet](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4) |
 [OperatiorHub.io](https://www.operatorhub.io) | Kubernetes native applications
 [YAML templates](https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates) |
+[Kubernetes & DevOps Tools](https://tools.naveedkumbhar.com) | Free interactive web tools and generators for Kubernetes YAML, RBAC, and cloud configs
 [Kubesort](https://github.com/AATHITH/kubesort) | "kubesort helps you sort the results from kubectl get in an easy way"
 [IngressMonitorController](https://github.com/stakater/IngressMonitorController) | "A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices"
 
@@ -70,6 +72,7 @@ Name | Comments
 Name | Comments
 :------ |:--------:
 [Building a Kubernetes 1.23 Cluster with Kubeadm](https://github.com/croguerrero/CKA-Labs/blob/main/resources/KC.md) | "Labs CKA - Build a Kubernetes cluster 1.23"
+[Kubernetes Interactive Labs](https://lab.naveedkumbhar.com) | Hands-on browser-based Kubernetes and DevOps scenario labs
 
 ### Best Practices
 
