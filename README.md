@@ -197,6 +197,7 @@ Name | Description
 :------|:------:
 [Kodekloud Engineer](https://www.kodekloud-engineer.com/) | perform real tasks by working in a fictional organization
 [QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
+[DevOps & Kubernetes Interactive Labs](https://lab.naveedkumbhar.com) | Interactive browser-based DevOps and Kubernetes hands-on scenario labs
 
 ## Community
 
@@ -285,6 +286,7 @@ Name | Comments
 [System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
 kdn251 | [Interviews](https://github.com/kdn251/interviews) | 
 [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) | By topic, DevOps related questions and exercises
+[Scenario-Based DevOps & SRE Questions](https://interview.naveedkumbhar.com) | 1,400+ scenario-based DevOps, Kubernetes, SRE, and Cloud architecture interview questions
 
 ## Misc
 
